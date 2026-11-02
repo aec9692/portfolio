@@ -1,0 +1,40 @@
+[
+  {
+    "id": "T9-browser",
+    "result": "Pass",
+    "evidence": {
+      "intent": "mailto:aec9692@njit.edu",
+      "note": "External mail app not launched/verified in headless Chrome."
+    }
+  },
+  {
+    "id": "T20-buttons",
+    "result": "Pass",
+    "evidence": "All four scenery buttons activated with Enter; Tab reachability recorded in main results."
+  },
+  {
+    "id": "T24-submit",
+    "result": "Pass",
+    "evidence": "Enter submits form and browser validation focuses required name field."
+  },
+  {
+    "id": "T33-draft",
+    "result": "Pass",
+    "evidence": {
+      "recipient": "aec9692@njit.edu",
+      "subject": "Portfolio inquiry from Test Visitor",
+      "body": "Hello, I have a project question.\n\nFrom: Test Visitor\nReply to: visitor@example.com\nPhone: Not provided",
+      "note": "Browser navigation intent verified; external email application not tested."
+    }
+  },
+  {
+    "id": "T35-draft",
+    "result": "Pass",
+    "evidence": {
+      "recipient": "aec9692@njit.edu",
+      "subject": "Portfolio inquiry from Alex & Sam",
+      "body": "Question about A&B? Please reply.\n\nFrom: Alex & Sam\nReply to: visitor@example.com\nPhone: +1 (201) 555-0123",
+      "note": "Browser navigation intent verified; external email application not tested."
+    }
+  }
+]

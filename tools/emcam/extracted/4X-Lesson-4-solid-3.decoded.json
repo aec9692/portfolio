@@ -1,0 +1,5819 @@
+{
+  "complete": false,
+  "version": ": TRANSMIT FILE created by modeller version 3600142",
+  "key": "SCH_3600142_36001",
+  "error": "Unknown type 10496 at 11768",
+  "partial_node": {
+    "node_type": 41,
+    "kind": "LIMIT",
+    "id": 524,
+    "byte_start": 11731,
+    "type": "L",
+    "hvec": [
+      [
+        -6.356660034808962e-45,
+        -4.44665555502044e-188,
+        -1.1845718534744618e-292
+      ]
+    ],
+    "user": [
+      191
+    ],
+    "byte_end": 11768
+  },
+  "offset": 11770,
+  "context": "02 4c 3f 29 31 70 22 25 c2 b6 3f 8e 41 27 e0 c3 08 99 bf 05 35 36 ea e9 52 83 bf 00 00 00 00 29 00 01 00 00 00 0e 02 4c 3f 3b bd 52 96 21 8e b6 3f 38 06 ca 71 ab f8 99 bf 50 02 2e cb 6a e3 82 bf 00 00 00 00 cc 00 18 00 00 00 0f 02 04 52 a1 57 07 52 ed 9a 3f 13 4e 99 bb c4 ce 64 bf 58 47",
+  "nodes": [
+    {
+      "node_type": 12,
+      "kind": "BODY",
+      "id": 1,
+      "byte_start": 81,
+      "highest_node_id": 38738,
+      "attributes_features": 0,
+      "attribute_chains": 2,
+      "surface": 0,
+      "curve": 0,
+      "point": 0,
+      "key": 0,
+      "unknown_modern_0": 0,
+      "unknown_modern_1": 0,
+      "unknown_modern_2": 0,
+      "res_size": 1000.0000000000001,
+      "res_linear": 1e-08,
+      "ref_instance": 0,
+      "next": 0,
+      "previous": 3,
+      "state": 1,
+      "owner": 0,
+      "body_type": 1,
+      "nom_geom_state": 1,
+      "shell": 4,
+      "boundary_surface": 0,
+      "boundary_curve": 5,
+      "boundary_point": 6,
+      "boundary_mesh": 7,
+      "boundary_polyline": 0,
+      "boundary_modern": 0,
+      "region": 8,
+      "edge": 9,
+      "vertex": 10,
+      "index_map_offset": 0,
+      "index_map": 0,
+      "node_id_index_map": 0,
+      "schema_embedding_map": 0,
+      "child": 0,
+      "lowest_node_id": 0,
+      "data": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 176
+    },
+    {
+      "node_type": 70,
+      "kind": "LIST",
+      "id": 2,
+      "byte_start": 176,
+      "node_id": 0,
+      "list_type": 4,
+      "notransmit": 1,
+      "owner": 1,
+      "next": 0,
+      "previous": 0,
+      "list_length": 3,
+      "block_length": 20,
+      "finger_index": 1,
+      "finger_block": 11,
+      "list_block": 11,
+      "user": [
+        0
+      ],
+      "byte_end": 212
+    },
+    {
+      "node_type": 13,
+      "kind": "SHELL",
+      "id": 4,
+      "byte_start": 212,
+      "node_id": 4,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 0,
+      "face": 12,
+      "edge": 0,
+      "vertex": 0,
+      "region": 13,
+      "front_face": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 240
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 5,
+      "byte_start": 240,
+      "node_id": 30698,
+      "attributes_features": 0,
+      "owner": 14,
+      "next": 15,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.17510124999999999,
+        1.3010426069826053e-18,
+        -3.469446951953614e-18
+      ],
+      "axis": [
+        -1.0,
+        1.648593633739941e-16,
+        -3.0846206870711206e-16
+      ],
+      "major_radius": 0.016668750000000003,
+      "minor_radius": 0.0007937499999999913,
+      "x_axis": [
+        3.0846206870711206e-16,
+        -0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 351
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 6,
+      "byte_start": 351,
+      "node_id": 30697,
+      "attributes_features": 0,
+      "owner": 16,
+      "next": 17,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.175895,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.224646799147353e-16
+      ],
+      "radius": 0.01666875,
+      "user": [
+        0
+      ],
+      "byte_end": 454
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 7,
+      "byte_start": 454,
+      "node_id": 30674,
+      "attributes_features": 0,
+      "owner": 18,
+      "next": 19,
+      "previous": 0,
+      "pvec": [
+        0.08810625000000008,
+        -0.02669484681437361,
+        -0.003963623318016712
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 498
+    },
+    {
+      "node_type": 19,
+      "kind": "REGION",
+      "id": 8,
+      "byte_start": 498,
+      "node_id": 2,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 13,
+      "previous": 0,
+      "shell": 20,
+      "unknown_modern_region": 0,
+      "type": "V",
+      "owner": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 525
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 9,
+      "byte_start": 525,
+      "node_id": 20,
+      "attributes_features": 21,
+      "tolerance": -31415800000000.0,
+      "halfedge": 22,
+      "previous": 0,
+      "next": 23,
+      "curve": 24,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 561
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 10,
+      "byte_start": 561,
+      "node_id": 43,
+      "attributes_features": 0,
+      "halfedge": 25,
+      "previous": 0,
+      "next": 26,
+      "point": 27,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 593
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 25,
+      "byte_start": 593,
+      "attributes_features": 0,
+      "loop": 28,
+      "forward": 29,
+      "backward": 30,
+      "vertex": 10,
+      "other": 31,
+      "edge": 32,
+      "curve": 0,
+      "next_at_vx": 33,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 620
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 26,
+      "byte_start": 620,
+      "node_id": 45,
+      "attributes_features": 0,
+      "halfedge": 34,
+      "previous": 10,
+      "next": 35,
+      "point": 36,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 652
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 27,
+      "byte_start": 652,
+      "node_id": 30271,
+      "attributes_features": 0,
+      "owner": 10,
+      "next": 37,
+      "previous": 36,
+      "pvec": [
+        0.0635,
+        -0.025083919626485943,
+        -0.007543839555193239
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 696
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 37,
+      "byte_start": 696,
+      "node_id": 30270,
+      "attributes_features": 0,
+      "owner": 38,
+      "next": 39,
+      "previous": 27,
+      "pvec": [
+        0.06429374999999984,
+        -0.025757924025418454,
+        -0.008053229547875084
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 740
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 36,
+      "byte_start": 740,
+      "node_id": 30272,
+      "attributes_features": 0,
+      "owner": 26,
+      "next": 27,
+      "previous": 40,
+      "pvec": [
+        0.0635,
+        -0.02606142235226142,
+        -0.0026296014982416078
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 784
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 40,
+      "byte_start": 784,
+      "node_id": 30273,
+      "attributes_features": 0,
+      "owner": 41,
+      "next": 36,
+      "previous": 42,
+      "pvec": [
+        0.06429374999999984,
+        -0.02683740981502012,
+        -0.002842286169733771
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 828
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 41,
+      "byte_start": 828,
+      "node_id": 510,
+      "attributes_features": 0,
+      "halfedge": 43,
+      "previous": 44,
+      "next": 38,
+      "point": 40,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 860
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 42,
+      "byte_start": 860,
+      "node_id": 30281,
+      "attributes_features": 0,
+      "owner": 45,
+      "next": 40,
+      "previous": 46,
+      "pvec": [
+        0.08810625000000008,
+        -0.019902621614552217,
+        -0.018226651066994105
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 904
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 45,
+      "byte_start": 904,
+      "node_id": 522,
+      "attributes_features": 0,
+      "halfedge": 47,
+      "previous": 48,
+      "next": 49,
+      "point": 42,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 936
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 46,
+      "byte_start": 936,
+      "node_id": 30282,
+      "attributes_features": 0,
+      "owner": 50,
+      "next": 42,
+      "previous": 51,
+      "pvec": [
+        0.08889995922646513,
+        -0.01897009762817956,
+        -0.018070583388754786
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 980
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 50,
+      "byte_start": 980,
+      "node_id": 185,
+      "attributes_features": 0,
+      "halfedge": 52,
+      "previous": 53,
+      "next": 54,
+      "point": 46,
+      "tolerance": 1.368241308824417e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1012
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 51,
+      "byte_start": 1012,
+      "node_id": 30283,
+      "attributes_features": 0,
+      "owner": 54,
+      "next": 46,
+      "previous": 55,
+      "pvec": [
+        0.0889,
+        -0.015331747622555672,
+        -0.021237939021966277
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1056
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 54,
+      "byte_start": 1056,
+      "node_id": 187,
+      "attributes_features": 0,
+      "halfedge": 56,
+      "previous": 50,
+      "next": 57,
+      "point": 51,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1088
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 55,
+      "byte_start": 1088,
+      "node_id": 30284,
+      "attributes_features": 0,
+      "owner": 48,
+      "next": 51,
+      "previous": 58,
+      "pvec": [
+        0.08810625000000004,
+        -0.016073402278940947,
+        -0.021678812131418417
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1132
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 48,
+      "byte_start": 1132,
+      "node_id": 520,
+      "attributes_features": 0,
+      "halfedge": 59,
+      "previous": 60,
+      "next": 45,
+      "point": 55,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1164
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 58,
+      "byte_start": 1164,
+      "node_id": 30296,
+      "attributes_features": 0,
+      "owner": 61,
+      "next": 55,
+      "previous": 62,
+      "pvec": [
+        0.0635,
+        -0.007543839555193235,
+        -0.025083919626485946
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1208
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 61,
+      "byte_start": 1208,
+      "node_id": 149,
+      "attributes_features": 0,
+      "halfedge": 63,
+      "previous": 64,
+      "next": 65,
+      "point": 58,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1240
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 62,
+      "byte_start": 1240,
+      "node_id": 30297,
+      "attributes_features": 0,
+      "owner": 66,
+      "next": 58,
+      "previous": 67,
+      "pvec": [
+        0.06429374999999984,
+        -0.007644302086043584,
+        -0.025882229460912114
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1284
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 66,
+      "byte_start": 1284,
+      "node_id": 487,
+      "attributes_features": 0,
+      "halfedge": 68,
+      "previous": 69,
+      "next": 70,
+      "point": 62,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1316
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 67,
+      "byte_start": 1316,
+      "node_id": 30298,
+      "attributes_features": 0,
+      "owner": 71,
+      "next": 62,
+      "previous": 72,
+      "pvec": [
+        0.06429374999999986,
+        -0.002416916826749439,
+        -0.026879056332069648
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1360
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 71,
+      "byte_start": 1360,
+      "node_id": 488,
+      "attributes_features": 0,
+      "halfedge": 73,
+      "previous": 74,
+      "next": 75,
+      "point": 67,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1392
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 72,
+      "byte_start": 1392,
+      "node_id": 30299,
+      "attributes_features": 0,
+      "owner": 64,
+      "next": 67,
+      "previous": 76,
+      "pvec": [
+        0.0635,
+        -0.00262960149824161,
+        -0.02606142235226141
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1436
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 64,
+      "byte_start": 1436,
+      "node_id": 147,
+      "attributes_features": 0,
+      "halfedge": 77,
+      "previous": 78,
+      "next": 61,
+      "point": 72,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1468
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 76,
+      "byte_start": 1468,
+      "node_id": 30307,
+      "attributes_features": 0,
+      "owner": 79,
+      "next": 72,
+      "previous": 80,
+      "pvec": [
+        0.08810625,
+        0.018226651066993716,
+        -0.01990262161455254
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1512
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 79,
+      "byte_start": 1512,
+      "node_id": 472,
+      "attributes_features": 0,
+      "halfedge": 81,
+      "previous": 82,
+      "next": 83,
+      "point": 76,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1544
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 80,
+      "byte_start": 1544,
+      "node_id": 30308,
+      "attributes_features": 0,
+      "owner": 84,
+      "next": 76,
+      "previous": 85,
+      "pvec": [
+        0.0889,
+        0.018072923644688203,
+        -0.01897573323128505
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1588
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 84,
+      "byte_start": 1588,
+      "node_id": 217,
+      "attributes_features": 0,
+      "halfedge": 86,
+      "previous": 87,
+      "next": 88,
+      "point": 80,
+      "tolerance": 1.1383480515336252e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1620
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 85,
+      "byte_start": 1620,
+      "node_id": 30309,
+      "attributes_features": 0,
+      "owner": 88,
+      "next": 80,
+      "previous": 89,
+      "pvec": [
+        0.0889,
+        0.021237939021966253,
+        -0.01533174762255565
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1664
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 88,
+      "byte_start": 1664,
+      "node_id": 219,
+      "attributes_features": 0,
+      "halfedge": 90,
+      "previous": 84,
+      "next": 91,
+      "point": 85,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1696
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 89,
+      "byte_start": 1696,
+      "node_id": 30310,
+      "attributes_features": 0,
+      "owner": 82,
+      "next": 85,
+      "previous": 92,
+      "pvec": [
+        0.08810625000000005,
+        0.021678812131418413,
+        -0.016073402278940947
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1740
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 82,
+      "byte_start": 1740,
+      "node_id": 470,
+      "attributes_features": 0,
+      "halfedge": 93,
+      "previous": 94,
+      "next": 79,
+      "point": 89,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1772
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 92,
+      "byte_start": 1772,
+      "node_id": 30322,
+      "attributes_features": 0,
+      "owner": 95,
+      "next": 89,
+      "previous": 96,
+      "pvec": [
+        0.0635,
+        0.012402709560966127,
+        -0.023071309772287
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1816
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 95,
+      "byte_start": 1816,
+      "node_id": 133,
+      "attributes_features": 0,
+      "halfedge": 97,
+      "previous": 98,
+      "next": 99,
+      "point": 92,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1848
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 96,
+      "byte_start": 1848,
+      "node_id": 30323,
+      "attributes_features": 0,
+      "owner": 83,
+      "next": 92,
+      "previous": 100,
+      "pvec": [
+        0.06429374999999989,
+        0.012896162121557392,
+        -0.023706837806517042
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1892
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 83,
+      "byte_start": 1892,
+      "node_id": 467,
+      "attributes_features": 0,
+      "halfedge": 101,
+      "previous": 79,
+      "next": 102,
+      "point": 96,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1924
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 100,
+      "byte_start": 1924,
+      "node_id": 30324,
+      "attributes_features": 0,
+      "owner": 94,
+      "next": 96,
+      "previous": 103,
+      "pvec": [
+        0.0642937499999999,
+        0.017297344726543262,
+        -0.02071538128206006
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1968
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 94,
+      "byte_start": 1968,
+      "node_id": 468,
+      "attributes_features": 0,
+      "halfedge": 104,
+      "previous": 105,
+      "next": 82,
+      "point": 100,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2000
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 103,
+      "byte_start": 2000,
+      "node_id": 30325,
+      "attributes_features": 0,
+      "owner": 98,
+      "next": 100,
+      "previous": 106,
+      "pvec": [
+        0.0635,
+        0.016568799421425782,
+        -0.020287617523875683
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2044
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 98,
+      "byte_start": 2044,
+      "node_id": 131,
+      "attributes_features": 0,
+      "halfedge": 107,
+      "previous": 108,
+      "next": 95,
+      "point": 103,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2076
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 106,
+      "byte_start": 2076,
+      "node_id": 30333,
+      "attributes_features": 0,
+      "owner": 109,
+      "next": 103,
+      "previous": 110,
+      "pvec": [
+        0.0635,
+        -0.025083919626485974,
+        0.00754383955519324
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2120
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 109,
+      "byte_start": 2120,
+      "node_id": 53,
+      "attributes_features": 0,
+      "halfedge": 111,
+      "previous": 112,
+      "next": 113,
+      "point": 106,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2152
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 110,
+      "byte_start": 2152,
+      "node_id": 30334,
+      "attributes_features": 0,
+      "owner": 114,
+      "next": 106,
+      "previous": 115,
+      "pvec": [
+        0.06429374999999984,
+        -0.02588222946091218,
+        0.007644302086043442
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2196
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 114,
+      "byte_start": 2196,
+      "node_id": 175,
+      "attributes_features": 0,
+      "halfedge": 116,
+      "previous": 117,
+      "next": 118,
+      "point": 110,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2228
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 115,
+      "byte_start": 2228,
+      "node_id": 30335,
+      "attributes_features": 0,
+      "owner": 118,
+      "next": 110,
+      "previous": 119,
+      "pvec": [
+        0.06429374999999989,
+        -0.026879056332069662,
+        0.0024169168267494387
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2272
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 118,
+      "byte_start": 2272,
+      "node_id": 177,
+      "attributes_features": 0,
+      "halfedge": 120,
+      "previous": 114,
+      "next": 18,
+      "point": 115,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2304
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 119,
+      "byte_start": 2304,
+      "node_id": 30336,
+      "attributes_features": 0,
+      "owner": 112,
+      "next": 115,
+      "previous": 121,
+      "pvec": [
+        0.0635,
+        -0.026061422352261426,
+        0.0026296014982416164
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2348
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 112,
+      "byte_start": 2348,
+      "node_id": 51,
+      "attributes_features": 0,
+      "halfedge": 122,
+      "previous": 123,
+      "next": 109,
+      "point": 119,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2380
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 121,
+      "byte_start": 2380,
+      "node_id": 30359,
+      "attributes_features": 0,
+      "owner": 124,
+      "next": 119,
+      "previous": 125,
+      "pvec": [
+        0.0635,
+        -0.020287617523875652,
+        0.016568799421425758
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2424
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 124,
+      "byte_start": 2424,
+      "node_id": 61,
+      "attributes_features": 0,
+      "halfedge": 126,
+      "previous": 127,
+      "next": 128,
+      "point": 121,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2456
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 125,
+      "byte_start": 2456,
+      "node_id": 30360,
+      "attributes_features": 0,
+      "owner": 129,
+      "next": 121,
+      "previous": 130,
+      "pvec": [
+        0.06429374999999989,
+        -0.020986714294374716,
+        0.016967114644991527
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2500
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 129,
+      "byte_start": 2500,
+      "node_id": 377,
+      "attributes_features": 0,
+      "halfedge": 131,
+      "previous": 132,
+      "next": 133,
+      "point": 125,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2532
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 130,
+      "byte_start": 2532,
+      "node_id": 30361,
+      "attributes_features": 0,
+      "owner": 134,
+      "next": 125,
+      "previous": 135,
+      "pvec": [
+        0.06429374999999986,
+        -0.023908095971415636,
+        0.012519109523906955
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2576
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 134,
+      "byte_start": 2576,
+      "node_id": 378,
+      "attributes_features": 0,
+      "halfedge": 136,
+      "previous": 137,
+      "next": 138,
+      "point": 130,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2608
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 135,
+      "byte_start": 2608,
+      "node_id": 30362,
+      "attributes_features": 0,
+      "owner": 127,
+      "next": 130,
+      "previous": 139,
+      "pvec": [
+        0.0635,
+        -0.023071309772286986,
+        0.012402709560966112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2652
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 127,
+      "byte_start": 2652,
+      "node_id": 59,
+      "attributes_features": 0,
+      "halfedge": 140,
+      "previous": 141,
+      "next": 124,
+      "point": 135,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2684
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 139,
+      "byte_start": 2684,
+      "node_id": 30370,
+      "attributes_features": 0,
+      "owner": 142,
+      "next": 135,
+      "previous": 143,
+      "pvec": [
+        0.0635,
+        -0.012402709560966101,
+        0.023071309772286983
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2728
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 142,
+      "byte_start": 2728,
+      "node_id": 69,
+      "attributes_features": 0,
+      "halfedge": 144,
+      "previous": 145,
+      "next": 146,
+      "point": 139,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2760
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 143,
+      "byte_start": 2760,
+      "node_id": 30371,
+      "attributes_features": 0,
+      "owner": 147,
+      "next": 139,
+      "previous": 148,
+      "pvec": [
+        0.06429374999999986,
+        -0.012896162121557392,
+        0.023706837806517042
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2804
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 147,
+      "byte_start": 2804,
+      "node_id": 387,
+      "attributes_features": 0,
+      "halfedge": 149,
+      "previous": 150,
+      "next": 151,
+      "point": 143,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2836
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 148,
+      "byte_start": 2836,
+      "node_id": 30372,
+      "attributes_features": 0,
+      "owner": 133,
+      "next": 143,
+      "previous": 152,
+      "pvec": [
+        0.0642937499999999,
+        -0.01729734472654326,
+        0.020715381282060057
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2880
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 133,
+      "byte_start": 2880,
+      "node_id": 388,
+      "attributes_features": 0,
+      "halfedge": 153,
+      "previous": 129,
+      "next": 154,
+      "point": 148,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2912
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 152,
+      "byte_start": 2912,
+      "node_id": 30373,
+      "attributes_features": 0,
+      "owner": 145,
+      "next": 148,
+      "previous": 155,
+      "pvec": [
+        0.0635,
+        -0.01656879942142575,
+        0.020287617523875652
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2956
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 145,
+      "byte_start": 2956,
+      "node_id": 67,
+      "attributes_features": 0,
+      "halfedge": 156,
+      "previous": 157,
+      "next": 142,
+      "point": 152,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2988
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 155,
+      "byte_start": 2988,
+      "node_id": 30381,
+      "attributes_features": 0,
+      "owner": 158,
+      "next": 152,
+      "previous": 159,
+      "pvec": [
+        0.0635,
+        -0.0026296014982416095,
+        0.026061422352261446
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3032
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 158,
+      "byte_start": 3032,
+      "node_id": 77,
+      "attributes_features": 0,
+      "halfedge": 160,
+      "previous": 161,
+      "next": 162,
+      "point": 155,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3064
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 159,
+      "byte_start": 3064,
+      "node_id": 30382,
+      "attributes_features": 0,
+      "owner": 163,
+      "next": 155,
+      "previous": 164,
+      "pvec": [
+        0.06429374999999989,
+        -0.0028422861697338314,
+        0.026837409815020155
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3108
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 163,
+      "byte_start": 3108,
+      "node_id": 397,
+      "attributes_features": 0,
+      "halfedge": 165,
+      "previous": 166,
+      "next": 167,
+      "point": 159,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3140
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 164,
+      "byte_start": 3140,
+      "node_id": 30383,
+      "attributes_features": 0,
+      "owner": 151,
+      "next": 159,
+      "previous": 168,
+      "pvec": [
+        0.06429374999999991,
+        -0.008053229547875093,
+        0.025757924025418488
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3184
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 151,
+      "byte_start": 3184,
+      "node_id": 398,
+      "attributes_features": 0,
+      "halfedge": 169,
+      "previous": 147,
+      "next": 170,
+      "point": 164,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3216
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 168,
+      "byte_start": 3216,
+      "node_id": 30384,
+      "attributes_features": 0,
+      "owner": 161,
+      "next": 164,
+      "previous": 171,
+      "pvec": [
+        0.0635,
+        -0.0075438395551932335,
+        0.02508391962648597
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3260
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 161,
+      "byte_start": 3260,
+      "node_id": 75,
+      "attributes_features": 0,
+      "halfedge": 172,
+      "previous": 173,
+      "next": 158,
+      "point": 168,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3292
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 171,
+      "byte_start": 3292,
+      "node_id": 30392,
+      "attributes_features": 0,
+      "owner": 174,
+      "next": 168,
+      "previous": 175,
+      "pvec": [
+        0.0635,
+        0.007543839555193242,
+        0.025083919626485963
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3336
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 174,
+      "byte_start": 3336,
+      "node_id": 85,
+      "attributes_features": 0,
+      "halfedge": 176,
+      "previous": 177,
+      "next": 178,
+      "point": 171,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3368
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 175,
+      "byte_start": 3368,
+      "node_id": 30393,
+      "attributes_features": 0,
+      "owner": 179,
+      "next": 171,
+      "previous": 180,
+      "pvec": [
+        0.0642937499999999,
+        0.007644302086043419,
+        0.025882229460912183
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3412
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 179,
+      "byte_start": 3412,
+      "node_id": 407,
+      "attributes_features": 0,
+      "halfedge": 181,
+      "previous": 182,
+      "next": 183,
+      "point": 175,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3444
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 180,
+      "byte_start": 3444,
+      "node_id": 30394,
+      "attributes_features": 0,
+      "owner": 167,
+      "next": 175,
+      "previous": 184,
+      "pvec": [
+        0.06429374999999989,
+        0.0024169168267494374,
+        0.02687905633206967
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3488
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 167,
+      "byte_start": 3488,
+      "node_id": 408,
+      "attributes_features": 0,
+      "halfedge": 185,
+      "previous": 163,
+      "next": 186,
+      "point": 180,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3520
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 184,
+      "byte_start": 3520,
+      "node_id": 30395,
+      "attributes_features": 0,
+      "owner": 177,
+      "next": 180,
+      "previous": 187,
+      "pvec": [
+        0.0635,
+        0.0026296014982416147,
+        0.026061422352261426
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3564
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 177,
+      "byte_start": 3564,
+      "node_id": 83,
+      "attributes_features": 0,
+      "halfedge": 188,
+      "previous": 189,
+      "next": 174,
+      "point": 184,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3596
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 187,
+      "byte_start": 3596,
+      "node_id": 30403,
+      "attributes_features": 0,
+      "owner": 190,
+      "next": 184,
+      "previous": 191,
+      "pvec": [
+        0.0635,
+        0.016568799421425754,
+        0.02028761752387565
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3640
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 190,
+      "byte_start": 3640,
+      "node_id": 93,
+      "attributes_features": 0,
+      "halfedge": 192,
+      "previous": 193,
+      "next": 194,
+      "point": 187,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3672
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 191,
+      "byte_start": 3672,
+      "node_id": 30404,
+      "attributes_features": 0,
+      "owner": 195,
+      "next": 187,
+      "previous": 196,
+      "pvec": [
+        0.06429374999999984,
+        0.016967114644991666,
+        0.02098671429437459
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3716
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 195,
+      "byte_start": 3716,
+      "node_id": 417,
+      "attributes_features": 0,
+      "halfedge": 197,
+      "previous": 198,
+      "next": 199,
+      "point": 191,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3748
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 196,
+      "byte_start": 3748,
+      "node_id": 30405,
+      "attributes_features": 0,
+      "owner": 183,
+      "next": 191,
+      "previous": 200,
+      "pvec": [
+        0.06429374999999986,
+        0.01251910952390696,
+        0.02390809597141564
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3792
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 183,
+      "byte_start": 3792,
+      "node_id": 418,
+      "attributes_features": 0,
+      "halfedge": 201,
+      "previous": 179,
+      "next": 202,
+      "point": 196,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3824
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 200,
+      "byte_start": 3824,
+      "node_id": 30406,
+      "attributes_features": 0,
+      "owner": 193,
+      "next": 196,
+      "previous": 203,
+      "pvec": [
+        0.0635,
+        0.012402709560966107,
+        0.023071309772286993
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3868
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 193,
+      "byte_start": 3868,
+      "node_id": 91,
+      "attributes_features": 0,
+      "halfedge": 204,
+      "previous": 205,
+      "next": 190,
+      "point": 200,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3900
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 203,
+      "byte_start": 3900,
+      "node_id": 30414,
+      "attributes_features": 0,
+      "owner": 206,
+      "next": 200,
+      "previous": 207,
+      "pvec": [
+        0.0635,
+        0.023071309772287,
+        0.012402709560966112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3944
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 206,
+      "byte_start": 3944,
+      "node_id": 101,
+      "attributes_features": 0,
+      "halfedge": 208,
+      "previous": 209,
+      "next": 210,
+      "point": 203,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 3976
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 207,
+      "byte_start": 3976,
+      "node_id": 30415,
+      "attributes_features": 0,
+      "owner": 211,
+      "next": 203,
+      "previous": 212,
+      "pvec": [
+        0.06429374999999991,
+        0.023706837806517052,
+        0.012896162121557399
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4020
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 211,
+      "byte_start": 4020,
+      "node_id": 427,
+      "attributes_features": 0,
+      "halfedge": 213,
+      "previous": 214,
+      "next": 215,
+      "point": 207,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4052
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 212,
+      "byte_start": 4052,
+      "node_id": 30416,
+      "attributes_features": 0,
+      "owner": 199,
+      "next": 207,
+      "previous": 216,
+      "pvec": [
+        0.06429374999999986,
+        0.02071538128206007,
+        0.01729734472654326
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4096
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 199,
+      "byte_start": 4096,
+      "node_id": 428,
+      "attributes_features": 0,
+      "halfedge": 217,
+      "previous": 195,
+      "next": 218,
+      "point": 212,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4128
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 216,
+      "byte_start": 4128,
+      "node_id": 30417,
+      "attributes_features": 0,
+      "owner": 209,
+      "next": 212,
+      "previous": 219,
+      "pvec": [
+        0.0635,
+        0.020287617523875666,
+        0.016568799421425764
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4172
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 209,
+      "byte_start": 4172,
+      "node_id": 99,
+      "attributes_features": 0,
+      "halfedge": 220,
+      "previous": 221,
+      "next": 206,
+      "point": 216,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4204
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 219,
+      "byte_start": 4204,
+      "node_id": 30425,
+      "attributes_features": 0,
+      "owner": 222,
+      "next": 216,
+      "previous": 223,
+      "pvec": [
+        0.0635,
+        0.026061422352261446,
+        0.0026296014982416112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4248
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 222,
+      "byte_start": 4248,
+      "node_id": 109,
+      "attributes_features": 0,
+      "halfedge": 224,
+      "previous": 225,
+      "next": 226,
+      "point": 219,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4280
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 223,
+      "byte_start": 4280,
+      "node_id": 30426,
+      "attributes_features": 0,
+      "owner": 227,
+      "next": 219,
+      "previous": 228,
+      "pvec": [
+        0.06429374999999996,
+        0.026837409815020162,
+        0.002842286169733753
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4324
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 227,
+      "byte_start": 4324,
+      "node_id": 437,
+      "attributes_features": 0,
+      "halfedge": 229,
+      "previous": 230,
+      "next": 231,
+      "point": 223,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4356
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 228,
+      "byte_start": 4356,
+      "node_id": 30427,
+      "attributes_features": 0,
+      "owner": 215,
+      "next": 223,
+      "previous": 232,
+      "pvec": [
+        0.06429374999999991,
+        0.025757924025418488,
+        0.008053229547875101
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4400
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 215,
+      "byte_start": 4400,
+      "node_id": 438,
+      "attributes_features": 0,
+      "halfedge": 233,
+      "previous": 211,
+      "next": 234,
+      "point": 228,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4432
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 232,
+      "byte_start": 4432,
+      "node_id": 30428,
+      "attributes_features": 0,
+      "owner": 225,
+      "next": 228,
+      "previous": 235,
+      "pvec": [
+        0.0635,
+        0.025083919626485963,
+        0.007543839555193232
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4476
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 225,
+      "byte_start": 4476,
+      "node_id": 107,
+      "attributes_features": 0,
+      "halfedge": 236,
+      "previous": 237,
+      "next": 222,
+      "point": 232,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4508
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 235,
+      "byte_start": 4508,
+      "node_id": 30436,
+      "attributes_features": 0,
+      "owner": 238,
+      "next": 232,
+      "previous": 239,
+      "pvec": [
+        0.0635,
+        0.025083919626485967,
+        -0.007543839555193236
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4552
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 238,
+      "byte_start": 4552,
+      "node_id": 117,
+      "attributes_features": 0,
+      "halfedge": 240,
+      "previous": 241,
+      "next": 242,
+      "point": 235,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4584
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 239,
+      "byte_start": 4584,
+      "node_id": 30437,
+      "attributes_features": 0,
+      "owner": 243,
+      "next": 235,
+      "previous": 244,
+      "pvec": [
+        0.06429374999999993,
+        0.025882229460912138,
+        -0.007644302086043525
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4628
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 243,
+      "byte_start": 4628,
+      "node_id": 447,
+      "attributes_features": 0,
+      "halfedge": 245,
+      "previous": 246,
+      "next": 247,
+      "point": 239,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4660
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 244,
+      "byte_start": 4660,
+      "node_id": 30438,
+      "attributes_features": 0,
+      "owner": 231,
+      "next": 239,
+      "previous": 248,
+      "pvec": [
+        0.06429374999999986,
+        0.026879056332069648,
+        -0.002416916826749441
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4704
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 231,
+      "byte_start": 4704,
+      "node_id": 448,
+      "attributes_features": 0,
+      "halfedge": 249,
+      "previous": 227,
+      "next": 250,
+      "point": 244,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4736
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 248,
+      "byte_start": 4736,
+      "node_id": 30439,
+      "attributes_features": 0,
+      "owner": 241,
+      "next": 244,
+      "previous": 251,
+      "pvec": [
+        0.0635,
+        0.026061422352261426,
+        -0.0026296014982416112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4780
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 241,
+      "byte_start": 4780,
+      "node_id": 115,
+      "attributes_features": 0,
+      "halfedge": 252,
+      "previous": 253,
+      "next": 238,
+      "point": 248,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4812
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 251,
+      "byte_start": 4812,
+      "node_id": 30447,
+      "attributes_features": 0,
+      "owner": 254,
+      "next": 248,
+      "previous": 255,
+      "pvec": [
+        0.0635,
+        0.02028761752387564,
+        -0.01656879942142574
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4856
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 254,
+      "byte_start": 4856,
+      "node_id": 125,
+      "attributes_features": 0,
+      "halfedge": 256,
+      "previous": 257,
+      "next": 258,
+      "point": 251,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4888
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 255,
+      "byte_start": 4888,
+      "node_id": 30448,
+      "attributes_features": 0,
+      "owner": 105,
+      "next": 251,
+      "previous": 259,
+      "pvec": [
+        0.06429374999999991,
+        0.020986714294374625,
+        -0.01696711464499161
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4932
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 105,
+      "byte_start": 4932,
+      "node_id": 457,
+      "attributes_features": 0,
+      "halfedge": 260,
+      "previous": 261,
+      "next": 94,
+      "point": 255,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4964
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 259,
+      "byte_start": 4964,
+      "node_id": 30449,
+      "attributes_features": 0,
+      "owner": 247,
+      "next": 255,
+      "previous": 262,
+      "pvec": [
+        0.0642937499999999,
+        0.02390809597141564,
+        -0.012519109523906946
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5008
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 247,
+      "byte_start": 5008,
+      "node_id": 458,
+      "attributes_features": 0,
+      "halfedge": 263,
+      "previous": 243,
+      "next": 264,
+      "point": 259,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5040
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 262,
+      "byte_start": 5040,
+      "node_id": 30450,
+      "attributes_features": 0,
+      "owner": 257,
+      "next": 259,
+      "previous": 265,
+      "pvec": [
+        0.0635,
+        0.023071309772286986,
+        -0.012402709560966112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5084
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 257,
+      "byte_start": 5084,
+      "node_id": 123,
+      "attributes_features": 0,
+      "halfedge": 266,
+      "previous": 267,
+      "next": 254,
+      "point": 262,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5116
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 265,
+      "byte_start": 5116,
+      "node_id": 30458,
+      "attributes_features": 0,
+      "owner": 268,
+      "next": 262,
+      "previous": 269,
+      "pvec": [
+        0.0635,
+        0.0026296014982416125,
+        -0.026061422352261422
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5160
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 268,
+      "byte_start": 5160,
+      "node_id": 141,
+      "attributes_features": 0,
+      "halfedge": 270,
+      "previous": 271,
+      "next": 272,
+      "point": 265,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5192
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 269,
+      "byte_start": 5192,
+      "node_id": 30459,
+      "attributes_features": 0,
+      "owner": 74,
+      "next": 265,
+      "previous": 273,
+      "pvec": [
+        0.0642937499999999,
+        0.0028422861697344377,
+        -0.02683740981502005
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5236
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 74,
+      "byte_start": 5236,
+      "node_id": 477,
+      "attributes_features": 0,
+      "halfedge": 274,
+      "previous": 275,
+      "next": 71,
+      "point": 269,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5268
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 273,
+      "byte_start": 5268,
+      "node_id": 30460,
+      "attributes_features": 0,
+      "owner": 102,
+      "next": 269,
+      "previous": 276,
+      "pvec": [
+        0.06429374999999986,
+        0.008053229547875096,
+        -0.02575792402541848
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5312
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 102,
+      "byte_start": 5312,
+      "node_id": 478,
+      "attributes_features": 0,
+      "halfedge": 277,
+      "previous": 83,
+      "next": 278,
+      "point": 273,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5344
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 276,
+      "byte_start": 5344,
+      "node_id": 30461,
+      "attributes_features": 0,
+      "owner": 271,
+      "next": 273,
+      "previous": 279,
+      "pvec": [
+        0.0635,
+        0.0075438395551932465,
+        -0.02508391962648596
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5388
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 271,
+      "byte_start": 5388,
+      "node_id": 139,
+      "attributes_features": 0,
+      "halfedge": 280,
+      "previous": 281,
+      "next": 268,
+      "point": 276,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5420
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 279,
+      "byte_start": 5420,
+      "node_id": 30469,
+      "attributes_features": 0,
+      "owner": 282,
+      "next": 276,
+      "previous": 283,
+      "pvec": [
+        0.0635,
+        -0.016568799421425764,
+        -0.020287617523875662
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5464
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 282,
+      "byte_start": 5464,
+      "node_id": 157,
+      "attributes_features": 0,
+      "halfedge": 284,
+      "previous": 285,
+      "next": 286,
+      "point": 279,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5496
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 283,
+      "byte_start": 5496,
+      "node_id": 30470,
+      "attributes_features": 0,
+      "owner": 287,
+      "next": 279,
+      "previous": 288,
+      "pvec": [
+        0.06429374999999984,
+        -0.016967114644991434,
+        -0.020986714294374792
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5540
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 287,
+      "byte_start": 5540,
+      "node_id": 497,
+      "attributes_features": 0,
+      "halfedge": 289,
+      "previous": 290,
+      "next": 44,
+      "point": 283,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5572
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 288,
+      "byte_start": 5572,
+      "node_id": 30471,
+      "attributes_features": 0,
+      "owner": 70,
+      "next": 283,
+      "previous": 291,
+      "pvec": [
+        0.06429374999999987,
+        -0.012519109523906956,
+        -0.02390809597141564
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5616
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 70,
+      "byte_start": 5616,
+      "node_id": 498,
+      "attributes_features": 0,
+      "halfedge": 292,
+      "previous": 66,
+      "next": 293,
+      "point": 288,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5648
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 291,
+      "byte_start": 5648,
+      "node_id": 30472,
+      "attributes_features": 0,
+      "owner": 285,
+      "next": 288,
+      "previous": 294,
+      "pvec": [
+        0.0635,
+        -0.012402709560966117,
+        -0.02307130977228699
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5692
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 285,
+      "byte_start": 5692,
+      "node_id": 155,
+      "attributes_features": 0,
+      "halfedge": 295,
+      "previous": 296,
+      "next": 282,
+      "point": 291,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5724
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 294,
+      "byte_start": 5724,
+      "node_id": 30480,
+      "attributes_features": 0,
+      "owner": 297,
+      "next": 291,
+      "previous": 298,
+      "pvec": [
+        0.0635,
+        -0.023071309772287003,
+        -0.012402709560966127
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5768
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 297,
+      "byte_start": 5768,
+      "node_id": 165,
+      "attributes_features": 0,
+      "halfedge": 299,
+      "previous": 300,
+      "next": 301,
+      "point": 294,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5800
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 298,
+      "byte_start": 5800,
+      "node_id": 30481,
+      "attributes_features": 0,
+      "owner": 49,
+      "next": 294,
+      "previous": 302,
+      "pvec": [
+        0.06429374999999987,
+        -0.023706837806516945,
+        -0.01289616212155758
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5844
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 49,
+      "byte_start": 5844,
+      "node_id": 517,
+      "attributes_features": 0,
+      "halfedge": 303,
+      "previous": 45,
+      "next": 0,
+      "point": 298,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5876
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 302,
+      "byte_start": 5876,
+      "node_id": 30482,
+      "attributes_features": 0,
+      "owner": 60,
+      "next": 298,
+      "previous": 304,
+      "pvec": [
+        0.06429374999999991,
+        -0.020715381282060054,
+        -0.017297344726543262
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5920
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 60,
+      "byte_start": 5920,
+      "node_id": 518,
+      "attributes_features": 0,
+      "halfedge": 305,
+      "previous": 306,
+      "next": 48,
+      "point": 302,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5952
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 304,
+      "byte_start": 5952,
+      "node_id": 30483,
+      "attributes_features": 0,
+      "owner": 300,
+      "next": 302,
+      "previous": 307,
+      "pvec": [
+        0.0635,
+        -0.02028761752387568,
+        -0.016568799421425785
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5996
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 300,
+      "byte_start": 5996,
+      "node_id": 163,
+      "attributes_features": 0,
+      "halfedge": 308,
+      "previous": 309,
+      "next": 297,
+      "point": 304,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6028
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 307,
+      "byte_start": 6028,
+      "node_id": 30491,
+      "attributes_features": 0,
+      "owner": 290,
+      "next": 304,
+      "previous": 310,
+      "pvec": [
+        0.08810625000000002,
+        -0.011412587362163338,
+        -0.024455633419541337
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6072
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 290,
+      "byte_start": 6072,
+      "node_id": 502,
+      "attributes_features": 0,
+      "halfedge": 311,
+      "previous": 293,
+      "next": 287,
+      "point": 307,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6104
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 310,
+      "byte_start": 6104,
+      "node_id": 30492,
+      "attributes_features": 0,
+      "owner": 312,
+      "next": 307,
+      "previous": 313,
+      "pvec": [
+        0.0889,
+        -0.01061508309355706,
+        -0.023958902972559176
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6148
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 312,
+      "byte_start": 6148,
+      "node_id": 193,
+      "attributes_features": 0,
+      "halfedge": 314,
+      "previous": 57,
+      "next": 315,
+      "point": 310,
+      "tolerance": 1.1383480515336579e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6180
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 313,
+      "byte_start": 6180,
+      "node_id": 30493,
+      "attributes_features": 0,
+      "owner": 315,
+      "next": 310,
+      "previous": 316,
+      "pvec": [
+        0.0889,
+        -0.006037280424821239,
+        -0.025488502979472312
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6224
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 315,
+      "byte_start": 6224,
+      "node_id": 195,
+      "attributes_features": 0,
+      "halfedge": 317,
+      "previous": 312,
+      "next": 318,
+      "point": 313,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6256
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 316,
+      "byte_start": 6256,
+      "node_id": 30494,
+      "attributes_features": 0,
+      "owner": 293,
+      "next": 313,
+      "previous": 319,
+      "pvec": [
+        0.08810625000000007,
+        -0.006553765147284661,
+        -0.026179635571264827
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6300
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 293,
+      "byte_start": 6300,
+      "node_id": 500,
+      "attributes_features": 0,
+      "halfedge": 320,
+      "previous": 70,
+      "next": 290,
+      "point": 316,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6332
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 319,
+      "byte_start": 6332,
+      "node_id": 30506,
+      "attributes_features": 0,
+      "owner": 321,
+      "next": 316,
+      "previous": 322,
+      "pvec": [
+        0.0889,
+        -0.0006383827808028765,
+        -0.026197356510854305
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6376
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 321,
+      "byte_start": 6376,
+      "node_id": 201,
+      "attributes_features": 0,
+      "halfedge": 323,
+      "previous": 318,
+      "next": 324,
+      "point": 319,
+      "tolerance": 1.138348051534447e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6408
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 322,
+      "byte_start": 6408,
+      "node_id": 30507,
+      "attributes_features": 0,
+      "owner": 324,
+      "next": 319,
+      "previous": 325,
+      "pvec": [
+        0.0889,
+        0.004176307989508903,
+        -0.025858673412208585
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6452
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 324,
+      "byte_start": 6452,
+      "node_id": 203,
+      "attributes_features": 0,
+      "halfedge": 326,
+      "previous": 321,
+      "next": 327,
+      "point": 322,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6484
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 325,
+      "byte_start": 6484,
+      "node_id": 30508,
+      "attributes_features": 0,
+      "owner": 75,
+      "next": 322,
+      "previous": 328,
+      "pvec": [
+        0.08810625000000005,
+        0.003963623318016712,
+        -0.026694846814373615
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6528
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 75,
+      "byte_start": 6528,
+      "node_id": 490,
+      "attributes_features": 0,
+      "halfedge": 329,
+      "previous": 71,
+      "next": 69,
+      "point": 325,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6560
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 328,
+      "byte_start": 6560,
+      "node_id": 30509,
+      "attributes_features": 0,
+      "owner": 69,
+      "next": 325,
+      "previous": 330,
+      "pvec": [
+        0.08810625,
+        -0.0011850901392478324,
+        -0.026961467274832458
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6604
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 69,
+      "byte_start": 6604,
+      "node_id": 492,
+      "attributes_features": 0,
+      "halfedge": 331,
+      "previous": 75,
+      "next": 66,
+      "point": 328,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6636
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 330,
+      "byte_start": 6636,
+      "node_id": 30521,
+      "attributes_features": 0,
+      "owner": 275,
+      "next": 328,
+      "previous": 332,
+      "pvec": [
+        0.08810625000000022,
+        0.00922282631450058,
+        -0.025362662143839594
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6680
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 275,
+      "byte_start": 6680,
+      "node_id": 482,
+      "attributes_features": 0,
+      "halfedge": 333,
+      "previous": 278,
+      "next": 74,
+      "point": 330,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6712
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 332,
+      "byte_start": 6712,
+      "node_id": 30522,
+      "attributes_features": 0,
+      "owner": 334,
+      "next": 330,
+      "previous": 335,
+      "pvec": [
+        0.0889,
+        0.00943550552337425,
+        -0.024447499999999994
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6756
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 334,
+      "byte_start": 6756,
+      "node_id": 209,
+      "attributes_features": 0,
+      "halfedge": 336,
+      "previous": 327,
+      "next": 337,
+      "point": 332,
+      "tolerance": 1.1383480515336899e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6788
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 335,
+      "byte_start": 6788,
+      "node_id": 30523,
+      "attributes_features": 0,
+      "owner": 337,
+      "next": 332,
+      "previous": 338,
+      "pvec": [
+        0.0889,
+        0.013754091370762526,
+        -0.022292095227394306
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6832
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 337,
+      "byte_start": 6832,
+      "node_id": 211,
+      "attributes_features": 0,
+      "halfedge": 339,
+      "previous": 334,
+      "next": 87,
+      "point": 335,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6864
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 338,
+      "byte_start": 6864,
+      "node_id": 30524,
+      "attributes_features": 0,
+      "owner": 278,
+      "next": 335,
+      "previous": 340,
+      "pvec": [
+        0.08810625000000005,
+        0.01387758606348491,
+        -0.023146009619382978
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6908
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 278,
+      "byte_start": 6908,
+      "node_id": 480,
+      "attributes_features": 0,
+      "halfedge": 341,
+      "previous": 102,
+      "next": 275,
+      "point": 338,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6940
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 340,
+      "byte_start": 6940,
+      "node_id": 30536,
+      "attributes_features": 0,
+      "owner": 261,
+      "next": 338,
+      "previous": 342,
+      "pvec": [
+        0.08810625000000005,
+        0.02445563341954113,
+        -0.011412587362163818
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6984
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 261,
+      "byte_start": 6984,
+      "node_id": 462,
+      "attributes_features": 0,
+      "halfedge": 343,
+      "previous": 264,
+      "next": 105,
+      "point": 340,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7016
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 342,
+      "byte_start": 7016,
+      "node_id": 30537,
+      "attributes_features": 0,
+      "owner": 344,
+      "next": 340,
+      "previous": 345,
+      "pvec": [
+        0.0889,
+        0.023958902972559183,
+        -0.010615083093557062
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7060
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 344,
+      "byte_start": 7060,
+      "node_id": 225,
+      "attributes_features": 0,
+      "halfedge": 346,
+      "previous": 91,
+      "next": 347,
+      "point": 342,
+      "tolerance": 1.1383480515348203e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7092
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 345,
+      "byte_start": 7092,
+      "node_id": 30538,
+      "attributes_features": 0,
+      "owner": 347,
+      "next": 342,
+      "previous": 348,
+      "pvec": [
+        0.0889,
+        0.025488502979472326,
+        -0.006037280424821236
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7136
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 347,
+      "byte_start": 7136,
+      "node_id": 227,
+      "attributes_features": 0,
+      "halfedge": 349,
+      "previous": 344,
+      "next": 350,
+      "point": 345,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7168
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 348,
+      "byte_start": 7168,
+      "node_id": 30539,
+      "attributes_features": 0,
+      "owner": 264,
+      "next": 345,
+      "previous": 351,
+      "pvec": [
+        0.08810625000000005,
+        0.026179635571264827,
+        -0.006553765147284663
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7212
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 264,
+      "byte_start": 7212,
+      "node_id": 460,
+      "attributes_features": 0,
+      "halfedge": 352,
+      "previous": 247,
+      "next": 261,
+      "point": 348,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7244
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 351,
+      "byte_start": 7244,
+      "node_id": 30551,
+      "attributes_features": 0,
+      "owner": 353,
+      "next": 348,
+      "previous": 354,
+      "pvec": [
+        0.0889,
+        0.026197356510854305,
+        -0.000638382780802866
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7288
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 353,
+      "byte_start": 7288,
+      "node_id": 233,
+      "attributes_features": 0,
+      "halfedge": 355,
+      "previous": 350,
+      "next": 356,
+      "point": 351,
+      "tolerance": 1.138348051534447e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7320
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 354,
+      "byte_start": 7320,
+      "node_id": 30552,
+      "attributes_features": 0,
+      "owner": 356,
+      "next": 351,
+      "previous": 357,
+      "pvec": [
+        0.0889,
+        0.025858673412208568,
+        0.004176307989508902
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7364
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 356,
+      "byte_start": 7364,
+      "node_id": 235,
+      "attributes_features": 0,
+      "halfedge": 358,
+      "previous": 353,
+      "next": 359,
+      "point": 354,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7396
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 357,
+      "byte_start": 7396,
+      "node_id": 30553,
+      "attributes_features": 0,
+      "owner": 250,
+      "next": 354,
+      "previous": 360,
+      "pvec": [
+        0.08810625000000001,
+        0.02669484681437362,
+        0.003963623318016698
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7440
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 250,
+      "byte_start": 7440,
+      "node_id": 450,
+      "attributes_features": 0,
+      "halfedge": 361,
+      "previous": 231,
+      "next": 246,
+      "point": 357,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7472
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 360,
+      "byte_start": 7472,
+      "node_id": 30554,
+      "attributes_features": 0,
+      "owner": 246,
+      "next": 357,
+      "previous": 362,
+      "pvec": [
+        0.08810625,
+        0.026961467274832437,
+        -0.001185090139247814
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7516
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 246,
+      "byte_start": 7516,
+      "node_id": 452,
+      "attributes_features": 0,
+      "halfedge": 363,
+      "previous": 250,
+      "next": 243,
+      "point": 360,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7548
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 362,
+      "byte_start": 7548,
+      "node_id": 30566,
+      "attributes_features": 0,
+      "owner": 230,
+      "next": 360,
+      "previous": 364,
+      "pvec": [
+        0.08810625000000011,
+        0.02536266214383988,
+        0.00922282631449977
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7592
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 230,
+      "byte_start": 7592,
+      "node_id": 442,
+      "attributes_features": 0,
+      "halfedge": 365,
+      "previous": 234,
+      "next": 227,
+      "point": 362,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7624
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 364,
+      "byte_start": 7624,
+      "node_id": 30567,
+      "attributes_features": 0,
+      "owner": 366,
+      "next": 362,
+      "previous": 367,
+      "pvec": [
+        0.0889,
+        0.024447499999999997,
+        0.009435505523374249
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7668
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 366,
+      "byte_start": 7668,
+      "node_id": 241,
+      "attributes_features": 0,
+      "halfedge": 368,
+      "previous": 359,
+      "next": 369,
+      "point": 364,
+      "tolerance": 1.1383480515336899e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7700
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 367,
+      "byte_start": 7700,
+      "node_id": 30568,
+      "attributes_features": 0,
+      "owner": 369,
+      "next": 364,
+      "previous": 370,
+      "pvec": [
+        0.0889,
+        0.022292095227394317,
+        0.013754091370762516
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7744
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 369,
+      "byte_start": 7744,
+      "node_id": 243,
+      "attributes_features": 0,
+      "halfedge": 371,
+      "previous": 366,
+      "next": 372,
+      "point": 367,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7776
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 370,
+      "byte_start": 7776,
+      "node_id": 30569,
+      "attributes_features": 0,
+      "owner": 234,
+      "next": 367,
+      "previous": 373,
+      "pvec": [
+        0.08810625000000002,
+        0.02314600961938299,
+        0.0138775860634849
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7820
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 234,
+      "byte_start": 7820,
+      "node_id": 440,
+      "attributes_features": 0,
+      "halfedge": 374,
+      "previous": 215,
+      "next": 230,
+      "point": 370,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7852
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 373,
+      "byte_start": 7852,
+      "node_id": 30581,
+      "attributes_features": 0,
+      "owner": 214,
+      "next": 370,
+      "previous": 375,
+      "pvec": [
+        0.08810625000000008,
+        0.019902621614552543,
+        0.018226651066993765
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7896
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 214,
+      "byte_start": 7896,
+      "node_id": 432,
+      "attributes_features": 0,
+      "halfedge": 376,
+      "previous": 218,
+      "next": 211,
+      "point": 373,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 7928
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 375,
+      "byte_start": 7928,
+      "node_id": 30582,
+      "attributes_features": 0,
+      "owner": 377,
+      "next": 373,
+      "previous": 378,
+      "pvec": [
+        0.08889995922646513,
+        0.01897009762817957,
+        0.018070583390652435
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7972
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 377,
+      "byte_start": 7972,
+      "node_id": 249,
+      "attributes_features": 0,
+      "halfedge": 379,
+      "previous": 372,
+      "next": 380,
+      "point": 375,
+      "tolerance": 1.1383480515338646e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8004
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 378,
+      "byte_start": 8004,
+      "node_id": 30583,
+      "attributes_features": 0,
+      "owner": 380,
+      "next": 375,
+      "previous": 381,
+      "pvec": [
+        0.0889,
+        0.015331747622555672,
+        0.021237939021966273
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8048
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 380,
+      "byte_start": 8048,
+      "node_id": 251,
+      "attributes_features": 0,
+      "halfedge": 382,
+      "previous": 377,
+      "next": 383,
+      "point": 378,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8080
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 381,
+      "byte_start": 8080,
+      "node_id": 30584,
+      "attributes_features": 0,
+      "owner": 218,
+      "next": 378,
+      "previous": 384,
+      "pvec": [
+        0.08810625000000002,
+        0.016073402278940954,
+        0.021678812131418417
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8124
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 218,
+      "byte_start": 8124,
+      "node_id": 430,
+      "attributes_features": 0,
+      "halfedge": 385,
+      "previous": 199,
+      "next": 214,
+      "point": 381,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8156
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 384,
+      "byte_start": 8156,
+      "node_id": 30596,
+      "attributes_features": 0,
+      "owner": 198,
+      "next": 381,
+      "previous": 386,
+      "pvec": [
+        0.08810625000000002,
+        0.011412587362163933,
+        0.024455633419541052
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8200
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 198,
+      "byte_start": 8200,
+      "node_id": 422,
+      "attributes_features": 0,
+      "halfedge": 387,
+      "previous": 202,
+      "next": 195,
+      "point": 384,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8232
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 386,
+      "byte_start": 8232,
+      "node_id": 30597,
+      "attributes_features": 0,
+      "owner": 388,
+      "next": 384,
+      "previous": 389,
+      "pvec": [
+        0.0889,
+        0.010615083093557067,
+        0.023958902972559173
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8276
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 388,
+      "byte_start": 8276,
+      "node_id": 257,
+      "attributes_features": 0,
+      "halfedge": 390,
+      "previous": 383,
+      "next": 391,
+      "point": 386,
+      "tolerance": 1.1383480515340453e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8308
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 389,
+      "byte_start": 8308,
+      "node_id": 30598,
+      "attributes_features": 0,
+      "owner": 391,
+      "next": 386,
+      "previous": 392,
+      "pvec": [
+        0.0889,
+        0.006037280424821236,
+        0.02548850297947232
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8352
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 391,
+      "byte_start": 8352,
+      "node_id": 259,
+      "attributes_features": 0,
+      "halfedge": 393,
+      "previous": 388,
+      "next": 394,
+      "point": 389,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8384
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 392,
+      "byte_start": 8384,
+      "node_id": 30599,
+      "attributes_features": 0,
+      "owner": 202,
+      "next": 389,
+      "previous": 395,
+      "pvec": [
+        0.08810625000000002,
+        0.006553765147284668,
+        0.02617963557126481
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8428
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 202,
+      "byte_start": 8428,
+      "node_id": 420,
+      "attributes_features": 0,
+      "halfedge": 396,
+      "previous": 183,
+      "next": 198,
+      "point": 392,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8460
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 395,
+      "byte_start": 8460,
+      "node_id": 30611,
+      "attributes_features": 0,
+      "owner": 397,
+      "next": 392,
+      "previous": 398,
+      "pvec": [
+        0.0889,
+        0.0006383827808028722,
+        0.026197356510854305
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8504
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 397,
+      "byte_start": 8504,
+      "node_id": 265,
+      "attributes_features": 0,
+      "halfedge": 399,
+      "previous": 394,
+      "next": 400,
+      "point": 395,
+      "tolerance": 1.138348051534447e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8536
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 398,
+      "byte_start": 8536,
+      "node_id": 30612,
+      "attributes_features": 0,
+      "owner": 400,
+      "next": 395,
+      "previous": 401,
+      "pvec": [
+        0.0889,
+        -0.0041763079895089,
+        0.02585867341220858
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8580
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 400,
+      "byte_start": 8580,
+      "node_id": 267,
+      "attributes_features": 0,
+      "halfedge": 402,
+      "previous": 397,
+      "next": 403,
+      "point": 398,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8612
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 401,
+      "byte_start": 8612,
+      "node_id": 30613,
+      "attributes_features": 0,
+      "owner": 186,
+      "next": 398,
+      "previous": 404,
+      "pvec": [
+        0.08810625000000005,
+        -0.00396362331801671,
+        0.02669484681437362
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8656
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 186,
+      "byte_start": 8656,
+      "node_id": 410,
+      "attributes_features": 0,
+      "halfedge": 405,
+      "previous": 167,
+      "next": 182,
+      "point": 401,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8688
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 404,
+      "byte_start": 8688,
+      "node_id": 30614,
+      "attributes_features": 0,
+      "owner": 182,
+      "next": 401,
+      "previous": 406,
+      "pvec": [
+        0.08810625,
+        0.0011850901392477207,
+        0.026961467274832195
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8732
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 182,
+      "byte_start": 8732,
+      "node_id": 412,
+      "attributes_features": 0,
+      "halfedge": 407,
+      "previous": 186,
+      "next": 179,
+      "point": 404,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8764
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 406,
+      "byte_start": 8764,
+      "node_id": 30626,
+      "attributes_features": 0,
+      "owner": 166,
+      "next": 404,
+      "previous": 408,
+      "pvec": [
+        0.08810625000000008,
+        -0.009222826314500011,
+        0.02536266214383978
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8808
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 166,
+      "byte_start": 8808,
+      "node_id": 402,
+      "attributes_features": 0,
+      "halfedge": 409,
+      "previous": 170,
+      "next": 163,
+      "point": 406,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8840
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 408,
+      "byte_start": 8840,
+      "node_id": 30627,
+      "attributes_features": 0,
+      "owner": 410,
+      "next": 406,
+      "previous": 411,
+      "pvec": [
+        0.0889,
+        -0.009435505523374247,
+        0.024447499999999997
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8884
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 410,
+      "byte_start": 8884,
+      "node_id": 273,
+      "attributes_features": 0,
+      "halfedge": 412,
+      "previous": 403,
+      "next": 413,
+      "point": 408,
+      "tolerance": 1.1383480515336899e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8916
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 411,
+      "byte_start": 8916,
+      "node_id": 30628,
+      "attributes_features": 0,
+      "owner": 413,
+      "next": 408,
+      "previous": 414,
+      "pvec": [
+        0.0889,
+        -0.013754091370762505,
+        0.022292095227394292
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8960
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 413,
+      "byte_start": 8960,
+      "node_id": 275,
+      "attributes_features": 0,
+      "halfedge": 415,
+      "previous": 410,
+      "next": 416,
+      "point": 411,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 8992
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 414,
+      "byte_start": 8992,
+      "node_id": 30629,
+      "attributes_features": 0,
+      "owner": 170,
+      "next": 411,
+      "previous": 417,
+      "pvec": [
+        0.08810625000000002,
+        -0.013877586063484885,
+        0.02314600961938297
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9036
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 170,
+      "byte_start": 9036,
+      "node_id": 400,
+      "attributes_features": 0,
+      "halfedge": 418,
+      "previous": 151,
+      "next": 166,
+      "point": 414,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9068
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 417,
+      "byte_start": 9068,
+      "node_id": 30641,
+      "attributes_features": 0,
+      "owner": 150,
+      "next": 414,
+      "previous": 419,
+      "pvec": [
+        0.08810625000000011,
+        -0.018226651066993747,
+        0.019902621614552553
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9112
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 150,
+      "byte_start": 9112,
+      "node_id": 392,
+      "attributes_features": 0,
+      "halfedge": 420,
+      "previous": 154,
+      "next": 147,
+      "point": 417,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9144
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 419,
+      "byte_start": 9144,
+      "node_id": 30642,
+      "attributes_features": 0,
+      "owner": 421,
+      "next": 417,
+      "previous": 422,
+      "pvec": [
+        0.08889995922646513,
+        -0.018070583390652435,
+        0.01897009762817957
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9188
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 421,
+      "byte_start": 9188,
+      "node_id": 281,
+      "attributes_features": 0,
+      "halfedge": 423,
+      "previous": 416,
+      "next": 424,
+      "point": 419,
+      "tolerance": 1.138348051534355e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9220
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 422,
+      "byte_start": 9220,
+      "node_id": 30643,
+      "attributes_features": 0,
+      "owner": 424,
+      "next": 419,
+      "previous": 425,
+      "pvec": [
+        0.0889,
+        -0.021237939021966273,
+        0.015331747622555675
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9264
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 424,
+      "byte_start": 9264,
+      "node_id": 283,
+      "attributes_features": 0,
+      "halfedge": 426,
+      "previous": 421,
+      "next": 427,
+      "point": 422,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9296
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 425,
+      "byte_start": 9296,
+      "node_id": 30644,
+      "attributes_features": 0,
+      "owner": 154,
+      "next": 422,
+      "previous": 428,
+      "pvec": [
+        0.08810625000000002,
+        -0.021678812131418403,
+        0.016073402278940947
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9340
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 154,
+      "byte_start": 9340,
+      "node_id": 390,
+      "attributes_features": 0,
+      "halfedge": 429,
+      "previous": 133,
+      "next": 150,
+      "point": 425,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9372
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 428,
+      "byte_start": 9372,
+      "node_id": 30656,
+      "attributes_features": 0,
+      "owner": 132,
+      "next": 425,
+      "previous": 430,
+      "pvec": [
+        0.08810625000000004,
+        -0.02445563341954124,
+        0.011412587362163518
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9416
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 132,
+      "byte_start": 9416,
+      "node_id": 382,
+      "attributes_features": 0,
+      "halfedge": 431,
+      "previous": 138,
+      "next": 129,
+      "point": 428,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9448
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 430,
+      "byte_start": 9448,
+      "node_id": 30657,
+      "attributes_features": 0,
+      "owner": 432,
+      "next": 428,
+      "previous": 433,
+      "pvec": [
+        0.0889,
+        -0.023958902972559176,
+        0.010615083093557066
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9492
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 432,
+      "byte_start": 9492,
+      "node_id": 289,
+      "attributes_features": 0,
+      "halfedge": 434,
+      "previous": 427,
+      "next": 435,
+      "point": 430,
+      "tolerance": 1.1383480515341156e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9524
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 433,
+      "byte_start": 9524,
+      "node_id": 30658,
+      "attributes_features": 0,
+      "owner": 435,
+      "next": 430,
+      "previous": 436,
+      "pvec": [
+        0.0889,
+        -0.025488502979472312,
+        0.0060372804248212345
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9568
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 435,
+      "byte_start": 9568,
+      "node_id": 291,
+      "attributes_features": 0,
+      "halfedge": 437,
+      "previous": 432,
+      "next": 438,
+      "point": 433,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9600
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 436,
+      "byte_start": 9600,
+      "node_id": 30659,
+      "attributes_features": 0,
+      "owner": 138,
+      "next": 433,
+      "previous": 439,
+      "pvec": [
+        0.08810625000000002,
+        -0.02617963557126481,
+        0.0065537651472846615
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9644
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 138,
+      "byte_start": 9644,
+      "node_id": 380,
+      "attributes_features": 0,
+      "halfedge": 440,
+      "previous": 134,
+      "next": 132,
+      "point": 436,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9676
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 439,
+      "byte_start": 9676,
+      "node_id": 30671,
+      "attributes_features": 0,
+      "owner": 53,
+      "next": 436,
+      "previous": 441,
+      "pvec": [
+        0.08810625,
+        -0.026961467274832257,
+        0.001185090139247739
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9720
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 53,
+      "byte_start": 9720,
+      "node_id": 174,
+      "attributes_features": 0,
+      "halfedge": 442,
+      "previous": 18,
+      "next": 50,
+      "point": 439,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9752
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 441,
+      "byte_start": 9752,
+      "node_id": 30672,
+      "attributes_features": 0,
+      "owner": 443,
+      "next": 439,
+      "previous": 19,
+      "pvec": [
+        0.0889,
+        -0.026197356510854305,
+        0.00063838278080287
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9796
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 443,
+      "byte_start": 9796,
+      "node_id": 297,
+      "attributes_features": 0,
+      "halfedge": 444,
+      "previous": 438,
+      "next": 445,
+      "point": 441,
+      "tolerance": 1.138348051534447e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9828
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 19,
+      "byte_start": 9828,
+      "node_id": 30673,
+      "attributes_features": 0,
+      "owner": 445,
+      "next": 441,
+      "previous": 7,
+      "pvec": [
+        0.0889,
+        -0.025858673412208603,
+        -0.004176307989508898
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9872
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 445,
+      "byte_start": 9872,
+      "node_id": 299,
+      "attributes_features": 0,
+      "halfedge": 446,
+      "previous": 443,
+      "next": 447,
+      "point": 19,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9904
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 446,
+      "byte_start": 9904,
+      "attributes_features": 0,
+      "loop": 448,
+      "forward": 449,
+      "backward": 444,
+      "vertex": 445,
+      "other": 450,
+      "edge": 451,
+      "curve": 0,
+      "next_at_vx": 452,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 9931
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 447,
+      "byte_start": 9931,
+      "node_id": 301,
+      "attributes_features": 0,
+      "halfedge": 453,
+      "previous": 445,
+      "next": 454,
+      "point": 455,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 9963
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 453,
+      "byte_start": 9963,
+      "attributes_features": 0,
+      "loop": 456,
+      "forward": 457,
+      "backward": 458,
+      "vertex": 447,
+      "other": 459,
+      "edge": 460,
+      "curve": 0,
+      "next_at_vx": 449,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 9990
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 454,
+      "byte_start": 9990,
+      "node_id": 305,
+      "attributes_features": 0,
+      "halfedge": 459,
+      "previous": 447,
+      "next": 461,
+      "point": 39,
+      "tolerance": 1.1383480515336899e-05,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10022
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 455,
+      "byte_start": 10022,
+      "node_id": 1238,
+      "attributes_features": 0,
+      "owner": 447,
+      "next": 462,
+      "previous": 463,
+      "pvec": [
+        0.0889,
+        -0.024447499999999997,
+        -0.004176307989508898
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10066
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 462,
+      "byte_start": 10066,
+      "node_id": 1230,
+      "attributes_features": 0,
+      "owner": 438,
+      "next": 464,
+      "previous": 455,
+      "pvec": [
+        0.0889,
+        -0.024184748747108693,
+        0.0054972477397749
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10110
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 463,
+      "byte_start": 10110,
+      "node_id": 1246,
+      "attributes_features": 0,
+      "owner": 137,
+      "next": 455,
+      "previous": 465,
+      "pvec": [
+        0.0889,
+        -0.02098834099503066,
+        -0.013214058685716179
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10154
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 137,
+      "byte_start": 10154,
+      "node_id": 309,
+      "attributes_features": 0,
+      "halfedge": 466,
+      "previous": 461,
+      "next": 134,
+      "point": 463,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10186
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 465,
+      "byte_start": 10186,
+      "node_id": 30255,
+      "attributes_features": 0,
+      "owner": 461,
+      "next": 463,
+      "previous": 467,
+      "pvec": [
+        0.0889,
+        -0.0222920952273943,
+        -0.013754091370762526
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10230
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 461,
+      "byte_start": 10230,
+      "node_id": 307,
+      "attributes_features": 0,
+      "halfedge": 468,
+      "previous": 454,
+      "next": 137,
+      "point": 465,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10262
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 467,
+      "byte_start": 10262,
+      "node_id": 30256,
+      "attributes_features": 0,
+      "owner": 306,
+      "next": 465,
+      "previous": 469,
+      "pvec": [
+        0.08810625000000005,
+        -0.02314600961938297,
+        -0.01387758606348491
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10306
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 306,
+      "byte_start": 10306,
+      "node_id": 507,
+      "attributes_features": 0,
+      "halfedge": 470,
+      "previous": 38,
+      "next": 60,
+      "point": 467,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10338
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 469,
+      "byte_start": 10338,
+      "node_id": 30257,
+      "attributes_features": 0,
+      "owner": 44,
+      "next": 467,
+      "previous": 39,
+      "pvec": [
+        0.08810625000000014,
+        -0.02536266214383983,
+        -0.009222826314499945
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10382
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 44,
+      "byte_start": 10382,
+      "node_id": 508,
+      "attributes_features": 0,
+      "halfedge": 471,
+      "previous": 287,
+      "next": 41,
+      "point": 469,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10414
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 39,
+      "byte_start": 10414,
+      "node_id": 30258,
+      "attributes_features": 0,
+      "owner": 454,
+      "next": 469,
+      "previous": 37,
+      "pvec": [
+        0.0889,
+        -0.024447499999999997,
+        -0.009435505523374249
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10458
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 471,
+      "byte_start": 10458,
+      "attributes_features": 0,
+      "loop": 472,
+      "forward": 473,
+      "backward": 474,
+      "vertex": 44,
+      "other": 475,
+      "edge": 476,
+      "curve": 0,
+      "next_at_vx": 477,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10485
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 472,
+      "byte_start": 10485,
+      "node_id": 701,
+      "attributes_features": 0,
+      "halfedge": 474,
+      "face": 478,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 10505
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 473,
+      "byte_start": 10505,
+      "attributes_features": 0,
+      "loop": 472,
+      "forward": 479,
+      "backward": 471,
+      "vertex": 454,
+      "other": 480,
+      "edge": 481,
+      "curve": 0,
+      "next_at_vx": 482,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10532
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 474,
+      "byte_start": 10532,
+      "attributes_features": 0,
+      "loop": 472,
+      "forward": 471,
+      "backward": 34,
+      "vertex": 41,
+      "other": 30,
+      "edge": 483,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10559
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 475,
+      "byte_start": 10559,
+      "attributes_features": 0,
+      "loop": 484,
+      "forward": 485,
+      "backward": 477,
+      "vertex": 41,
+      "other": 471,
+      "edge": 476,
+      "curve": 0,
+      "next_at_vx": 474,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 10586
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 476,
+      "byte_start": 10586,
+      "node_id": 509,
+      "attributes_features": 486,
+      "tolerance": -31415800000000.0,
+      "halfedge": 475,
+      "previous": 487,
+      "next": 488,
+      "curve": 489,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10622
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 477,
+      "byte_start": 10622,
+      "attributes_features": 0,
+      "loop": 484,
+      "forward": 475,
+      "backward": 470,
+      "vertex": 44,
+      "other": 490,
+      "edge": 487,
+      "curve": 0,
+      "next_at_vx": 480,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 10649
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 484,
+      "byte_start": 10649,
+      "node_id": 505,
+      "attributes_features": 0,
+      "halfedge": 477,
+      "face": 491,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 10669
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 470,
+      "byte_start": 10669,
+      "attributes_features": 0,
+      "loop": 484,
+      "forward": 477,
+      "backward": 485,
+      "vertex": 306,
+      "other": 492,
+      "edge": 493,
+      "curve": 0,
+      "next_at_vx": 490,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10696
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 490,
+      "byte_start": 10696,
+      "attributes_features": 0,
+      "loop": 494,
+      "forward": 495,
+      "backward": 480,
+      "vertex": 306,
+      "other": 477,
+      "edge": 487,
+      "curve": 0,
+      "next_at_vx": 496,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10723
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 487,
+      "byte_start": 10723,
+      "node_id": 506,
+      "attributes_features": 497,
+      "tolerance": -31415800000000.0,
+      "halfedge": 477,
+      "previous": 498,
+      "next": 476,
+      "curve": 499,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10759
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 480,
+      "byte_start": 10759,
+      "attributes_features": 0,
+      "loop": 494,
+      "forward": 490,
+      "backward": 482,
+      "vertex": 44,
+      "other": 473,
+      "edge": 481,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 10786
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 494,
+      "byte_start": 10786,
+      "node_id": 673,
+      "attributes_features": 0,
+      "halfedge": 482,
+      "face": 500,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 10806
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 482,
+      "byte_start": 10806,
+      "attributes_features": 0,
+      "loop": 494,
+      "forward": 480,
+      "backward": 495,
+      "vertex": 454,
+      "other": 468,
+      "edge": 501,
+      "curve": 0,
+      "next_at_vx": 458,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 10833
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 481,
+      "byte_start": 10833,
+      "node_id": 674,
+      "attributes_features": 502,
+      "tolerance": -31415800000000.0,
+      "halfedge": 480,
+      "previous": 503,
+      "next": 504,
+      "curve": 505,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10869
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 502,
+      "byte_start": 10869,
+      "node_id": 38524,
+      "definition": 506,
+      "owner": 481,
+      "next": 507,
+      "previous": 0,
+      "next_of_type": 508,
+      "previous_of_type": 509,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10899
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 503,
+      "byte_start": 10899,
+      "node_id": 671,
+      "attributes_features": 508,
+      "tolerance": -31415800000000.0,
+      "halfedge": 510,
+      "previous": 511,
+      "next": 481,
+      "curve": 512,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10935
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 504,
+      "byte_start": 10935,
+      "node_id": 675,
+      "attributes_features": 509,
+      "tolerance": -31415800000000.0,
+      "halfedge": 495,
+      "previous": 481,
+      "next": 513,
+      "curve": 514,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 10971
+    },
+    {
+      "node_type": 133,
+      "kind": "TRIMMED_CURVE",
+      "id": 505,
+      "byte_start": 10971,
+      "node_id": 30266,
+      "attributes_features": 0,
+      "owner": 481,
+      "next": 515,
+      "previous": 516,
+      "geometric_owner": 0,
+      "sense": "+",
+      "basis_curve": 516,
+      "point_1": [
+        0.08889991846825385,
+        -0.024447498852583464,
+        -0.009435489139626581
+      ],
+      "point_2": [
+        0.08810625000000014,
+        -0.025362662143839823,
+        -0.009222826314499954
+      ],
+      "parm_1": 0.0,
+      "parm_2": 0.00133558698989057,
+      "user": [
+        0
+      ],
+      "byte_end": 11060
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 515,
+      "byte_start": 11060,
+      "node_id": 30265,
+      "attributes_features": 0,
+      "owner": 1,
+      "next": 517,
+      "previous": 505,
+      "geometric_owner": 518,
+      "sense": "+",
+      "centre": [
+        0.0889,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.9328977649951162,
+        -0.3601413056941915
+      ],
+      "radius": 0.02619375,
+      "user": [
+        0
+      ],
+      "byte_end": 11163
+    },
+    {
+      "node_type": 38,
+      "kind": "INTERSECTION",
+      "id": 516,
+      "byte_start": 11163,
+      "node_id": 30267,
+      "attributes_features": 0,
+      "owner": 1,
+      "next": 505,
+      "previous": 519,
+      "geometric_owner": 520,
+      "sense": "+",
+      "surface": [
+        521,
+        522
+      ],
+      "chart": 523,
+      "start": 524,
+      "end": 525,
+      "modern_intersection_data": 526,
+      "user": [
+        0
+      ],
+      "byte_end": 11198
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 519,
+      "byte_start": 11198,
+      "node_id": 30274,
+      "attributes_features": 0,
+      "owner": 488,
+      "next": 516,
+      "previous": 527,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.06429375000000001,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.9944385295051469,
+        -0.10531861675715812
+      ],
+      "radius": 0.026987499999999994,
+      "user": [
+        0
+      ],
+      "byte_end": 11301
+    },
+    {
+      "node_type": 141,
+      "kind": "GEOMETRIC_OWNER",
+      "id": 520,
+      "byte_start": 11301,
+      "owner": 505,
+      "next": 520,
+      "previous": 520,
+      "shared_geometry": 516,
+      "user": [
+        0
+      ],
+      "byte_end": 11317
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 521,
+      "byte_start": 11317,
+      "node_id": 1564,
+      "attributes_features": 0,
+      "owner": 478,
+      "next": 528,
+      "previous": 529,
+      "geometric_owner": 530,
+      "sense": "+",
+      "pvec": [
+        0.0635,
+        -0.026987499999999998,
+        -0.0026296014982416078
+      ],
+      "normal": [
+        -0.2588190451025207,
+        0.0,
+        -0.9659258262890684
+      ],
+      "x_axis": [
+        0.9659258262890686,
+        -0.0,
+        -0.25881904510252074
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11412
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 522,
+      "byte_start": 11412,
+      "node_id": 30261,
+      "attributes_features": 0,
+      "owner": 500,
+      "next": 531,
+      "previous": 532,
+      "geometric_owner": 533,
+      "sense": "+",
+      "centre": [
+        0.0881062500000151,
+        -1.4970663597679845e-15,
+        -8.101158632811689e-16
+      ],
+      "axis": [
+        -1.0,
+        5.115382248896523e-13,
+        2.641825175085364e-13
+      ],
+      "major_radius": 0.026193749999998305,
+      "minor_radius": 0.0007937499999999838,
+      "x_axis": [
+        -5.115382248896523e-13,
+        -1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11523
+    },
+    {
+      "node_type": 40,
+      "kind": "CHART",
+      "id": 523,
+      "byte_start": 11523,
+      "base_parameter": 0.0,
+      "base_scale": 1.0,
+      "chart_count": 6,
+      "chordal_error": 5.877580987640035e-05,
+      "angular_error": 0.36633693575406284,
+      "parameter_error": [
+        -31415800000000.0,
+        -31415800000000.0
+      ],
+      "hvec": [
+        [
+          0.08889991846826163,
+          -0.024447498851999643,
+          -0.00943548913962867
+        ],
+        [
+          0.08884407220746056,
+          -0.024754480518995807,
+          -0.009420525179146726
+        ],
+        [
+          0.08869515447413814,
+          -0.025025587010087027,
+          -0.009380622792764309
+        ],
+        [
+          0.08846021457461857,
+          -0.025239202173810395,
+          -0.00931767083641819
+        ],
+        [
+          0.08817393090891579,
+          -0.025352983446878995,
+          -0.009240961359386908
+        ],
+        [
+          0.08810624999999998,
+          -0.025362662143839837,
+          -0.009222826314499916
+        ]
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11731
+    },
+    {
+      "node_type": 41,
+      "kind": "LIMIT",
+      "id": 524,
+      "byte_start": 11731,
+      "type": "L",
+      "hvec": [
+        [
+          -6.356660034808962e-45,
+          -4.44665555502044e-188,
+          -1.1845718534744618e-292
+        ]
+      ],
+      "user": [
+        191
+      ],
+      "byte_end": 11768
+    }
+  ]
+}

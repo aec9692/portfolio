@@ -1,0 +1,10349 @@
+{
+  "complete": true,
+  "version": ": TRANSMIT FILE created by modeller version 3600142",
+  "key": "SCH_3600142_36001",
+  "nodes": [
+    {
+      "node_type": 12,
+      "kind": "BODY",
+      "id": 1,
+      "byte_start": 81,
+      "highest_node_id": 41839,
+      "attributes_features": 0,
+      "attribute_chains": 2,
+      "surface": 0,
+      "curve": 0,
+      "point": 0,
+      "key": 0,
+      "unknown_modern_0": 0,
+      "unknown_modern_1": 0,
+      "unknown_modern_2": 0,
+      "res_size": 1000.0000000000001,
+      "res_linear": 1e-08,
+      "ref_instance": 0,
+      "next": 0,
+      "previous": 3,
+      "state": 1,
+      "owner": 0,
+      "body_type": 1,
+      "nom_geom_state": 1,
+      "shell": 4,
+      "boundary_surface": 0,
+      "boundary_curve": 5,
+      "boundary_point": 6,
+      "boundary_mesh": 0,
+      "boundary_polyline": 0,
+      "boundary_modern": 0,
+      "region": 7,
+      "edge": 8,
+      "vertex": 0,
+      "index_map_offset": 0,
+      "index_map": 0,
+      "node_id_index_map": 0,
+      "schema_embedding_map": 0,
+      "child": 0,
+      "lowest_node_id": 0,
+      "data": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 176
+    },
+    {
+      "node_type": 70,
+      "kind": "LIST",
+      "id": 2,
+      "byte_start": 176,
+      "node_id": 0,
+      "list_type": 4,
+      "notransmit": 1,
+      "owner": 1,
+      "next": 0,
+      "previous": 0,
+      "list_length": 3,
+      "block_length": 20,
+      "finger_index": 1,
+      "finger_block": 9,
+      "list_block": 9,
+      "user": [
+        0
+      ],
+      "byte_end": 212
+    },
+    {
+      "node_type": 13,
+      "kind": "SHELL",
+      "id": 4,
+      "byte_start": 212,
+      "node_id": 4,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 0,
+      "face": 10,
+      "edge": 0,
+      "vertex": 0,
+      "region": 11,
+      "front_face": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 240
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 5,
+      "byte_start": 240,
+      "node_id": 30698,
+      "attributes_features": 0,
+      "owner": 12,
+      "next": 13,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.17510124999999999,
+        1.3010426069826053e-18,
+        -3.469446951953614e-18
+      ],
+      "axis": [
+        -1.0,
+        1.648593633739941e-16,
+        -3.0846206870711206e-16
+      ],
+      "major_radius": 0.016668750000000003,
+      "minor_radius": 0.0007937499999999913,
+      "x_axis": [
+        3.0846206870711206e-16,
+        -0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 351
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 6,
+      "byte_start": 351,
+      "node_id": 30697,
+      "attributes_features": 0,
+      "owner": 14,
+      "next": 15,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.175895,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.224646799147353e-16
+      ],
+      "radius": 0.01666875,
+      "user": [
+        0
+      ],
+      "byte_end": 454
+    },
+    {
+      "node_type": 19,
+      "kind": "REGION",
+      "id": 7,
+      "byte_start": 454,
+      "node_id": 2,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 11,
+      "previous": 0,
+      "shell": 16,
+      "unknown_modern_region": 0,
+      "type": "V",
+      "owner": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 481
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 8,
+      "byte_start": 481,
+      "node_id": 20,
+      "attributes_features": 17,
+      "tolerance": -31415800000000.0,
+      "halfedge": 18,
+      "previous": 0,
+      "next": 19,
+      "curve": 20,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 517
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 17,
+      "byte_start": 517,
+      "node_id": 41799,
+      "definition": 21,
+      "owner": 8,
+      "next": 22,
+      "previous": 0,
+      "next_of_type": 0,
+      "previous_of_type": 23,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 547
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 18,
+      "byte_start": 547,
+      "attributes_features": 0,
+      "loop": 24,
+      "forward": 18,
+      "backward": 18,
+      "vertex": 0,
+      "other": 25,
+      "edge": 8,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 574
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 19,
+      "byte_start": 574,
+      "node_id": 23,
+      "attributes_features": 23,
+      "tolerance": -31415800000000.0,
+      "halfedge": 26,
+      "previous": 8,
+      "next": 27,
+      "curve": 28,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 610
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 20,
+      "byte_start": 610,
+      "node_id": 30350,
+      "attributes_features": 0,
+      "owner": 8,
+      "next": 29,
+      "previous": 30,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.0007937500000000652,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -1.2246467991473532e-16
+      ],
+      "radius": 0.01905,
+      "user": [
+        0
+      ],
+      "byte_end": 713
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 29,
+      "byte_start": 713,
+      "node_id": 30349,
+      "attributes_features": 0,
+      "owner": 31,
+      "next": 32,
+      "previous": 20,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.2246467991473535e-16
+      ],
+      "radius": 0.018256249999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 816
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 30,
+      "byte_start": 816,
+      "node_id": 30354,
+      "attributes_features": 0,
+      "owner": 33,
+      "next": 20,
+      "previous": 28,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.05000625,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -1.2246467991473532e-16
+      ],
+      "radius": 0.01905,
+      "user": [
+        0
+      ],
+      "byte_end": 919
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 33,
+      "byte_start": 919,
+      "node_id": 16,
+      "attributes_features": 34,
+      "tolerance": -31415800000000.0,
+      "halfedge": 35,
+      "previous": 36,
+      "next": 0,
+      "curve": 30,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 955
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 28,
+      "byte_start": 955,
+      "node_id": 30355,
+      "attributes_features": 0,
+      "owner": 19,
+      "next": 30,
+      "previous": 37,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.05080000000000001,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.224646799147353e-16
+      ],
+      "radius": 0.018256249999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 1058
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 37,
+      "byte_start": 1058,
+      "node_id": 30675,
+      "attributes_features": 0,
+      "owner": 38,
+      "next": 28,
+      "previous": 39,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.08810625,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.9990353784097226,
+        0.043912557267171234
+      ],
+      "radius": 0.026987499999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 1161
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 38,
+      "byte_start": 1161,
+      "node_id": 180,
+      "attributes_features": 40,
+      "tolerance": -31415800000000.0,
+      "halfedge": 41,
+      "previous": 31,
+      "next": 42,
+      "curve": 37,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1197
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 39,
+      "byte_start": 1197,
+      "node_id": 30686,
+      "attributes_features": 0,
+      "owner": 42,
+      "next": 37,
+      "previous": 43,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.09652,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.2246467991393172e-16
+      ],
+      "radius": 0.02301875,
+      "user": [
+        0
+      ],
+      "byte_end": 1300
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 42,
+      "byte_start": 1300,
+      "node_id": 325,
+      "attributes_features": 44,
+      "tolerance": -31415800000000.0,
+      "halfedge": 45,
+      "previous": 38,
+      "next": 46,
+      "curve": 39,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1336
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 43,
+      "byte_start": 1336,
+      "node_id": 30687,
+      "attributes_features": 0,
+      "owner": 47,
+      "next": 39,
+      "previous": 48,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.09731375,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -1.2246467991473537e-16
+      ],
+      "radius": 0.0238125,
+      "user": [
+        0
+      ],
+      "byte_end": 1439
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 47,
+      "byte_start": 1439,
+      "node_id": 340,
+      "attributes_features": 49,
+      "tolerance": -31415800000000.0,
+      "halfedge": 50,
+      "previous": 51,
+      "next": 52,
+      "curve": 43,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1475
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 48,
+      "byte_start": 1475,
+      "node_id": 30691,
+      "attributes_features": 0,
+      "owner": 46,
+      "next": 43,
+      "previous": 53,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12112624999999999,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -1.2246467991473532e-16
+      ],
+      "radius": 0.0238125,
+      "user": [
+        0
+      ],
+      "byte_end": 1578
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 46,
+      "byte_start": 1578,
+      "node_id": 336,
+      "attributes_features": 54,
+      "tolerance": -31415800000000.0,
+      "halfedge": 55,
+      "previous": 42,
+      "next": 36,
+      "curve": 48,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1614
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 53,
+      "byte_start": 1614,
+      "node_id": 30692,
+      "attributes_features": 0,
+      "owner": 52,
+      "next": 48,
+      "previous": 15,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12192,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -2.4492935982911275e-16
+      ],
+      "radius": 0.02301875,
+      "user": [
+        0
+      ],
+      "byte_end": 1717
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 52,
+      "byte_start": 1717,
+      "node_id": 343,
+      "attributes_features": 56,
+      "tolerance": -31415800000000.0,
+      "halfedge": 57,
+      "previous": 47,
+      "next": 58,
+      "curve": 53,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1753
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 15,
+      "byte_start": 1753,
+      "node_id": 30696,
+      "attributes_features": 0,
+      "owner": 36,
+      "next": 53,
+      "previous": 6,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.17510124999999999,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -1.2337859543648707e-16
+      ],
+      "radius": 0.0174625,
+      "user": [
+        0
+      ],
+      "byte_end": 1856
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 36,
+      "byte_start": 1856,
+      "node_id": 361,
+      "attributes_features": 59,
+      "tolerance": -31415800000000.0,
+      "halfedge": 60,
+      "previous": 46,
+      "next": 33,
+      "curve": 15,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1892
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 59,
+      "byte_start": 1892,
+      "node_id": 41817,
+      "definition": 21,
+      "owner": 36,
+      "next": 61,
+      "previous": 0,
+      "next_of_type": 54,
+      "previous_of_type": 34,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1922
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 60,
+      "byte_start": 1922,
+      "attributes_features": 0,
+      "loop": 62,
+      "forward": 60,
+      "backward": 60,
+      "vertex": 0,
+      "other": 63,
+      "edge": 36,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 1949
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 62,
+      "byte_start": 1949,
+      "node_id": 3894,
+      "attributes_features": 0,
+      "halfedge": 60,
+      "face": 12,
+      "next": 64,
+      "user": [
+        0
+      ],
+      "byte_end": 1969
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 63,
+      "byte_start": 1969,
+      "attributes_features": 0,
+      "loop": 65,
+      "forward": 63,
+      "backward": 63,
+      "vertex": 0,
+      "other": 60,
+      "edge": 36,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1996
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 65,
+      "byte_start": 1996,
+      "node_id": 3634,
+      "attributes_features": 0,
+      "halfedge": 63,
+      "face": 66,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 2016
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 66,
+      "byte_start": 2016,
+      "node_id": 352,
+      "attributes_features": 67,
+      "tolerance": -31415800000000.0,
+      "next": 68,
+      "previous": 69,
+      "loop": 70,
+      "shell": 4,
+      "surface": 71,
+      "sense": "+",
+      "next_on_surface": 72,
+      "previous_on_surface": 72,
+      "next_front": 68,
+      "previous_front": 69,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2059
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 67,
+      "byte_start": 2059,
+      "node_id": 41830,
+      "definition": 21,
+      "owner": 66,
+      "next": 73,
+      "previous": 0,
+      "next_of_type": 74,
+      "previous_of_type": 75,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2089
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 68,
+      "byte_start": 2089,
+      "node_id": 362,
+      "attributes_features": 75,
+      "tolerance": -31415800000000.0,
+      "next": 76,
+      "previous": 66,
+      "loop": 77,
+      "shell": 4,
+      "surface": 78,
+      "sense": "-",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 76,
+      "previous_front": 66,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2132
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 69,
+      "byte_start": 2132,
+      "node_id": 341,
+      "attributes_features": 74,
+      "tolerance": -31415800000000.0,
+      "next": 66,
+      "previous": 79,
+      "loop": 80,
+      "shell": 4,
+      "surface": 81,
+      "sense": "-",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 66,
+      "previous_front": 79,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2175
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 70,
+      "byte_start": 2175,
+      "node_id": 3900,
+      "attributes_features": 0,
+      "halfedge": 82,
+      "face": 66,
+      "next": 65,
+      "user": [
+        0
+      ],
+      "byte_end": 2195
+    },
+    {
+      "node_type": 51,
+      "kind": "CYLINDER",
+      "id": 71,
+      "byte_start": 2195,
+      "node_id": 1439,
+      "attributes_features": 0,
+      "owner": 66,
+      "next": 83,
+      "previous": 84,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.18468974999999999,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.0174625,
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2298
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 72,
+      "byte_start": 2298,
+      "node_id": 316,
+      "attributes_features": 85,
+      "tolerance": -31415800000000.0,
+      "next": 86,
+      "previous": 87,
+      "loop": 88,
+      "shell": 4,
+      "surface": 71,
+      "sense": "+",
+      "next_on_surface": 66,
+      "previous_on_surface": 66,
+      "next_front": 86,
+      "previous_front": 87,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2341
+    },
+    {
+      "node_type": 13,
+      "kind": "SHELL",
+      "id": 16,
+      "byte_start": 2341,
+      "node_id": 3,
+      "attributes_features": 0,
+      "body": 0,
+      "next": 0,
+      "face": 0,
+      "edge": 0,
+      "vertex": 0,
+      "region": 7,
+      "front_face": 10,
+      "user": [
+        0
+      ],
+      "byte_end": 2369
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 10,
+      "byte_start": 2369,
+      "node_id": 5,
+      "attributes_features": 89,
+      "tolerance": -31415800000000.0,
+      "next": 90,
+      "previous": 0,
+      "loop": 91,
+      "shell": 4,
+      "surface": 92,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 90,
+      "previous_front": 0,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2412
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 89,
+      "byte_start": 2412,
+      "node_id": 41819,
+      "definition": 21,
+      "owner": 10,
+      "next": 93,
+      "previous": 0,
+      "next_of_type": 34,
+      "previous_of_type": 94,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2442
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 90,
+      "byte_start": 2442,
+      "node_id": 11,
+      "attributes_features": 94,
+      "tolerance": -31415800000000.0,
+      "next": 95,
+      "previous": 10,
+      "loop": 24,
+      "shell": 4,
+      "surface": 96,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 95,
+      "previous_front": 10,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2485
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 91,
+      "byte_start": 2485,
+      "node_id": 6,
+      "attributes_features": 0,
+      "halfedge": 97,
+      "face": 10,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 2505
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 92,
+      "byte_start": 2505,
+      "node_id": 951,
+      "attributes_features": 0,
+      "owner": 10,
+      "next": 0,
+      "previous": 98,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2600
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 98,
+      "byte_start": 2600,
+      "node_id": 965,
+      "attributes_features": 0,
+      "owner": 95,
+      "next": 92,
+      "previous": 99,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.05080000000000001,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2695
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 95,
+      "byte_start": 2695,
+      "node_id": 21,
+      "attributes_features": 100,
+      "tolerance": -31415800000000.0,
+      "next": 101,
+      "previous": 90,
+      "loop": 102,
+      "shell": 4,
+      "surface": 98,
+      "sense": "-",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 101,
+      "previous_front": 90,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2738
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 99,
+      "byte_start": 2738,
+      "node_id": 980,
+      "attributes_features": 0,
+      "owner": 103,
+      "next": 98,
+      "previous": 104,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.0635,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2833
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 103,
+      "byte_start": 2833,
+      "node_id": 39,
+      "attributes_features": 105,
+      "tolerance": -31415800000000.0,
+      "next": 106,
+      "previous": 101,
+      "loop": 107,
+      "shell": 4,
+      "surface": 99,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 106,
+      "previous_front": 101,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 2876
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 104,
+      "byte_start": 2876,
+      "node_id": 1119,
+      "attributes_features": 0,
+      "owner": 87,
+      "next": 99,
+      "previous": 108,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.0889,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2971
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 87,
+      "byte_start": 2971,
+      "node_id": 181,
+      "attributes_features": 109,
+      "tolerance": -31415800000000.0,
+      "next": 72,
+      "previous": 106,
+      "loop": 110,
+      "shell": 4,
+      "surface": 104,
+      "sense": "-",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 72,
+      "previous_front": 106,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3014
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 108,
+      "byte_start": 3014,
+      "node_id": 1258,
+      "attributes_features": 0,
+      "owner": 86,
+      "next": 104,
+      "previous": 81,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.09652,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3109
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 86,
+      "byte_start": 3109,
+      "node_id": 323,
+      "attributes_features": 111,
+      "tolerance": -31415800000000.0,
+      "next": 79,
+      "previous": 72,
+      "loop": 112,
+      "shell": 4,
+      "surface": 108,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 79,
+      "previous_front": 72,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3152
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 81,
+      "byte_start": 3152,
+      "node_id": 1273,
+      "attributes_features": 0,
+      "owner": 69,
+      "next": 108,
+      "previous": 78,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.12192,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3247
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 78,
+      "byte_start": 3247,
+      "node_id": 1291,
+      "attributes_features": 0,
+      "owner": 68,
+      "next": 81,
+      "previous": 96,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.175895,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3342
+    },
+    {
+      "node_type": 51,
+      "kind": "CYLINDER",
+      "id": 96,
+      "byte_start": 3342,
+      "node_id": 1296,
+      "attributes_features": 0,
+      "owner": 90,
+      "next": 78,
+      "previous": 113,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.18468974999999999,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.01905,
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3445
+    },
+    {
+      "node_type": 51,
+      "kind": "CYLINDER",
+      "id": 113,
+      "byte_start": 3445,
+      "node_id": 1299,
+      "attributes_features": 0,
+      "owner": 101,
+      "next": 96,
+      "previous": 114,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.18468974999999999,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.013969999999999998,
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3548
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 101,
+      "byte_start": 3548,
+      "node_id": 32,
+      "attributes_features": 115,
+      "tolerance": -31415800000000.0,
+      "next": 103,
+      "previous": 95,
+      "loop": 116,
+      "shell": 4,
+      "surface": 113,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 103,
+      "previous_front": 95,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3591
+    },
+    {
+      "node_type": 51,
+      "kind": "CYLINDER",
+      "id": 114,
+      "byte_start": 3591,
+      "node_id": 1426,
+      "attributes_features": 0,
+      "owner": 106,
+      "next": 113,
+      "previous": 83,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.18468974999999999,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.026987499999999998,
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3694
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 106,
+      "byte_start": 3694,
+      "node_id": 171,
+      "attributes_features": 117,
+      "tolerance": -31415800000000.0,
+      "next": 87,
+      "previous": 103,
+      "loop": 118,
+      "shell": 4,
+      "surface": 114,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 87,
+      "previous_front": 103,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3737
+    },
+    {
+      "node_type": 51,
+      "kind": "CYLINDER",
+      "id": 83,
+      "byte_start": 3737,
+      "node_id": 1436,
+      "attributes_features": 0,
+      "owner": 79,
+      "next": 114,
+      "previous": 71,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.18468974999999999,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "radius": 0.0238125,
+      "x_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3840
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 79,
+      "byte_start": 3840,
+      "node_id": 331,
+      "attributes_features": 119,
+      "tolerance": -31415800000000.0,
+      "next": 69,
+      "previous": 86,
+      "loop": 120,
+      "shell": 4,
+      "surface": 83,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 69,
+      "previous_front": 86,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3883
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 119,
+      "byte_start": 3883,
+      "node_id": 41828,
+      "definition": 21,
+      "owner": 79,
+      "next": 121,
+      "previous": 0,
+      "next_of_type": 111,
+      "previous_of_type": 74,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3913
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 120,
+      "byte_start": 3913,
+      "node_id": 3901,
+      "attributes_features": 0,
+      "halfedge": 50,
+      "face": 79,
+      "next": 122,
+      "user": [
+        0
+      ],
+      "byte_end": 3933
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 50,
+      "byte_start": 3933,
+      "attributes_features": 0,
+      "loop": 120,
+      "forward": 50,
+      "backward": 50,
+      "vertex": 0,
+      "other": 123,
+      "edge": 47,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3960
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 122,
+      "byte_start": 3960,
+      "node_id": 3617,
+      "attributes_features": 0,
+      "halfedge": 124,
+      "face": 79,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 3980
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 124,
+      "byte_start": 3980,
+      "attributes_features": 0,
+      "loop": 122,
+      "forward": 124,
+      "backward": 124,
+      "vertex": 0,
+      "other": 55,
+      "edge": 46,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 4007
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 55,
+      "byte_start": 4007,
+      "attributes_features": 0,
+      "loop": 125,
+      "forward": 55,
+      "backward": 55,
+      "vertex": 0,
+      "other": 124,
+      "edge": 46,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 4034
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 125,
+      "byte_start": 4034,
+      "node_id": 3895,
+      "attributes_features": 0,
+      "halfedge": 55,
+      "face": 126,
+      "next": 127,
+      "user": [
+        0
+      ],
+      "byte_end": 4054
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 126,
+      "byte_start": 4054,
+      "node_id": 682,
+      "attributes_features": 128,
+      "tolerance": -31415800000000.0,
+      "next": 12,
+      "previous": 129,
+      "loop": 125,
+      "shell": 4,
+      "surface": 13,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 12,
+      "previous_front": 129,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 4097
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 127,
+      "byte_start": 4097,
+      "node_id": 3765,
+      "attributes_features": 0,
+      "halfedge": 130,
+      "face": 126,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 4117
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 130,
+      "byte_start": 4117,
+      "attributes_features": 0,
+      "loop": 127,
+      "forward": 130,
+      "backward": 130,
+      "vertex": 0,
+      "other": 57,
+      "edge": 52,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 4144
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 57,
+      "byte_start": 4144,
+      "attributes_features": 0,
+      "loop": 80,
+      "forward": 57,
+      "backward": 57,
+      "vertex": 0,
+      "other": 130,
+      "edge": 52,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 4171
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 80,
+      "byte_start": 4171,
+      "node_id": 342,
+      "attributes_features": 0,
+      "halfedge": 57,
+      "face": 69,
+      "next": 131,
+      "user": [
+        0
+      ],
+      "byte_end": 4191
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 131,
+      "byte_start": 4191,
+      "node_id": 347,
+      "attributes_features": 0,
+      "halfedge": 132,
+      "face": 69,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 4211
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 132,
+      "byte_start": 4211,
+      "attributes_features": 0,
+      "loop": 131,
+      "forward": 132,
+      "backward": 132,
+      "vertex": 0,
+      "other": 133,
+      "edge": 58,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 4238
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 133,
+      "byte_start": 4238,
+      "attributes_features": 0,
+      "loop": 134,
+      "forward": 133,
+      "backward": 133,
+      "vertex": 0,
+      "other": 132,
+      "edge": 58,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 4265
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 58,
+      "byte_start": 4265,
+      "node_id": 348,
+      "attributes_features": 135,
+      "tolerance": -31415800000000.0,
+      "halfedge": 132,
+      "previous": 52,
+      "next": 14,
+      "curve": 32,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4301
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 135,
+      "byte_start": 4301,
+      "node_id": 41810,
+      "definition": 21,
+      "owner": 58,
+      "next": 136,
+      "previous": 0,
+      "next_of_type": 56,
+      "previous_of_type": 137,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4331
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 14,
+      "byte_start": 4331,
+      "node_id": 364,
+      "attributes_features": 137,
+      "tolerance": -31415800000000.0,
+      "halfedge": 138,
+      "previous": 58,
+      "next": 139,
+      "curve": 6,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4367
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 32,
+      "byte_start": 4367,
+      "node_id": 30345,
+      "attributes_features": 0,
+      "owner": 58,
+      "next": 140,
+      "previous": 29,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12192,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        -0.0,
+        1.0,
+        -2.449293598294692e-16
+      ],
+      "radius": 0.018256249999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 4470
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 140,
+      "byte_start": 4470,
+      "node_id": 30344,
+      "attributes_features": 0,
+      "owner": 139,
+      "next": 141,
+      "previous": 32,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12271375,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        1.2246467991473532e-16
+      ],
+      "radius": 0.0174625,
+      "user": [
+        0
+      ],
+      "byte_end": 4573
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 139,
+      "byte_start": 4573,
+      "node_id": 357,
+      "attributes_features": 142,
+      "tolerance": -31415800000000.0,
+      "halfedge": 143,
+      "previous": 14,
+      "next": 31,
+      "curve": 140,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4609
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 141,
+      "byte_start": 4609,
+      "node_id": 30340,
+      "attributes_features": 0,
+      "owner": 144,
+      "next": 145,
+      "previous": 140,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.06429375000000001,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.9590450935029994,
+        0.28325343533278313
+      ],
+      "radius": 0.026987499999999994,
+      "user": [
+        0
+      ],
+      "byte_end": 4712
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 144,
+      "byte_start": 4712,
+      "node_id": 176,
+      "attributes_features": 146,
+      "tolerance": -31415800000000.0,
+      "halfedge": 147,
+      "previous": 148,
+      "next": 149,
+      "curve": 141,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4748
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 145,
+      "byte_start": 4748,
+      "node_id": 30293,
+      "attributes_features": 0,
+      "owner": 149,
+      "next": 150,
+      "previous": 141,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.0889,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.7240650400050135,
+        -0.6897316998968065
+      ],
+      "radius": 0.02619375,
+      "user": [
+        0
+      ],
+      "byte_end": 4851
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 149,
+      "byte_start": 4851,
+      "node_id": 186,
+      "attributes_features": 151,
+      "tolerance": -31415800000000.0,
+      "halfedge": 152,
+      "previous": 144,
+      "next": 153,
+      "curve": 145,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 4887
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 150,
+      "byte_start": 4887,
+      "node_id": 30277,
+      "attributes_features": 0,
+      "owner": 148,
+      "next": 154,
+      "previous": 145,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.0635,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.9576299547214835,
+        -0.28800151010043257
+      ],
+      "radius": 0.026193749999999995,
+      "user": [
+        0
+      ],
+      "byte_end": 4990
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 148,
+      "byte_start": 4990,
+      "node_id": 44,
+      "attributes_features": 155,
+      "tolerance": -31415800000000.0,
+      "halfedge": 156,
+      "previous": 157,
+      "next": 144,
+      "curve": 150,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5026
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 154,
+      "byte_start": 5026,
+      "node_id": 1253,
+      "attributes_features": 0,
+      "owner": 51,
+      "next": 158,
+      "previous": 150,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.09652000000000001,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "radius": 0.0174625,
+      "user": [
+        0
+      ],
+      "byte_end": 5129
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 51,
+      "byte_start": 5129,
+      "node_id": 318,
+      "attributes_features": 159,
+      "tolerance": -31415800000000.0,
+      "halfedge": 160,
+      "previous": 153,
+      "next": 47,
+      "curve": 154,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5165
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 158,
+      "byte_start": 5165,
+      "node_id": 1248,
+      "attributes_features": 0,
+      "owner": 153,
+      "next": 161,
+      "previous": 154,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.08889999999999998,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "radius": 0.0174625,
+      "user": [
+        0
+      ],
+      "byte_end": 5268
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 153,
+      "byte_start": 5268,
+      "node_id": 312,
+      "attributes_features": 162,
+      "tolerance": -31415800000000.0,
+      "halfedge": 163,
+      "previous": 149,
+      "next": 51,
+      "curve": 158,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5304
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 161,
+      "byte_start": 5304,
+      "node_id": 975,
+      "attributes_features": 0,
+      "owner": 157,
+      "next": 164,
+      "previous": 158,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.06349999999999999,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "radius": 0.013969999999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 5407
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 157,
+      "byte_start": 5407,
+      "node_id": 34,
+      "attributes_features": 165,
+      "tolerance": -31415800000000.0,
+      "halfedge": 166,
+      "previous": 27,
+      "next": 148,
+      "curve": 161,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5443
+    },
+    {
+      "node_type": 31,
+      "kind": "CIRCLE",
+      "id": 164,
+      "byte_start": 5443,
+      "node_id": 970,
+      "attributes_features": 0,
+      "owner": 27,
+      "next": 0,
+      "previous": 161,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.050799999999999984,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "radius": 0.013969999999999998,
+      "user": [
+        0
+      ],
+      "byte_end": 5546
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 27,
+      "byte_start": 5546,
+      "node_id": 28,
+      "attributes_features": 167,
+      "tolerance": -31415800000000.0,
+      "halfedge": 168,
+      "previous": 19,
+      "next": 157,
+      "curve": 164,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 5582
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 167,
+      "byte_start": 5582,
+      "node_id": 41801,
+      "definition": 21,
+      "owner": 27,
+      "next": 169,
+      "previous": 0,
+      "next_of_type": 23,
+      "previous_of_type": 165,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5612
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 168,
+      "byte_start": 5612,
+      "attributes_features": 0,
+      "loop": 170,
+      "forward": 168,
+      "backward": 168,
+      "vertex": 0,
+      "other": 171,
+      "edge": 27,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 5639
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 170,
+      "byte_start": 5639,
+      "node_id": 27,
+      "attributes_features": 0,
+      "halfedge": 168,
+      "face": 95,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 5659
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 171,
+      "byte_start": 5659,
+      "attributes_features": 0,
+      "loop": 116,
+      "forward": 171,
+      "backward": 171,
+      "vertex": 0,
+      "other": 168,
+      "edge": 27,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 5686
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 116,
+      "byte_start": 5686,
+      "node_id": 3903,
+      "attributes_features": 0,
+      "halfedge": 171,
+      "face": 101,
+      "next": 172,
+      "user": [
+        0
+      ],
+      "byte_end": 5706
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 172,
+      "byte_start": 5706,
+      "node_id": 3572,
+      "attributes_features": 0,
+      "halfedge": 166,
+      "face": 101,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 5726
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 166,
+      "byte_start": 5726,
+      "attributes_features": 0,
+      "loop": 172,
+      "forward": 166,
+      "backward": 166,
+      "vertex": 0,
+      "other": 173,
+      "edge": 157,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 5753
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 173,
+      "byte_start": 5753,
+      "attributes_features": 0,
+      "loop": 174,
+      "forward": 173,
+      "backward": 173,
+      "vertex": 0,
+      "other": 166,
+      "edge": 157,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 5780
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 174,
+      "byte_start": 5780,
+      "node_id": 169,
+      "attributes_features": 0,
+      "halfedge": 173,
+      "face": 103,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 5800
+    },
+    {
+      "node_type": 80,
+      "kind": "ATTRIB_DEF",
+      "id": 21,
+      "byte_start": 5800,
+      "next": 175,
+      "identifier": 176,
+      "type_id": 9000,
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0
+      ],
+      "field_names": 0,
+      "legal_owners": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fields": [
+        9
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5848
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 169,
+      "byte_start": 5848,
+      "node_id": 11545,
+      "definition": 177,
+      "owner": 27,
+      "next": 0,
+      "previous": 167,
+      "next_of_type": 178,
+      "previous_of_type": 179,
+      "fields": [
+        180
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5878
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 23,
+      "byte_start": 5878,
+      "node_id": 41800,
+      "definition": 21,
+      "owner": 19,
+      "next": 178,
+      "previous": 0,
+      "next_of_type": 17,
+      "previous_of_type": 167,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5908
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 165,
+      "byte_start": 5908,
+      "node_id": 41802,
+      "definition": 21,
+      "owner": 157,
+      "next": 179,
+      "previous": 0,
+      "next_of_type": 167,
+      "previous_of_type": 155,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5938
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 179,
+      "byte_start": 5938,
+      "node_id": 11546,
+      "definition": 177,
+      "owner": 157,
+      "next": 0,
+      "previous": 165,
+      "next_of_type": 169,
+      "previous_of_type": 181,
+      "fields": [
+        182
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5968
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 155,
+      "byte_start": 5968,
+      "node_id": 41803,
+      "definition": 21,
+      "owner": 148,
+      "next": 183,
+      "previous": 0,
+      "next_of_type": 165,
+      "previous_of_type": 146,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 5998
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 183,
+      "byte_start": 5998,
+      "node_id": 41506,
+      "definition": 177,
+      "owner": 148,
+      "next": 184,
+      "previous": 155,
+      "next_of_type": 185,
+      "previous_of_type": 0,
+      "fields": [
+        186
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6028
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 146,
+      "byte_start": 6028,
+      "node_id": 41804,
+      "definition": 21,
+      "owner": 144,
+      "next": 185,
+      "previous": 0,
+      "next_of_type": 155,
+      "previous_of_type": 151,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6058
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 185,
+      "byte_start": 6058,
+      "node_id": 41504,
+      "definition": 177,
+      "owner": 144,
+      "next": 187,
+      "previous": 146,
+      "next_of_type": 187,
+      "previous_of_type": 183,
+      "fields": [
+        188
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6088
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 151,
+      "byte_start": 6088,
+      "node_id": 41805,
+      "definition": 21,
+      "owner": 149,
+      "next": 189,
+      "previous": 0,
+      "next_of_type": 146,
+      "previous_of_type": 162,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6118
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 189,
+      "byte_start": 6118,
+      "node_id": 41474,
+      "definition": 177,
+      "owner": 149,
+      "next": 190,
+      "previous": 151,
+      "next_of_type": 191,
+      "previous_of_type": 192,
+      "fields": [
+        193
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6148
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 162,
+      "byte_start": 6148,
+      "node_id": 41806,
+      "definition": 21,
+      "owner": 153,
+      "next": 194,
+      "previous": 0,
+      "next_of_type": 151,
+      "previous_of_type": 159,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6178
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 194,
+      "byte_start": 6178,
+      "node_id": 11614,
+      "definition": 177,
+      "owner": 153,
+      "next": 0,
+      "previous": 162,
+      "next_of_type": 195,
+      "previous_of_type": 196,
+      "fields": [
+        197
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6208
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 159,
+      "byte_start": 6208,
+      "node_id": 41807,
+      "definition": 21,
+      "owner": 51,
+      "next": 196,
+      "previous": 0,
+      "next_of_type": 162,
+      "previous_of_type": 49,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6238
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 196,
+      "byte_start": 6238,
+      "node_id": 11615,
+      "definition": 177,
+      "owner": 51,
+      "next": 0,
+      "previous": 159,
+      "next_of_type": 194,
+      "previous_of_type": 198,
+      "fields": [
+        199
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6268
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 49,
+      "byte_start": 6268,
+      "node_id": 41808,
+      "definition": 21,
+      "owner": 47,
+      "next": 198,
+      "previous": 0,
+      "next_of_type": 159,
+      "previous_of_type": 56,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6298
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 198,
+      "byte_start": 6298,
+      "node_id": 11616,
+      "definition": 177,
+      "owner": 47,
+      "next": 0,
+      "previous": 49,
+      "next_of_type": 196,
+      "previous_of_type": 200,
+      "fields": [
+        201
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6328
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 56,
+      "byte_start": 6328,
+      "node_id": 41809,
+      "definition": 21,
+      "owner": 52,
+      "next": 200,
+      "previous": 0,
+      "next_of_type": 49,
+      "previous_of_type": 135,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6358
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 200,
+      "byte_start": 6358,
+      "node_id": 11617,
+      "definition": 177,
+      "owner": 52,
+      "next": 0,
+      "previous": 56,
+      "next_of_type": 198,
+      "previous_of_type": 136,
+      "fields": [
+        202
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6388
+    },
+    {
+      "node_type": 80,
+      "kind": "ATTRIB_DEF",
+      "id": 177,
+      "byte_start": 6388,
+      "next": 203,
+      "identifier": 204,
+      "type_id": 9000,
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0
+      ],
+      "field_names": 0,
+      "legal_owners": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fields": [
+        1
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6436
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 136,
+      "byte_start": 6436,
+      "node_id": 11618,
+      "definition": 177,
+      "owner": 58,
+      "next": 0,
+      "previous": 135,
+      "next_of_type": 200,
+      "previous_of_type": 205,
+      "fields": [
+        206
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6466
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 202,
+      "byte_start": 6466,
+      "values": [
+        380026768
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6482
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 205,
+      "byte_start": 6482,
+      "node_id": 11619,
+      "definition": 177,
+      "owner": 14,
+      "next": 0,
+      "previous": 137,
+      "next_of_type": 136,
+      "previous_of_type": 207,
+      "fields": [
+        208
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6512
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 206,
+      "byte_start": 6512,
+      "values": [
+        380026800
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6528
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 137,
+      "byte_start": 6528,
+      "node_id": 41811,
+      "definition": 21,
+      "owner": 14,
+      "next": 205,
+      "previous": 0,
+      "next_of_type": 135,
+      "previous_of_type": 142,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6558
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 207,
+      "byte_start": 6558,
+      "node_id": 11665,
+      "definition": 177,
+      "owner": 139,
+      "next": 0,
+      "previous": 142,
+      "next_of_type": 205,
+      "previous_of_type": 209,
+      "fields": [
+        210
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6588
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 208,
+      "byte_start": 6588,
+      "values": [
+        380026832
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6604
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 142,
+      "byte_start": 6604,
+      "node_id": 41812,
+      "definition": 21,
+      "owner": 139,
+      "next": 207,
+      "previous": 0,
+      "next_of_type": 137,
+      "previous_of_type": 211,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6634
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 209,
+      "byte_start": 6634,
+      "node_id": 11666,
+      "definition": 177,
+      "owner": 31,
+      "next": 0,
+      "previous": 211,
+      "next_of_type": 207,
+      "previous_of_type": 212,
+      "fields": [
+        213
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6664
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 210,
+      "byte_start": 6664,
+      "values": [
+        380028304
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6680
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 31,
+      "byte_start": 6680,
+      "node_id": 7,
+      "attributes_features": 211,
+      "tolerance": -31415800000000.0,
+      "halfedge": 214,
+      "previous": 139,
+      "next": 38,
+      "curve": 29,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 6716
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 211,
+      "byte_start": 6716,
+      "node_id": 41813,
+      "definition": 21,
+      "owner": 31,
+      "next": 209,
+      "previous": 0,
+      "next_of_type": 142,
+      "previous_of_type": 40,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6746
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 212,
+      "byte_start": 6746,
+      "node_id": 11727,
+      "definition": 177,
+      "owner": 38,
+      "next": 0,
+      "previous": 215,
+      "next_of_type": 209,
+      "previous_of_type": 216,
+      "fields": [
+        217
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6776
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 213,
+      "byte_start": 6776,
+      "values": [
+        380028336
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6792
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 215,
+      "byte_start": 6792,
+      "node_id": 41443,
+      "definition": 177,
+      "owner": 38,
+      "next": 212,
+      "previous": 218,
+      "next_of_type": 219,
+      "previous_of_type": 218,
+      "fields": [
+        220
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6822
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 216,
+      "byte_start": 6822,
+      "node_id": 11732,
+      "definition": 177,
+      "owner": 42,
+      "next": 0,
+      "previous": 44,
+      "next_of_type": 212,
+      "previous_of_type": 221,
+      "fields": [
+        222
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6852
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 217,
+      "byte_start": 6852,
+      "values": [
+        380030288
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6868
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 44,
+      "byte_start": 6868,
+      "node_id": 41815,
+      "definition": 21,
+      "owner": 42,
+      "next": 216,
+      "previous": 0,
+      "next_of_type": 40,
+      "previous_of_type": 54,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6898
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 221,
+      "byte_start": 6898,
+      "node_id": 11733,
+      "definition": 177,
+      "owner": 46,
+      "next": 0,
+      "previous": 54,
+      "next_of_type": 216,
+      "previous_of_type": 61,
+      "fields": [
+        223
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6928
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 222,
+      "byte_start": 6928,
+      "values": [
+        380030448
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6944
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 54,
+      "byte_start": 6944,
+      "node_id": 41816,
+      "definition": 21,
+      "owner": 46,
+      "next": 221,
+      "previous": 0,
+      "next_of_type": 44,
+      "previous_of_type": 59,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 6974
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 61,
+      "byte_start": 6974,
+      "node_id": 11734,
+      "definition": 177,
+      "owner": 36,
+      "next": 0,
+      "previous": 59,
+      "next_of_type": 221,
+      "previous_of_type": 224,
+      "fields": [
+        225
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7004
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 223,
+      "byte_start": 7004,
+      "values": [
+        380030480
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7020
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 224,
+      "byte_start": 7020,
+      "node_id": 11830,
+      "definition": 177,
+      "owner": 33,
+      "next": 0,
+      "previous": 34,
+      "next_of_type": 61,
+      "previous_of_type": 93,
+      "fields": [
+        226
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7050
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 225,
+      "byte_start": 7050,
+      "values": [
+        380030512
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7066
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 34,
+      "byte_start": 7066,
+      "node_id": 41818,
+      "definition": 21,
+      "owner": 33,
+      "next": 224,
+      "previous": 0,
+      "next_of_type": 59,
+      "previous_of_type": 89,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7096
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 93,
+      "byte_start": 7096,
+      "node_id": 11831,
+      "definition": 177,
+      "owner": 10,
+      "next": 227,
+      "previous": 89,
+      "next_of_type": 224,
+      "previous_of_type": 228,
+      "fields": [
+        229
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7126
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 226,
+      "byte_start": 7126,
+      "values": [
+        380033584
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7142
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 227,
+      "byte_start": 7142,
+      "node_id": 826,
+      "definition": 175,
+      "owner": 10,
+      "next": 0,
+      "previous": 93,
+      "next_of_type": 0,
+      "previous_of_type": 230,
+      "fields": [
+        231
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7172
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 228,
+      "byte_start": 7172,
+      "node_id": 11832,
+      "definition": 177,
+      "owner": 90,
+      "next": 230,
+      "previous": 94,
+      "next_of_type": 93,
+      "previous_of_type": 232,
+      "fields": [
+        233
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7202
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 229,
+      "byte_start": 7202,
+      "values": [
+        380033616
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7218
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 230,
+      "byte_start": 7218,
+      "node_id": 827,
+      "definition": 175,
+      "owner": 90,
+      "next": 0,
+      "previous": 228,
+      "next_of_type": 227,
+      "previous_of_type": 234,
+      "fields": [
+        235
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7248
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 94,
+      "byte_start": 7248,
+      "node_id": 41820,
+      "definition": 21,
+      "owner": 90,
+      "next": 228,
+      "previous": 0,
+      "next_of_type": 89,
+      "previous_of_type": 100,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7278
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 232,
+      "byte_start": 7278,
+      "node_id": 11833,
+      "definition": 177,
+      "owner": 95,
+      "next": 234,
+      "previous": 100,
+      "next_of_type": 228,
+      "previous_of_type": 236,
+      "fields": [
+        237
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7308
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 233,
+      "byte_start": 7308,
+      "values": [
+        380033648
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7324
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 234,
+      "byte_start": 7324,
+      "node_id": 828,
+      "definition": 175,
+      "owner": 95,
+      "next": 0,
+      "previous": 232,
+      "next_of_type": 230,
+      "previous_of_type": 238,
+      "fields": [
+        239
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7354
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 100,
+      "byte_start": 7354,
+      "node_id": 41821,
+      "definition": 21,
+      "owner": 95,
+      "next": 232,
+      "previous": 0,
+      "next_of_type": 94,
+      "previous_of_type": 115,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7384
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 236,
+      "byte_start": 7384,
+      "node_id": 11834,
+      "definition": 177,
+      "owner": 101,
+      "next": 238,
+      "previous": 115,
+      "next_of_type": 232,
+      "previous_of_type": 240,
+      "fields": [
+        241
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7414
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 237,
+      "byte_start": 7414,
+      "values": [
+        380033680
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7430
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 238,
+      "byte_start": 7430,
+      "node_id": 829,
+      "definition": 175,
+      "owner": 101,
+      "next": 0,
+      "previous": 236,
+      "next_of_type": 234,
+      "previous_of_type": 242,
+      "fields": [
+        243
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7460
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 115,
+      "byte_start": 7460,
+      "node_id": 41822,
+      "definition": 21,
+      "owner": 101,
+      "next": 236,
+      "previous": 0,
+      "next_of_type": 100,
+      "previous_of_type": 105,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7490
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 240,
+      "byte_start": 7490,
+      "node_id": 11835,
+      "definition": 177,
+      "owner": 103,
+      "next": 242,
+      "previous": 105,
+      "next_of_type": 236,
+      "previous_of_type": 244,
+      "fields": [
+        245
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7520
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 241,
+      "byte_start": 7520,
+      "values": [
+        380033712
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7536
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 242,
+      "byte_start": 7536,
+      "node_id": 830,
+      "definition": 175,
+      "owner": 103,
+      "next": 0,
+      "previous": 240,
+      "next_of_type": 238,
+      "previous_of_type": 246,
+      "fields": [
+        247
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7566
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 105,
+      "byte_start": 7566,
+      "node_id": 41823,
+      "definition": 21,
+      "owner": 103,
+      "next": 240,
+      "previous": 0,
+      "next_of_type": 115,
+      "previous_of_type": 117,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7596
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 244,
+      "byte_start": 7596,
+      "node_id": 11836,
+      "definition": 177,
+      "owner": 106,
+      "next": 246,
+      "previous": 248,
+      "next_of_type": 240,
+      "previous_of_type": 249,
+      "fields": [
+        250
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7626
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 245,
+      "byte_start": 7626,
+      "values": [
+        380033744
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7642
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 246,
+      "byte_start": 7642,
+      "node_id": 831,
+      "definition": 175,
+      "owner": 106,
+      "next": 0,
+      "previous": 244,
+      "next_of_type": 242,
+      "previous_of_type": 251,
+      "fields": [
+        252
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7672
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 248,
+      "byte_start": 7672,
+      "node_id": 41381,
+      "definition": 177,
+      "owner": 106,
+      "next": 244,
+      "previous": 253,
+      "next_of_type": 254,
+      "previous_of_type": 253,
+      "fields": [
+        255
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7702
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 249,
+      "byte_start": 7702,
+      "node_id": 11837,
+      "definition": 177,
+      "owner": 87,
+      "next": 251,
+      "previous": 109,
+      "next_of_type": 244,
+      "previous_of_type": 256,
+      "fields": [
+        257
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7732
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 250,
+      "byte_start": 7732,
+      "values": [
+        380033776
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7748
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 251,
+      "byte_start": 7748,
+      "node_id": 832,
+      "definition": 175,
+      "owner": 87,
+      "next": 0,
+      "previous": 249,
+      "next_of_type": 246,
+      "previous_of_type": 258,
+      "fields": [
+        259
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7778
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 109,
+      "byte_start": 7778,
+      "node_id": 41825,
+      "definition": 21,
+      "owner": 87,
+      "next": 249,
+      "previous": 0,
+      "next_of_type": 117,
+      "previous_of_type": 85,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7808
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 256,
+      "byte_start": 7808,
+      "node_id": 11838,
+      "definition": 177,
+      "owner": 72,
+      "next": 258,
+      "previous": 85,
+      "next_of_type": 249,
+      "previous_of_type": 260,
+      "fields": [
+        261
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7838
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 257,
+      "byte_start": 7838,
+      "values": [
+        380033808
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7854
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 258,
+      "byte_start": 7854,
+      "node_id": 833,
+      "definition": 175,
+      "owner": 72,
+      "next": 0,
+      "previous": 256,
+      "next_of_type": 251,
+      "previous_of_type": 262,
+      "fields": [
+        263
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7884
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 85,
+      "byte_start": 7884,
+      "node_id": 41826,
+      "definition": 21,
+      "owner": 72,
+      "next": 256,
+      "previous": 0,
+      "next_of_type": 109,
+      "previous_of_type": 111,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7914
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 260,
+      "byte_start": 7914,
+      "node_id": 11839,
+      "definition": 177,
+      "owner": 86,
+      "next": 262,
+      "previous": 111,
+      "next_of_type": 256,
+      "previous_of_type": 121,
+      "fields": [
+        264
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7944
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 261,
+      "byte_start": 7944,
+      "values": [
+        380033840
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7960
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 262,
+      "byte_start": 7960,
+      "node_id": 834,
+      "definition": 175,
+      "owner": 86,
+      "next": 0,
+      "previous": 260,
+      "next_of_type": 258,
+      "previous_of_type": 265,
+      "fields": [
+        266
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 7990
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 111,
+      "byte_start": 7990,
+      "node_id": 41827,
+      "definition": 21,
+      "owner": 86,
+      "next": 260,
+      "previous": 0,
+      "next_of_type": 85,
+      "previous_of_type": 119,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8020
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 121,
+      "byte_start": 8020,
+      "node_id": 11840,
+      "definition": 177,
+      "owner": 79,
+      "next": 265,
+      "previous": 119,
+      "next_of_type": 260,
+      "previous_of_type": 267,
+      "fields": [
+        268
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8050
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 264,
+      "byte_start": 8050,
+      "values": [
+        380033872
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8066
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 265,
+      "byte_start": 8066,
+      "node_id": 835,
+      "definition": 175,
+      "owner": 79,
+      "next": 0,
+      "previous": 121,
+      "next_of_type": 262,
+      "previous_of_type": 269,
+      "fields": [
+        270
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8096
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 267,
+      "byte_start": 8096,
+      "node_id": 11841,
+      "definition": 177,
+      "owner": 69,
+      "next": 269,
+      "previous": 74,
+      "next_of_type": 121,
+      "previous_of_type": 73,
+      "fields": [
+        271
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8126
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 268,
+      "byte_start": 8126,
+      "values": [
+        380033904
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8142
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 269,
+      "byte_start": 8142,
+      "node_id": 836,
+      "definition": 175,
+      "owner": 69,
+      "next": 0,
+      "previous": 267,
+      "next_of_type": 265,
+      "previous_of_type": 272,
+      "fields": [
+        273
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8172
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 74,
+      "byte_start": 8172,
+      "node_id": 41829,
+      "definition": 21,
+      "owner": 69,
+      "next": 267,
+      "previous": 0,
+      "next_of_type": 119,
+      "previous_of_type": 67,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8202
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 73,
+      "byte_start": 8202,
+      "node_id": 11842,
+      "definition": 177,
+      "owner": 66,
+      "next": 272,
+      "previous": 67,
+      "next_of_type": 267,
+      "previous_of_type": 274,
+      "fields": [
+        275
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8232
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 271,
+      "byte_start": 8232,
+      "values": [
+        380033936
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8248
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 272,
+      "byte_start": 8248,
+      "node_id": 837,
+      "definition": 175,
+      "owner": 66,
+      "next": 0,
+      "previous": 73,
+      "next_of_type": 269,
+      "previous_of_type": 276,
+      "fields": [
+        277
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8278
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 274,
+      "byte_start": 8278,
+      "node_id": 11843,
+      "definition": 177,
+      "owner": 68,
+      "next": 276,
+      "previous": 75,
+      "next_of_type": 73,
+      "previous_of_type": 278,
+      "fields": [
+        279
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8308
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 275,
+      "byte_start": 8308,
+      "values": [
+        380033968
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8324
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 276,
+      "byte_start": 8324,
+      "node_id": 838,
+      "definition": 175,
+      "owner": 68,
+      "next": 0,
+      "previous": 274,
+      "next_of_type": 272,
+      "previous_of_type": 280,
+      "fields": [
+        281
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8354
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 75,
+      "byte_start": 8354,
+      "node_id": 41831,
+      "definition": 21,
+      "owner": 68,
+      "next": 274,
+      "previous": 0,
+      "next_of_type": 67,
+      "previous_of_type": 282,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8384
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 278,
+      "byte_start": 8384,
+      "node_id": 11859,
+      "definition": 177,
+      "owner": 76,
+      "next": 280,
+      "previous": 282,
+      "next_of_type": 274,
+      "previous_of_type": 283,
+      "fields": [
+        284
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8414
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 279,
+      "byte_start": 8414,
+      "values": [
+        380034000
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8430
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 76,
+      "byte_start": 8430,
+      "node_id": 534,
+      "attributes_features": 282,
+      "tolerance": -31415800000000.0,
+      "next": 285,
+      "previous": 68,
+      "loop": 286,
+      "shell": 4,
+      "surface": 287,
+      "sense": "-",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 285,
+      "previous_front": 68,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 8473
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 280,
+      "byte_start": 8473,
+      "node_id": 859,
+      "definition": 175,
+      "owner": 76,
+      "next": 0,
+      "previous": 278,
+      "next_of_type": 276,
+      "previous_of_type": 288,
+      "fields": [
+        289
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8503
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 282,
+      "byte_start": 8503,
+      "node_id": 41832,
+      "definition": 21,
+      "owner": 76,
+      "next": 278,
+      "previous": 0,
+      "next_of_type": 75,
+      "previous_of_type": 290,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8533
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 283,
+      "byte_start": 8533,
+      "node_id": 11860,
+      "definition": 177,
+      "owner": 285,
+      "next": 288,
+      "previous": 290,
+      "next_of_type": 278,
+      "previous_of_type": 291,
+      "fields": [
+        292
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8563
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 284,
+      "byte_start": 8563,
+      "values": [
+        380034512
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8579
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 285,
+      "byte_start": 8579,
+      "node_id": 540,
+      "attributes_features": 290,
+      "tolerance": -31415800000000.0,
+      "next": 293,
+      "previous": 76,
+      "loop": 294,
+      "shell": 4,
+      "surface": 295,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 293,
+      "previous_front": 76,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 8622
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 288,
+      "byte_start": 8622,
+      "node_id": 861,
+      "definition": 175,
+      "owner": 285,
+      "next": 0,
+      "previous": 283,
+      "next_of_type": 280,
+      "previous_of_type": 296,
+      "fields": [
+        297
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8652
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 290,
+      "byte_start": 8652,
+      "node_id": 41833,
+      "definition": 21,
+      "owner": 285,
+      "next": 283,
+      "previous": 0,
+      "next_of_type": 282,
+      "previous_of_type": 298,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8682
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 291,
+      "byte_start": 8682,
+      "node_id": 11861,
+      "definition": 177,
+      "owner": 293,
+      "next": 296,
+      "previous": 298,
+      "next_of_type": 283,
+      "previous_of_type": 299,
+      "fields": [
+        300
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8712
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 292,
+      "byte_start": 8712,
+      "values": [
+        380034544
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8728
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 293,
+      "byte_start": 8728,
+      "node_id": 544,
+      "attributes_features": 298,
+      "tolerance": -31415800000000.0,
+      "next": 301,
+      "previous": 285,
+      "loop": 302,
+      "shell": 4,
+      "surface": 303,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 301,
+      "previous_front": 285,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 8771
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 296,
+      "byte_start": 8771,
+      "node_id": 862,
+      "definition": 175,
+      "owner": 293,
+      "next": 0,
+      "previous": 291,
+      "next_of_type": 288,
+      "previous_of_type": 304,
+      "fields": [
+        305
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8801
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 298,
+      "byte_start": 8801,
+      "node_id": 41834,
+      "definition": 21,
+      "owner": 293,
+      "next": 291,
+      "previous": 0,
+      "next_of_type": 290,
+      "previous_of_type": 306,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8831
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 299,
+      "byte_start": 8831,
+      "node_id": 11862,
+      "definition": 177,
+      "owner": 301,
+      "next": 304,
+      "previous": 307,
+      "next_of_type": 291,
+      "previous_of_type": 308,
+      "fields": [
+        309
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8861
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 300,
+      "byte_start": 8861,
+      "values": [
+        380034576
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8877
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 301,
+      "byte_start": 8877,
+      "node_id": 548,
+      "attributes_features": 306,
+      "tolerance": -31415800000000.0,
+      "next": 310,
+      "previous": 293,
+      "loop": 311,
+      "shell": 4,
+      "surface": 84,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 310,
+      "previous_front": 293,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 8920
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 304,
+      "byte_start": 8920,
+      "node_id": 863,
+      "definition": 175,
+      "owner": 301,
+      "next": 0,
+      "previous": 299,
+      "next_of_type": 296,
+      "previous_of_type": 312,
+      "fields": [
+        313
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8950
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 307,
+      "byte_start": 8950,
+      "node_id": 41411,
+      "definition": 177,
+      "owner": 301,
+      "next": 299,
+      "previous": 314,
+      "next_of_type": 315,
+      "previous_of_type": 314,
+      "fields": [
+        316
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 8980
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 308,
+      "byte_start": 8980,
+      "node_id": 11892,
+      "definition": 177,
+      "owner": 310,
+      "next": 312,
+      "previous": 317,
+      "next_of_type": 299,
+      "previous_of_type": 318,
+      "fields": [
+        319
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9010
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 309,
+      "byte_start": 9010,
+      "values": [
+        380034608
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9026
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 310,
+      "byte_start": 9026,
+      "node_id": 668,
+      "attributes_features": 320,
+      "tolerance": -31415800000000.0,
+      "next": 129,
+      "previous": 301,
+      "loop": 321,
+      "shell": 4,
+      "surface": 322,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 129,
+      "previous_front": 301,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 9069
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 312,
+      "byte_start": 9069,
+      "node_id": 893,
+      "definition": 175,
+      "owner": 310,
+      "next": 0,
+      "previous": 308,
+      "next_of_type": 304,
+      "previous_of_type": 323,
+      "fields": [
+        324
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9099
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 317,
+      "byte_start": 9099,
+      "node_id": 41351,
+      "definition": 177,
+      "owner": 310,
+      "next": 308,
+      "previous": 325,
+      "next_of_type": 184,
+      "previous_of_type": 325,
+      "fields": [
+        326
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9129
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 318,
+      "byte_start": 9129,
+      "node_id": 11894,
+      "definition": 177,
+      "owner": 129,
+      "next": 323,
+      "previous": 327,
+      "next_of_type": 308,
+      "previous_of_type": 328,
+      "fields": [
+        329
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9159
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 319,
+      "byte_start": 9159,
+      "values": [
+        380035568
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9175
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 129,
+      "byte_start": 9175,
+      "node_id": 676,
+      "attributes_features": 327,
+      "tolerance": -31415800000000.0,
+      "next": 126,
+      "previous": 310,
+      "loop": 330,
+      "shell": 4,
+      "surface": 331,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 126,
+      "previous_front": 310,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 9218
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 323,
+      "byte_start": 9218,
+      "node_id": 895,
+      "definition": 175,
+      "owner": 129,
+      "next": 0,
+      "previous": 318,
+      "next_of_type": 312,
+      "previous_of_type": 332,
+      "fields": [
+        333
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9248
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 327,
+      "byte_start": 9248,
+      "node_id": 41837,
+      "definition": 21,
+      "owner": 129,
+      "next": 318,
+      "previous": 0,
+      "next_of_type": 320,
+      "previous_of_type": 128,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9278
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 328,
+      "byte_start": 9278,
+      "node_id": 11895,
+      "definition": 177,
+      "owner": 126,
+      "next": 332,
+      "previous": 128,
+      "next_of_type": 318,
+      "previous_of_type": 334,
+      "fields": [
+        335
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9308
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 329,
+      "byte_start": 9308,
+      "values": [
+        380035632
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9324
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 332,
+      "byte_start": 9324,
+      "node_id": 897,
+      "definition": 175,
+      "owner": 126,
+      "next": 0,
+      "previous": 328,
+      "next_of_type": 323,
+      "previous_of_type": 336,
+      "fields": [
+        337
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9354
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 128,
+      "byte_start": 9354,
+      "node_id": 41838,
+      "definition": 21,
+      "owner": 126,
+      "next": 328,
+      "previous": 0,
+      "next_of_type": 327,
+      "previous_of_type": 338,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9384
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 334,
+      "byte_start": 9384,
+      "node_id": 11896,
+      "definition": 177,
+      "owner": 12,
+      "next": 336,
+      "previous": 338,
+      "next_of_type": 328,
+      "previous_of_type": 339,
+      "fields": [
+        340
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9414
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 335,
+      "byte_start": 9414,
+      "values": [
+        380035664
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9430
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 12,
+      "byte_start": 9430,
+      "node_id": 688,
+      "attributes_features": 338,
+      "tolerance": -31415800000000.0,
+      "next": 0,
+      "previous": 126,
+      "loop": 62,
+      "shell": 4,
+      "surface": 5,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 0,
+      "previous_front": 126,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 9473
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 336,
+      "byte_start": 9473,
+      "node_id": 899,
+      "definition": 175,
+      "owner": 12,
+      "next": 0,
+      "previous": 334,
+      "next_of_type": 332,
+      "previous_of_type": 0,
+      "fields": [
+        341
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9503
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 338,
+      "byte_start": 9503,
+      "node_id": 41839,
+      "definition": 21,
+      "owner": 12,
+      "next": 334,
+      "previous": 0,
+      "next_of_type": 128,
+      "previous_of_type": 0,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9533
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 339,
+      "byte_start": 9533,
+      "node_id": 40358,
+      "definition": 177,
+      "owner": 149,
+      "next": 195,
+      "previous": 342,
+      "next_of_type": 334,
+      "previous_of_type": 343,
+      "fields": [
+        344
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9563
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 340,
+      "byte_start": 9563,
+      "values": [
+        380035696
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9579
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 195,
+      "byte_start": 9579,
+      "node_id": 11582,
+      "definition": 177,
+      "owner": 149,
+      "next": 0,
+      "previous": 339,
+      "next_of_type": 345,
+      "previous_of_type": 194,
+      "fields": [
+        346
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9609
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 342,
+      "byte_start": 9609,
+      "node_id": 40384,
+      "definition": 177,
+      "owner": 149,
+      "next": 339,
+      "previous": 347,
+      "next_of_type": 343,
+      "previous_of_type": 348,
+      "fields": [
+        349
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9639
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 343,
+      "byte_start": 9639,
+      "node_id": 40364,
+      "definition": 177,
+      "owner": 148,
+      "next": 181,
+      "previous": 348,
+      "next_of_type": 339,
+      "previous_of_type": 342,
+      "fields": [
+        350
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9669
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 344,
+      "byte_start": 9669,
+      "values": [
+        380026640
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9685
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 181,
+      "byte_start": 9685,
+      "node_id": 11548,
+      "definition": 177,
+      "owner": 148,
+      "next": 0,
+      "previous": 343,
+      "next_of_type": 179,
+      "previous_of_type": 345,
+      "fields": [
+        351
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9715
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 348,
+      "byte_start": 9715,
+      "node_id": 40390,
+      "definition": 177,
+      "owner": 148,
+      "next": 343,
+      "previous": 352,
+      "next_of_type": 342,
+      "previous_of_type": 347,
+      "fields": [
+        353
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9745
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 350,
+      "byte_start": 9745,
+      "values": [
+        380025520
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9761
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 352,
+      "byte_start": 9761,
+      "node_id": 40426,
+      "definition": 177,
+      "owner": 148,
+      "next": 348,
+      "previous": 354,
+      "next_of_type": 347,
+      "previous_of_type": 355,
+      "fields": [
+        356
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9791
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 347,
+      "byte_start": 9791,
+      "node_id": 40418,
+      "definition": 177,
+      "owner": 149,
+      "next": 342,
+      "previous": 355,
+      "next_of_type": 348,
+      "previous_of_type": 352,
+      "fields": [
+        357
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9821
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 353,
+      "byte_start": 9821,
+      "values": [
+        380025456
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9837
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 355,
+      "byte_start": 9837,
+      "node_id": 40462,
+      "definition": 177,
+      "owner": 149,
+      "next": 347,
+      "previous": 358,
+      "next_of_type": 352,
+      "previous_of_type": 354,
+      "fields": [
+        359
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9867
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 357,
+      "byte_start": 9867,
+      "values": [
+        380025776
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9883
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 358,
+      "byte_start": 9883,
+      "node_id": 40516,
+      "definition": 177,
+      "owner": 149,
+      "next": 355,
+      "previous": 360,
+      "next_of_type": 354,
+      "previous_of_type": 361,
+      "fields": [
+        362
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9913
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 354,
+      "byte_start": 9913,
+      "node_id": 40472,
+      "definition": 177,
+      "owner": 148,
+      "next": 352,
+      "previous": 361,
+      "next_of_type": 355,
+      "previous_of_type": 358,
+      "fields": [
+        363
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9943
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 359,
+      "byte_start": 9943,
+      "values": [
+        380025840
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9959
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 361,
+      "byte_start": 9959,
+      "node_id": 40528,
+      "definition": 177,
+      "owner": 148,
+      "next": 354,
+      "previous": 364,
+      "next_of_type": 358,
+      "previous_of_type": 360,
+      "fields": [
+        365
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 9989
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 363,
+      "byte_start": 9989,
+      "values": [
+        380025328
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10005
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 364,
+      "byte_start": 10005,
+      "node_id": 40594,
+      "definition": 177,
+      "owner": 148,
+      "next": 361,
+      "previous": 366,
+      "next_of_type": 360,
+      "previous_of_type": 367,
+      "fields": [
+        368
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10035
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 360,
+      "byte_start": 10035,
+      "node_id": 40580,
+      "definition": 177,
+      "owner": 149,
+      "next": 358,
+      "previous": 367,
+      "next_of_type": 361,
+      "previous_of_type": 364,
+      "fields": [
+        369
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10065
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 365,
+      "byte_start": 10065,
+      "values": [
+        380025264
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10081
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 367,
+      "byte_start": 10081,
+      "node_id": 40654,
+      "definition": 177,
+      "owner": 149,
+      "next": 360,
+      "previous": 370,
+      "next_of_type": 364,
+      "previous_of_type": 366,
+      "fields": [
+        371
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10111
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 369,
+      "byte_start": 10111,
+      "values": [
+        380025968
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10127
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 370,
+      "byte_start": 10127,
+      "node_id": 40738,
+      "definition": 177,
+      "owner": 149,
+      "next": 367,
+      "previous": 372,
+      "next_of_type": 366,
+      "previous_of_type": 373,
+      "fields": [
+        374
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10157
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 366,
+      "byte_start": 10157,
+      "node_id": 40670,
+      "definition": 177,
+      "owner": 148,
+      "next": 364,
+      "previous": 373,
+      "next_of_type": 367,
+      "previous_of_type": 370,
+      "fields": [
+        375
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10187
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 371,
+      "byte_start": 10187,
+      "values": [
+        380026032
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10203
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 373,
+      "byte_start": 10203,
+      "node_id": 40756,
+      "definition": 177,
+      "owner": 148,
+      "next": 366,
+      "previous": 376,
+      "next_of_type": 370,
+      "previous_of_type": 372,
+      "fields": [
+        377
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10233
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 375,
+      "byte_start": 10233,
+      "values": [
+        380025136
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10249
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 376,
+      "byte_start": 10249,
+      "node_id": 40852,
+      "definition": 177,
+      "owner": 148,
+      "next": 373,
+      "previous": 378,
+      "next_of_type": 372,
+      "previous_of_type": 379,
+      "fields": [
+        380
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10279
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 372,
+      "byte_start": 10279,
+      "node_id": 40832,
+      "definition": 177,
+      "owner": 149,
+      "next": 370,
+      "previous": 379,
+      "next_of_type": 373,
+      "previous_of_type": 376,
+      "fields": [
+        381
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10309
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 377,
+      "byte_start": 10309,
+      "values": [
+        380025072
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10325
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 379,
+      "byte_start": 10325,
+      "node_id": 40936,
+      "definition": 177,
+      "owner": 149,
+      "next": 372,
+      "previous": 382,
+      "next_of_type": 376,
+      "previous_of_type": 378,
+      "fields": [
+        383
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10355
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 381,
+      "byte_start": 10355,
+      "values": [
+        380026160
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10371
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 382,
+      "byte_start": 10371,
+      "node_id": 41050,
+      "definition": 177,
+      "owner": 149,
+      "next": 379,
+      "previous": 384,
+      "next_of_type": 378,
+      "previous_of_type": 385,
+      "fields": [
+        386
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10401
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 378,
+      "byte_start": 10401,
+      "node_id": 40958,
+      "definition": 177,
+      "owner": 148,
+      "next": 376,
+      "previous": 385,
+      "next_of_type": 379,
+      "previous_of_type": 382,
+      "fields": [
+        387
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10431
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 383,
+      "byte_start": 10431,
+      "values": [
+        380026224
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10447
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 385,
+      "byte_start": 10447,
+      "node_id": 41074,
+      "definition": 177,
+      "owner": 148,
+      "next": 378,
+      "previous": 388,
+      "next_of_type": 382,
+      "previous_of_type": 384,
+      "fields": [
+        389
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10477
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 387,
+      "byte_start": 10477,
+      "values": [
+        380024944
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10493
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 388,
+      "byte_start": 10493,
+      "node_id": 41201,
+      "definition": 177,
+      "owner": 148,
+      "next": 385,
+      "previous": 390,
+      "next_of_type": 391,
+      "previous_of_type": 390,
+      "fields": [
+        392
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10523
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 384,
+      "byte_start": 10523,
+      "node_id": 41173,
+      "definition": 177,
+      "owner": 149,
+      "next": 382,
+      "previous": 391,
+      "next_of_type": 385,
+      "previous_of_type": 391,
+      "fields": [
+        393
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10553
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 389,
+      "byte_start": 10553,
+      "values": [
+        380024880
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10569
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 391,
+      "byte_start": 10569,
+      "node_id": 41176,
+      "definition": 177,
+      "owner": 149,
+      "next": 384,
+      "previous": 190,
+      "next_of_type": 384,
+      "previous_of_type": 388,
+      "fields": [
+        394
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10599
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 393,
+      "byte_start": 10599,
+      "values": [
+        380026416
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10615
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 190,
+      "byte_start": 10615,
+      "node_id": 41320,
+      "definition": 177,
+      "owner": 149,
+      "next": 391,
+      "previous": 189,
+      "next_of_type": 390,
+      "previous_of_type": 184,
+      "fields": [
+        395
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10645
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 394,
+      "byte_start": 10645,
+      "values": [
+        380026352
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10661
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 390,
+      "byte_start": 10661,
+      "node_id": 41204,
+      "definition": 177,
+      "owner": 148,
+      "next": 388,
+      "previous": 184,
+      "next_of_type": 388,
+      "previous_of_type": 190,
+      "fields": [
+        396
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10691
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 184,
+      "byte_start": 10691,
+      "node_id": 41350,
+      "definition": 177,
+      "owner": 148,
+      "next": 390,
+      "previous": 183,
+      "next_of_type": 190,
+      "previous_of_type": 317,
+      "fields": [
+        397
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10721
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 395,
+      "byte_start": 10721,
+      "values": [
+        380026480
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10737
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 397,
+      "byte_start": 10737,
+      "values": [
+        380024688
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10753
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 396,
+      "byte_start": 10753,
+      "values": [
+        380024752
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10769
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 392,
+      "byte_start": 10769,
+      "values": [
+        380024816
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10785
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 386,
+      "byte_start": 10785,
+      "values": [
+        380026288
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10801
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 380,
+      "byte_start": 10801,
+      "values": [
+        380025008
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10817
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 374,
+      "byte_start": 10817,
+      "values": [
+        380026096
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10833
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 368,
+      "byte_start": 10833,
+      "values": [
+        380025200
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10849
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 362,
+      "byte_start": 10849,
+      "values": [
+        380025904
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10865
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 356,
+      "byte_start": 10865,
+      "values": [
+        380025392
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10881
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 345,
+      "byte_start": 10881,
+      "node_id": 11580,
+      "definition": 177,
+      "owner": 144,
+      "next": 0,
+      "previous": 192,
+      "next_of_type": 181,
+      "previous_of_type": 195,
+      "fields": [
+        398
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10911
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 351,
+      "byte_start": 10911,
+      "values": [
+        380024560
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10927
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 192,
+      "byte_start": 10927,
+      "node_id": 41475,
+      "definition": 177,
+      "owner": 144,
+      "next": 345,
+      "previous": 399,
+      "next_of_type": 189,
+      "previous_of_type": 399,
+      "fields": [
+        400
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10957
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 398,
+      "byte_start": 10957,
+      "values": [
+        380025584
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 10973
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 399,
+      "byte_start": 10973,
+      "node_id": 41478,
+      "definition": 177,
+      "owner": 144,
+      "next": 192,
+      "previous": 401,
+      "next_of_type": 192,
+      "previous_of_type": 401,
+      "fields": [
+        402
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11003
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 400,
+      "byte_start": 11003,
+      "values": [
+        380026960
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11019
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 401,
+      "byte_start": 11019,
+      "node_id": 41479,
+      "definition": 177,
+      "owner": 144,
+      "next": 399,
+      "previous": 403,
+      "next_of_type": 399,
+      "previous_of_type": 403,
+      "fields": [
+        404
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11049
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 402,
+      "byte_start": 11049,
+      "values": [
+        380027056
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11065
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 403,
+      "byte_start": 11065,
+      "node_id": 41481,
+      "definition": 177,
+      "owner": 144,
+      "next": 401,
+      "previous": 405,
+      "next_of_type": 401,
+      "previous_of_type": 405,
+      "fields": [
+        406
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11095
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 404,
+      "byte_start": 11095,
+      "values": [
+        380027248
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11111
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 405,
+      "byte_start": 11111,
+      "node_id": 41483,
+      "definition": 177,
+      "owner": 144,
+      "next": 403,
+      "previous": 407,
+      "next_of_type": 403,
+      "previous_of_type": 407,
+      "fields": [
+        408
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11141
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 406,
+      "byte_start": 11141,
+      "values": [
+        380027440
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11157
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 407,
+      "byte_start": 11157,
+      "node_id": 41485,
+      "definition": 177,
+      "owner": 144,
+      "next": 405,
+      "previous": 409,
+      "next_of_type": 405,
+      "previous_of_type": 409,
+      "fields": [
+        410
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11187
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 408,
+      "byte_start": 11187,
+      "values": [
+        380027632
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11203
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 409,
+      "byte_start": 11203,
+      "node_id": 41487,
+      "definition": 177,
+      "owner": 144,
+      "next": 407,
+      "previous": 411,
+      "next_of_type": 407,
+      "previous_of_type": 411,
+      "fields": [
+        412
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11233
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 410,
+      "byte_start": 11233,
+      "values": [
+        380027824
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11249
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 411,
+      "byte_start": 11249,
+      "node_id": 41489,
+      "definition": 177,
+      "owner": 144,
+      "next": 409,
+      "previous": 413,
+      "next_of_type": 409,
+      "previous_of_type": 413,
+      "fields": [
+        414
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11279
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 412,
+      "byte_start": 11279,
+      "values": [
+        380028016
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11295
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 413,
+      "byte_start": 11295,
+      "node_id": 41492,
+      "definition": 177,
+      "owner": 144,
+      "next": 411,
+      "previous": 415,
+      "next_of_type": 411,
+      "previous_of_type": 415,
+      "fields": [
+        416
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11325
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 414,
+      "byte_start": 11325,
+      "values": [
+        380028208
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11341
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 415,
+      "byte_start": 11341,
+      "node_id": 41494,
+      "definition": 177,
+      "owner": 144,
+      "next": 413,
+      "previous": 417,
+      "next_of_type": 413,
+      "previous_of_type": 417,
+      "fields": [
+        418
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11371
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 416,
+      "byte_start": 11371,
+      "values": [
+        380028176
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11387
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 417,
+      "byte_start": 11387,
+      "node_id": 41496,
+      "definition": 177,
+      "owner": 144,
+      "next": 415,
+      "previous": 419,
+      "next_of_type": 415,
+      "previous_of_type": 419,
+      "fields": [
+        420
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11417
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 418,
+      "byte_start": 11417,
+      "values": [
+        380027920
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11433
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 419,
+      "byte_start": 11433,
+      "node_id": 41498,
+      "definition": 177,
+      "owner": 144,
+      "next": 417,
+      "previous": 421,
+      "next_of_type": 417,
+      "previous_of_type": 421,
+      "fields": [
+        422
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11463
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 420,
+      "byte_start": 11463,
+      "values": [
+        380027728
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11479
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 421,
+      "byte_start": 11479,
+      "node_id": 41500,
+      "definition": 177,
+      "owner": 144,
+      "next": 419,
+      "previous": 187,
+      "next_of_type": 419,
+      "previous_of_type": 187,
+      "fields": [
+        423
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11509
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 422,
+      "byte_start": 11509,
+      "values": [
+        380027536
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11525
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 187,
+      "byte_start": 11525,
+      "node_id": 41502,
+      "definition": 177,
+      "owner": 144,
+      "next": 421,
+      "previous": 185,
+      "next_of_type": 421,
+      "previous_of_type": 185,
+      "fields": [
+        424
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11555
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 423,
+      "byte_start": 11555,
+      "values": [
+        380027344
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11571
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 424,
+      "byte_start": 11571,
+      "values": [
+        380027152
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11587
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 349,
+      "byte_start": 11587,
+      "values": [
+        380025712
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11603
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 346,
+      "byte_start": 11603,
+      "values": [
+        380025648
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11619
+    },
+    {
+      "node_type": 80,
+      "kind": "ATTRIB_DEF",
+      "id": 175,
+      "byte_start": 11619,
+      "next": 425,
+      "identifier": 426,
+      "type_id": 9000,
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0
+      ],
+      "field_names": 0,
+      "legal_owners": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fields": [
+        1
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11667
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 341,
+      "byte_start": 11667,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11683
+    },
+    {
+      "node_type": 79,
+      "kind": "ATT_DEF_ID",
+      "id": 426,
+      "byte_start": 11683,
+      "string": [
+        "C",
+        "N",
+        "C",
+        "/",
+        "m",
+        "c",
+        "C",
+        "o",
+        "l",
+        "o",
+        "r"
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11706
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 337,
+      "byte_start": 11706,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11722
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 320,
+      "byte_start": 11722,
+      "node_id": 41836,
+      "definition": 21,
+      "owner": 310,
+      "next": 254,
+      "previous": 0,
+      "next_of_type": 306,
+      "previous_of_type": 327,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11752
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 254,
+      "byte_start": 11752,
+      "node_id": 41380,
+      "definition": 177,
+      "owner": 310,
+      "next": 427,
+      "previous": 320,
+      "next_of_type": 427,
+      "previous_of_type": 248,
+      "fields": [
+        428
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11782
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 306,
+      "byte_start": 11782,
+      "node_id": 41835,
+      "definition": 21,
+      "owner": 301,
+      "next": 219,
+      "previous": 0,
+      "next_of_type": 298,
+      "previous_of_type": 320,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11812
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 219,
+      "byte_start": 11812,
+      "node_id": 41440,
+      "definition": 177,
+      "owner": 301,
+      "next": 429,
+      "previous": 306,
+      "next_of_type": 429,
+      "previous_of_type": 215,
+      "fields": [
+        430
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11842
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 429,
+      "byte_start": 11842,
+      "node_id": 41438,
+      "definition": 177,
+      "owner": 301,
+      "next": 431,
+      "previous": 219,
+      "next_of_type": 431,
+      "previous_of_type": 219,
+      "fields": [
+        432
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11872
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 430,
+      "byte_start": 11872,
+      "values": [
+        380034640
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11888
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 431,
+      "byte_start": 11888,
+      "node_id": 41436,
+      "definition": 177,
+      "owner": 301,
+      "next": 433,
+      "previous": 429,
+      "next_of_type": 433,
+      "previous_of_type": 429,
+      "fields": [
+        434
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11918
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 432,
+      "byte_start": 11918,
+      "values": [
+        380034736
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11934
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 433,
+      "byte_start": 11934,
+      "node_id": 41434,
+      "definition": 177,
+      "owner": 301,
+      "next": 435,
+      "previous": 431,
+      "next_of_type": 435,
+      "previous_of_type": 431,
+      "fields": [
+        436
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11964
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 434,
+      "byte_start": 11964,
+      "values": [
+        380034800
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 11980
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 435,
+      "byte_start": 11980,
+      "node_id": 41432,
+      "definition": 177,
+      "owner": 301,
+      "next": 437,
+      "previous": 433,
+      "next_of_type": 437,
+      "previous_of_type": 433,
+      "fields": [
+        438
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12010
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 436,
+      "byte_start": 12010,
+      "values": [
+        380034864
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12026
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 437,
+      "byte_start": 12026,
+      "node_id": 41430,
+      "definition": 177,
+      "owner": 301,
+      "next": 439,
+      "previous": 435,
+      "next_of_type": 439,
+      "previous_of_type": 435,
+      "fields": [
+        440
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12056
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 438,
+      "byte_start": 12056,
+      "values": [
+        380034928
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12072
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 439,
+      "byte_start": 12072,
+      "node_id": 41428,
+      "definition": 177,
+      "owner": 301,
+      "next": 441,
+      "previous": 437,
+      "next_of_type": 441,
+      "previous_of_type": 437,
+      "fields": [
+        442
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12102
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 440,
+      "byte_start": 12102,
+      "values": [
+        380034992
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12118
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 441,
+      "byte_start": 12118,
+      "node_id": 41425,
+      "definition": 177,
+      "owner": 301,
+      "next": 443,
+      "previous": 439,
+      "next_of_type": 443,
+      "previous_of_type": 439,
+      "fields": [
+        444
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12148
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 442,
+      "byte_start": 12148,
+      "values": [
+        380035088
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12164
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 443,
+      "byte_start": 12164,
+      "node_id": 41423,
+      "definition": 177,
+      "owner": 301,
+      "next": 445,
+      "previous": 441,
+      "next_of_type": 445,
+      "previous_of_type": 441,
+      "fields": [
+        446
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12194
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 444,
+      "byte_start": 12194,
+      "values": [
+        380035056
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12210
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 445,
+      "byte_start": 12210,
+      "node_id": 41421,
+      "definition": 177,
+      "owner": 301,
+      "next": 447,
+      "previous": 443,
+      "next_of_type": 447,
+      "previous_of_type": 443,
+      "fields": [
+        448
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12240
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 446,
+      "byte_start": 12240,
+      "values": [
+        380035024
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12256
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 447,
+      "byte_start": 12256,
+      "node_id": 41419,
+      "definition": 177,
+      "owner": 301,
+      "next": 449,
+      "previous": 445,
+      "next_of_type": 449,
+      "previous_of_type": 445,
+      "fields": [
+        450
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12286
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 448,
+      "byte_start": 12286,
+      "values": [
+        380034960
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12302
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 449,
+      "byte_start": 12302,
+      "node_id": 41417,
+      "definition": 177,
+      "owner": 301,
+      "next": 451,
+      "previous": 447,
+      "next_of_type": 451,
+      "previous_of_type": 447,
+      "fields": [
+        452
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12332
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 450,
+      "byte_start": 12332,
+      "values": [
+        380034896
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12348
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 451,
+      "byte_start": 12348,
+      "node_id": 41415,
+      "definition": 177,
+      "owner": 301,
+      "next": 314,
+      "previous": 449,
+      "next_of_type": 314,
+      "previous_of_type": 449,
+      "fields": [
+        453
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12378
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 452,
+      "byte_start": 12378,
+      "values": [
+        380034832
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12394
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 314,
+      "byte_start": 12394,
+      "node_id": 41414,
+      "definition": 177,
+      "owner": 301,
+      "next": 307,
+      "previous": 451,
+      "next_of_type": 307,
+      "previous_of_type": 451,
+      "fields": [
+        454
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12424
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 453,
+      "byte_start": 12424,
+      "values": [
+        380034768
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12440
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 454,
+      "byte_start": 12440,
+      "values": [
+        380034704
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12456
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 427,
+      "byte_start": 12456,
+      "node_id": 41378,
+      "definition": 177,
+      "owner": 310,
+      "next": 455,
+      "previous": 254,
+      "next_of_type": 455,
+      "previous_of_type": 254,
+      "fields": [
+        456
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12486
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 428,
+      "byte_start": 12486,
+      "values": [
+        380035536
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12502
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 455,
+      "byte_start": 12502,
+      "node_id": 41376,
+      "definition": 177,
+      "owner": 310,
+      "next": 457,
+      "previous": 427,
+      "next_of_type": 457,
+      "previous_of_type": 427,
+      "fields": [
+        458
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12532
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 456,
+      "byte_start": 12532,
+      "values": [
+        380035440
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12548
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 457,
+      "byte_start": 12548,
+      "node_id": 41374,
+      "definition": 177,
+      "owner": 310,
+      "next": 459,
+      "previous": 455,
+      "next_of_type": 459,
+      "previous_of_type": 455,
+      "fields": [
+        460
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12578
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 458,
+      "byte_start": 12578,
+      "values": [
+        380035376
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12594
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 459,
+      "byte_start": 12594,
+      "node_id": 41372,
+      "definition": 177,
+      "owner": 310,
+      "next": 461,
+      "previous": 457,
+      "next_of_type": 461,
+      "previous_of_type": 457,
+      "fields": [
+        462
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12624
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 460,
+      "byte_start": 12624,
+      "values": [
+        380035312
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12640
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 461,
+      "byte_start": 12640,
+      "node_id": 41370,
+      "definition": 177,
+      "owner": 310,
+      "next": 463,
+      "previous": 459,
+      "next_of_type": 463,
+      "previous_of_type": 459,
+      "fields": [
+        464
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12670
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 462,
+      "byte_start": 12670,
+      "values": [
+        380035248
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12686
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 463,
+      "byte_start": 12686,
+      "node_id": 41368,
+      "definition": 177,
+      "owner": 310,
+      "next": 465,
+      "previous": 461,
+      "next_of_type": 465,
+      "previous_of_type": 461,
+      "fields": [
+        466
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12716
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 464,
+      "byte_start": 12716,
+      "values": [
+        380035184
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12732
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 465,
+      "byte_start": 12732,
+      "node_id": 41365,
+      "definition": 177,
+      "owner": 310,
+      "next": 467,
+      "previous": 463,
+      "next_of_type": 467,
+      "previous_of_type": 463,
+      "fields": [
+        468
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12762
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 466,
+      "byte_start": 12762,
+      "values": [
+        380035120
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12778
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 467,
+      "byte_start": 12778,
+      "node_id": 41363,
+      "definition": 177,
+      "owner": 310,
+      "next": 469,
+      "previous": 465,
+      "next_of_type": 469,
+      "previous_of_type": 465,
+      "fields": [
+        470
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12808
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 468,
+      "byte_start": 12808,
+      "values": [
+        380035600
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12824
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 469,
+      "byte_start": 12824,
+      "node_id": 41361,
+      "definition": 177,
+      "owner": 310,
+      "next": 471,
+      "previous": 467,
+      "next_of_type": 471,
+      "previous_of_type": 467,
+      "fields": [
+        472
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12854
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 470,
+      "byte_start": 12854,
+      "values": [
+        380035152
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12870
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 471,
+      "byte_start": 12870,
+      "node_id": 41359,
+      "definition": 177,
+      "owner": 310,
+      "next": 473,
+      "previous": 469,
+      "next_of_type": 473,
+      "previous_of_type": 469,
+      "fields": [
+        474
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12900
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 472,
+      "byte_start": 12900,
+      "values": [
+        380035216
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12916
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 473,
+      "byte_start": 12916,
+      "node_id": 41357,
+      "definition": 177,
+      "owner": 310,
+      "next": 475,
+      "previous": 471,
+      "next_of_type": 475,
+      "previous_of_type": 471,
+      "fields": [
+        476
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12946
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 474,
+      "byte_start": 12946,
+      "values": [
+        380035280
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12962
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 475,
+      "byte_start": 12962,
+      "node_id": 41355,
+      "definition": 177,
+      "owner": 310,
+      "next": 325,
+      "previous": 473,
+      "next_of_type": 325,
+      "previous_of_type": 473,
+      "fields": [
+        477
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 12992
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 476,
+      "byte_start": 12992,
+      "values": [
+        380035344
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13008
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 325,
+      "byte_start": 13008,
+      "node_id": 41354,
+      "definition": 177,
+      "owner": 310,
+      "next": 317,
+      "previous": 475,
+      "next_of_type": 317,
+      "previous_of_type": 475,
+      "fields": [
+        478
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13038
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 477,
+      "byte_start": 13038,
+      "values": [
+        380035408
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13054
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 478,
+      "byte_start": 13054,
+      "values": [
+        380035472
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13070
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 333,
+      "byte_start": 13070,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13086
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 330,
+      "byte_start": 13086,
+      "node_id": 3896,
+      "attributes_features": 0,
+      "halfedge": 45,
+      "face": 129,
+      "next": 479,
+      "user": [
+        0
+      ],
+      "byte_end": 13106
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 331,
+      "byte_start": 13106,
+      "node_id": 30688,
+      "attributes_features": 0,
+      "owner": 129,
+      "next": 322,
+      "previous": 13,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.09731374999999999,
+        -2.168404344971009e-18,
+        2.862293735361732e-17
+      ],
+      "axis": [
+        -1.0,
+        -1.0827444427079624e-16,
+        2.844143544788247e-15
+      ],
+      "major_radius": 0.023018750000000063,
+      "minor_radius": 0.0007937499999999359,
+      "x_axis": [
+        -2.844143544788247e-15,
+        0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13217
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 322,
+      "byte_start": 13217,
+      "node_id": 30677,
+      "attributes_features": 0,
+      "owner": 310,
+      "next": 303,
+      "previous": 331,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.08810625000001121,
+        3.714042962066344e-15,
+        2.5955800009302976e-16
+      ],
+      "axis": [
+        -1.0,
+        4.2563738316428576e-13,
+        3.37682970064677e-14
+      ],
+      "major_radius": 0.026193750000003714,
+      "minor_radius": 0.0007937499999999757,
+      "x_axis": [
+        -4.2563738316428576e-13,
+        -1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13328
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 13,
+      "byte_start": 13328,
+      "node_id": 30693,
+      "attributes_features": 0,
+      "owner": 126,
+      "next": 331,
+      "previous": 5,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12112625000000002,
+        -8.673617379884035e-19,
+        2.42861286636753e-17
+      ],
+      "axis": [
+        -1.0,
+        -8.045407344855681e-16,
+        -3.7422274559874463e-16
+      ],
+      "major_radius": 0.023018749999999977,
+      "minor_radius": 0.0007937499999999918,
+      "x_axis": [
+        8.045407344855681e-16,
+        -1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13439
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 303,
+      "byte_start": 13439,
+      "node_id": 30356,
+      "attributes_features": 0,
+      "owner": 293,
+      "next": 295,
+      "previous": 322,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.05000624999999995,
+        1.3010426069826053e-18,
+        -3.209238430557093e-17
+      ],
+      "axis": [
+        -1.0,
+        1.0826809017593644e-15,
+        -1.3212009462397573e-15
+      ],
+      "major_radius": 0.018256249999999887,
+      "minor_radius": 0.0007937500000001492,
+      "x_axis": [
+        1.3212009462397573e-15,
+        -0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13550
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 295,
+      "byte_start": 13550,
+      "node_id": 30351,
+      "attributes_features": 0,
+      "owner": 285,
+      "next": 287,
+      "previous": 303,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.0007937499999998987,
+        -2.0383000842727483e-17,
+        -1.8214596497756474e-17
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "major_radius": 0.01825625000000007,
+      "minor_radius": 0.0007937499999998772,
+      "x_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13661
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 287,
+      "byte_start": 13661,
+      "node_id": 30346,
+      "attributes_features": 0,
+      "owner": 76,
+      "next": 84,
+      "previous": 295,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.12271375000000001,
+        -3.0357660829594124e-18,
+        7.806255641895632e-18
+      ],
+      "axis": [
+        -1.0,
+        9.697041680414443e-16,
+        -6.134185286944707e-16
+      ],
+      "major_radius": 0.018256250000000036,
+      "minor_radius": 0.000793750000000035,
+      "x_axis": [
+        -9.697041680414443e-16,
+        -1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13772
+    },
+    {
+      "node_type": 54,
+      "kind": "TORUS",
+      "id": 84,
+      "byte_start": 13772,
+      "node_id": 30339,
+      "attributes_features": 0,
+      "owner": 301,
+      "next": 71,
+      "previous": 287,
+      "geometric_owner": 0,
+      "sense": "+",
+      "centre": [
+        0.06429374999999647,
+        3.785166624581393e-15,
+        -7.238133703513228e-16
+      ],
+      "axis": [
+        -1.0,
+        -1.2796373133223636e-13,
+        2.768953622632075e-14
+      ],
+      "major_radius": 0.026193750000003953,
+      "minor_radius": 0.0007937499999998536,
+      "x_axis": [
+        1.2796373133223636e-13,
+        -1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 13883
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 45,
+      "byte_start": 13883,
+      "attributes_features": 0,
+      "loop": 330,
+      "forward": 45,
+      "backward": 45,
+      "vertex": 0,
+      "other": 480,
+      "edge": 42,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 13910
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 479,
+      "byte_start": 13910,
+      "node_id": 3753,
+      "attributes_features": 0,
+      "halfedge": 123,
+      "face": 129,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 13930
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 123,
+      "byte_start": 13930,
+      "attributes_features": 0,
+      "loop": 479,
+      "forward": 123,
+      "backward": 123,
+      "vertex": 0,
+      "other": 50,
+      "edge": 47,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 13957
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 480,
+      "byte_start": 13957,
+      "attributes_features": 0,
+      "loop": 112,
+      "forward": 480,
+      "backward": 480,
+      "vertex": 0,
+      "other": 45,
+      "edge": 42,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 13984
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 112,
+      "byte_start": 13984,
+      "node_id": 324,
+      "attributes_features": 0,
+      "halfedge": 480,
+      "face": 86,
+      "next": 481,
+      "user": [
+        0
+      ],
+      "byte_end": 14004
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 481,
+      "byte_start": 14004,
+      "node_id": 329,
+      "attributes_features": 0,
+      "halfedge": 482,
+      "face": 86,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 14024
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 482,
+      "byte_start": 14024,
+      "attributes_features": 0,
+      "loop": 481,
+      "forward": 482,
+      "backward": 482,
+      "vertex": 0,
+      "other": 160,
+      "edge": 51,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 14051
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 160,
+      "byte_start": 14051,
+      "attributes_features": 0,
+      "loop": 483,
+      "forward": 160,
+      "backward": 160,
+      "vertex": 0,
+      "other": 482,
+      "edge": 51,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 14078
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 483,
+      "byte_start": 14078,
+      "node_id": 3600,
+      "attributes_features": 0,
+      "halfedge": 160,
+      "face": 72,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 14098
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 326,
+      "byte_start": 14098,
+      "values": [
+        380035504
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14114
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 324,
+      "byte_start": 14114,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14130
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 321,
+      "byte_start": 14130,
+      "node_id": 41507,
+      "attributes_features": 0,
+      "halfedge": 41,
+      "face": 310,
+      "next": 484,
+      "user": [
+        0
+      ],
+      "byte_end": 14150
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 41,
+      "byte_start": 14150,
+      "attributes_features": 0,
+      "loop": 321,
+      "forward": 41,
+      "backward": 41,
+      "vertex": 0,
+      "other": 485,
+      "edge": 38,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 14177
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 484,
+      "byte_start": 14177,
+      "node_id": 3735,
+      "attributes_features": 0,
+      "halfedge": 486,
+      "face": 310,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 14197
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 486,
+      "byte_start": 14197,
+      "attributes_features": 0,
+      "loop": 484,
+      "forward": 486,
+      "backward": 486,
+      "vertex": 0,
+      "other": 152,
+      "edge": 149,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 14224
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 152,
+      "byte_start": 14224,
+      "attributes_features": 0,
+      "loop": 110,
+      "forward": 152,
+      "backward": 152,
+      "vertex": 0,
+      "other": 486,
+      "edge": 149,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 14251
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 110,
+      "byte_start": 14251,
+      "node_id": 40348,
+      "attributes_features": 0,
+      "halfedge": 152,
+      "face": 87,
+      "next": 487,
+      "user": [
+        0
+      ],
+      "byte_end": 14271
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 487,
+      "byte_start": 14271,
+      "node_id": 311,
+      "attributes_features": 0,
+      "halfedge": 163,
+      "face": 87,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 14291
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 163,
+      "byte_start": 14291,
+      "attributes_features": 0,
+      "loop": 487,
+      "forward": 163,
+      "backward": 163,
+      "vertex": 0,
+      "other": 488,
+      "edge": 153,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 14318
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 488,
+      "byte_start": 14318,
+      "attributes_features": 0,
+      "loop": 88,
+      "forward": 488,
+      "backward": 488,
+      "vertex": 0,
+      "other": 163,
+      "edge": 153,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 14345
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 88,
+      "byte_start": 14345,
+      "node_id": 3902,
+      "attributes_features": 0,
+      "halfedge": 488,
+      "face": 72,
+      "next": 483,
+      "user": [
+        0
+      ],
+      "byte_end": 14365
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 485,
+      "byte_start": 14365,
+      "attributes_features": 0,
+      "loop": 489,
+      "forward": 485,
+      "backward": 485,
+      "vertex": 0,
+      "other": 41,
+      "edge": 38,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 14392
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 489,
+      "byte_start": 14392,
+      "node_id": 3583,
+      "attributes_features": 0,
+      "halfedge": 485,
+      "face": 106,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 14412
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 315,
+      "byte_start": 14412,
+      "node_id": 41410,
+      "definition": 177,
+      "owner": 106,
+      "next": 490,
+      "previous": 117,
+      "next_of_type": 490,
+      "previous_of_type": 307,
+      "fields": [
+        491
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14442
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 316,
+      "byte_start": 14442,
+      "values": [
+        380034672
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14458
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 490,
+      "byte_start": 14458,
+      "node_id": 41408,
+      "definition": 177,
+      "owner": 106,
+      "next": 492,
+      "previous": 315,
+      "next_of_type": 492,
+      "previous_of_type": 315,
+      "fields": [
+        493
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14488
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 117,
+      "byte_start": 14488,
+      "node_id": 41824,
+      "definition": 21,
+      "owner": 106,
+      "next": 315,
+      "previous": 0,
+      "next_of_type": 105,
+      "previous_of_type": 109,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14518
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 491,
+      "byte_start": 14518,
+      "values": [
+        380034032
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14534
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 492,
+      "byte_start": 14534,
+      "node_id": 41406,
+      "definition": 177,
+      "owner": 106,
+      "next": 494,
+      "previous": 490,
+      "next_of_type": 494,
+      "previous_of_type": 490,
+      "fields": [
+        495
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14564
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 493,
+      "byte_start": 14564,
+      "values": [
+        380034128
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14580
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 494,
+      "byte_start": 14580,
+      "node_id": 41404,
+      "definition": 177,
+      "owner": 106,
+      "next": 496,
+      "previous": 492,
+      "next_of_type": 496,
+      "previous_of_type": 492,
+      "fields": [
+        497
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14610
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 495,
+      "byte_start": 14610,
+      "values": [
+        380034192
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14626
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 496,
+      "byte_start": 14626,
+      "node_id": 41402,
+      "definition": 177,
+      "owner": 106,
+      "next": 498,
+      "previous": 494,
+      "next_of_type": 498,
+      "previous_of_type": 494,
+      "fields": [
+        499
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14656
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 497,
+      "byte_start": 14656,
+      "values": [
+        380034256
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14672
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 498,
+      "byte_start": 14672,
+      "node_id": 41400,
+      "definition": 177,
+      "owner": 106,
+      "next": 500,
+      "previous": 496,
+      "next_of_type": 500,
+      "previous_of_type": 496,
+      "fields": [
+        501
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14702
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 499,
+      "byte_start": 14702,
+      "values": [
+        380034320
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14718
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 500,
+      "byte_start": 14718,
+      "node_id": 41398,
+      "definition": 177,
+      "owner": 106,
+      "next": 502,
+      "previous": 498,
+      "next_of_type": 502,
+      "previous_of_type": 498,
+      "fields": [
+        503
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14748
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 501,
+      "byte_start": 14748,
+      "values": [
+        380034384
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14764
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 502,
+      "byte_start": 14764,
+      "node_id": 41395,
+      "definition": 177,
+      "owner": 106,
+      "next": 504,
+      "previous": 500,
+      "next_of_type": 504,
+      "previous_of_type": 500,
+      "fields": [
+        505
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14794
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 503,
+      "byte_start": 14794,
+      "values": [
+        380034480
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14810
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 504,
+      "byte_start": 14810,
+      "node_id": 41393,
+      "definition": 177,
+      "owner": 106,
+      "next": 506,
+      "previous": 502,
+      "next_of_type": 506,
+      "previous_of_type": 502,
+      "fields": [
+        507
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14840
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 505,
+      "byte_start": 14840,
+      "values": [
+        380034448
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14856
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 506,
+      "byte_start": 14856,
+      "node_id": 41391,
+      "definition": 177,
+      "owner": 106,
+      "next": 508,
+      "previous": 504,
+      "next_of_type": 508,
+      "previous_of_type": 504,
+      "fields": [
+        509
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14886
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 507,
+      "byte_start": 14886,
+      "values": [
+        380034416
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14902
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 508,
+      "byte_start": 14902,
+      "node_id": 41389,
+      "definition": 177,
+      "owner": 106,
+      "next": 510,
+      "previous": 506,
+      "next_of_type": 510,
+      "previous_of_type": 506,
+      "fields": [
+        511
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14932
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 509,
+      "byte_start": 14932,
+      "values": [
+        380034352
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14948
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 510,
+      "byte_start": 14948,
+      "node_id": 41387,
+      "definition": 177,
+      "owner": 106,
+      "next": 512,
+      "previous": 508,
+      "next_of_type": 512,
+      "previous_of_type": 508,
+      "fields": [
+        513
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14978
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 511,
+      "byte_start": 14978,
+      "values": [
+        380034288
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 14994
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 512,
+      "byte_start": 14994,
+      "node_id": 41385,
+      "definition": 177,
+      "owner": 106,
+      "next": 253,
+      "previous": 510,
+      "next_of_type": 253,
+      "previous_of_type": 510,
+      "fields": [
+        514
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15024
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 513,
+      "byte_start": 15024,
+      "values": [
+        380034224
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15040
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 253,
+      "byte_start": 15040,
+      "node_id": 41384,
+      "definition": 177,
+      "owner": 106,
+      "next": 248,
+      "previous": 512,
+      "next_of_type": 248,
+      "previous_of_type": 512,
+      "fields": [
+        515
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15070
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 514,
+      "byte_start": 15070,
+      "values": [
+        380034160
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15086
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 515,
+      "byte_start": 15086,
+      "values": [
+        380034096
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15102
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 313,
+      "byte_start": 15102,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15118
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 311,
+      "byte_start": 15118,
+      "node_id": 41509,
+      "attributes_features": 0,
+      "halfedge": 516,
+      "face": 301,
+      "next": 517,
+      "user": [
+        0
+      ],
+      "byte_end": 15138
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 516,
+      "byte_start": 15138,
+      "attributes_features": 0,
+      "loop": 311,
+      "forward": 516,
+      "backward": 516,
+      "vertex": 0,
+      "other": 156,
+      "edge": 148,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15165
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 517,
+      "byte_start": 15165,
+      "node_id": 549,
+      "attributes_features": 0,
+      "halfedge": 518,
+      "face": 301,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 15185
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 518,
+      "byte_start": 15185,
+      "attributes_features": 0,
+      "loop": 517,
+      "forward": 518,
+      "backward": 518,
+      "vertex": 0,
+      "other": 147,
+      "edge": 144,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15212
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 147,
+      "byte_start": 15212,
+      "attributes_features": 0,
+      "loop": 118,
+      "forward": 147,
+      "backward": 147,
+      "vertex": 0,
+      "other": 518,
+      "edge": 144,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15239
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 118,
+      "byte_start": 15239,
+      "node_id": 41508,
+      "attributes_features": 0,
+      "halfedge": 147,
+      "face": 106,
+      "next": 489,
+      "user": [
+        0
+      ],
+      "byte_end": 15259
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 156,
+      "byte_start": 15259,
+      "attributes_features": 0,
+      "loop": 107,
+      "forward": 156,
+      "backward": 156,
+      "vertex": 0,
+      "other": 516,
+      "edge": 148,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15286
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 107,
+      "byte_start": 15286,
+      "node_id": 40,
+      "attributes_features": 0,
+      "halfedge": 156,
+      "face": 103,
+      "next": 174,
+      "user": [
+        0
+      ],
+      "byte_end": 15306
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 305,
+      "byte_start": 15306,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15322
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 302,
+      "byte_start": 15322,
+      "node_id": 3897,
+      "attributes_features": 0,
+      "halfedge": 35,
+      "face": 293,
+      "next": 519,
+      "user": [
+        0
+      ],
+      "byte_end": 15342
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 35,
+      "byte_start": 15342,
+      "attributes_features": 0,
+      "loop": 302,
+      "forward": 35,
+      "backward": 35,
+      "vertex": 0,
+      "other": 520,
+      "edge": 33,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15369
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 519,
+      "byte_start": 15369,
+      "node_id": 3693,
+      "attributes_features": 0,
+      "halfedge": 521,
+      "face": 293,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 15389
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 521,
+      "byte_start": 15389,
+      "attributes_features": 0,
+      "loop": 519,
+      "forward": 521,
+      "backward": 521,
+      "vertex": 0,
+      "other": 26,
+      "edge": 19,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15416
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 26,
+      "byte_start": 15416,
+      "attributes_features": 0,
+      "loop": 102,
+      "forward": 26,
+      "backward": 26,
+      "vertex": 0,
+      "other": 521,
+      "edge": 19,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15443
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 102,
+      "byte_start": 15443,
+      "node_id": 22,
+      "attributes_features": 0,
+      "halfedge": 26,
+      "face": 95,
+      "next": 170,
+      "user": [
+        0
+      ],
+      "byte_end": 15463
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 520,
+      "byte_start": 15463,
+      "attributes_features": 0,
+      "loop": 522,
+      "forward": 520,
+      "backward": 520,
+      "vertex": 0,
+      "other": 35,
+      "edge": 33,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15490
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 522,
+      "byte_start": 15490,
+      "node_id": 3555,
+      "attributes_features": 0,
+      "halfedge": 520,
+      "face": 90,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 15510
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 297,
+      "byte_start": 15510,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15526
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 294,
+      "byte_start": 15526,
+      "node_id": 3898,
+      "attributes_features": 0,
+      "halfedge": 214,
+      "face": 285,
+      "next": 523,
+      "user": [
+        0
+      ],
+      "byte_end": 15546
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 214,
+      "byte_start": 15546,
+      "attributes_features": 0,
+      "loop": 294,
+      "forward": 214,
+      "backward": 214,
+      "vertex": 0,
+      "other": 97,
+      "edge": 31,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15573
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 523,
+      "byte_start": 15573,
+      "node_id": 3675,
+      "attributes_features": 0,
+      "halfedge": 25,
+      "face": 285,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 15593
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 25,
+      "byte_start": 15593,
+      "attributes_features": 0,
+      "loop": 523,
+      "forward": 25,
+      "backward": 25,
+      "vertex": 0,
+      "other": 18,
+      "edge": 8,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15620
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 97,
+      "byte_start": 15620,
+      "attributes_features": 0,
+      "loop": 91,
+      "forward": 97,
+      "backward": 97,
+      "vertex": 0,
+      "other": 214,
+      "edge": 31,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15647
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 289,
+      "byte_start": 15647,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15663
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 286,
+      "byte_start": 15663,
+      "node_id": 3899,
+      "attributes_features": 0,
+      "halfedge": 143,
+      "face": 76,
+      "next": 134,
+      "user": [
+        0
+      ],
+      "byte_end": 15683
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 143,
+      "byte_start": 15683,
+      "attributes_features": 0,
+      "loop": 286,
+      "forward": 143,
+      "backward": 143,
+      "vertex": 0,
+      "other": 82,
+      "edge": 139,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 15710
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 134,
+      "byte_start": 15710,
+      "node_id": 3657,
+      "attributes_features": 0,
+      "halfedge": 133,
+      "face": 76,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 15730
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 82,
+      "byte_start": 15730,
+      "attributes_features": 0,
+      "loop": 70,
+      "forward": 82,
+      "backward": 82,
+      "vertex": 0,
+      "other": 143,
+      "edge": 139,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 15757
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 281,
+      "byte_start": 15757,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15773
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 277,
+      "byte_start": 15773,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15789
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 273,
+      "byte_start": 15789,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15805
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 270,
+      "byte_start": 15805,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15821
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 266,
+      "byte_start": 15821,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15837
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 263,
+      "byte_start": 15837,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15853
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 259,
+      "byte_start": 15853,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15869
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 255,
+      "byte_start": 15869,
+      "values": [
+        380034064
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15885
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 252,
+      "byte_start": 15885,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15901
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 247,
+      "byte_start": 15901,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15917
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 243,
+      "byte_start": 15917,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15933
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 239,
+      "byte_start": 15933,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15949
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 235,
+      "byte_start": 15949,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15965
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 231,
+      "byte_start": 15965,
+      "values": [
+        69
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 15981
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 40,
+      "byte_start": 15981,
+      "node_id": 41814,
+      "definition": 21,
+      "owner": 38,
+      "next": 191,
+      "previous": 0,
+      "next_of_type": 211,
+      "previous_of_type": 44,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16011
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 191,
+      "byte_start": 16011,
+      "node_id": 41472,
+      "definition": 177,
+      "owner": 38,
+      "next": 524,
+      "previous": 40,
+      "next_of_type": 524,
+      "previous_of_type": 189,
+      "fields": [
+        525
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16041
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 524,
+      "byte_start": 16041,
+      "node_id": 41470,
+      "definition": 177,
+      "owner": 38,
+      "next": 526,
+      "previous": 191,
+      "next_of_type": 526,
+      "previous_of_type": 191,
+      "fields": [
+        527
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16071
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 525,
+      "byte_start": 16071,
+      "values": [
+        380026896
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16087
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 526,
+      "byte_start": 16087,
+      "node_id": 41468,
+      "definition": 177,
+      "owner": 38,
+      "next": 528,
+      "previous": 524,
+      "next_of_type": 528,
+      "previous_of_type": 524,
+      "fields": [
+        529
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16117
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 527,
+      "byte_start": 16117,
+      "values": [
+        380027184
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16133
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 528,
+      "byte_start": 16133,
+      "node_id": 41466,
+      "definition": 177,
+      "owner": 38,
+      "next": 530,
+      "previous": 526,
+      "next_of_type": 530,
+      "previous_of_type": 526,
+      "fields": [
+        531
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16163
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 529,
+      "byte_start": 16163,
+      "values": [
+        380027376
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16179
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 530,
+      "byte_start": 16179,
+      "node_id": 41464,
+      "definition": 177,
+      "owner": 38,
+      "next": 532,
+      "previous": 528,
+      "next_of_type": 532,
+      "previous_of_type": 528,
+      "fields": [
+        533
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16209
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 531,
+      "byte_start": 16209,
+      "values": [
+        380027568
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16225
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 532,
+      "byte_start": 16225,
+      "node_id": 41462,
+      "definition": 177,
+      "owner": 38,
+      "next": 534,
+      "previous": 530,
+      "next_of_type": 534,
+      "previous_of_type": 530,
+      "fields": [
+        535
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16255
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 533,
+      "byte_start": 16255,
+      "values": [
+        380027760
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16271
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 534,
+      "byte_start": 16271,
+      "node_id": 41460,
+      "definition": 177,
+      "owner": 38,
+      "next": 536,
+      "previous": 532,
+      "next_of_type": 536,
+      "previous_of_type": 532,
+      "fields": [
+        537
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16301
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 535,
+      "byte_start": 16301,
+      "values": [
+        380027952
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16317
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 536,
+      "byte_start": 16317,
+      "node_id": 41457,
+      "definition": 177,
+      "owner": 38,
+      "next": 538,
+      "previous": 534,
+      "next_of_type": 538,
+      "previous_of_type": 534,
+      "fields": [
+        539
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16347
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 537,
+      "byte_start": 16347,
+      "values": [
+        380028112
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16363
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 538,
+      "byte_start": 16363,
+      "node_id": 41455,
+      "definition": 177,
+      "owner": 38,
+      "next": 540,
+      "previous": 536,
+      "next_of_type": 540,
+      "previous_of_type": 536,
+      "fields": [
+        541
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16393
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 539,
+      "byte_start": 16393,
+      "values": [
+        380028240
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16409
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 540,
+      "byte_start": 16409,
+      "node_id": 41453,
+      "definition": 177,
+      "owner": 38,
+      "next": 542,
+      "previous": 538,
+      "next_of_type": 542,
+      "previous_of_type": 538,
+      "fields": [
+        543
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16439
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 541,
+      "byte_start": 16439,
+      "values": [
+        380028048
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16455
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 542,
+      "byte_start": 16455,
+      "node_id": 41451,
+      "definition": 177,
+      "owner": 38,
+      "next": 544,
+      "previous": 540,
+      "next_of_type": 544,
+      "previous_of_type": 540,
+      "fields": [
+        545
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16485
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 543,
+      "byte_start": 16485,
+      "values": [
+        380027856
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16501
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 544,
+      "byte_start": 16501,
+      "node_id": 41449,
+      "definition": 177,
+      "owner": 38,
+      "next": 546,
+      "previous": 542,
+      "next_of_type": 546,
+      "previous_of_type": 542,
+      "fields": [
+        547
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16531
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 545,
+      "byte_start": 16531,
+      "values": [
+        380027664
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16547
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 546,
+      "byte_start": 16547,
+      "node_id": 41447,
+      "definition": 177,
+      "owner": 38,
+      "next": 218,
+      "previous": 544,
+      "next_of_type": 218,
+      "previous_of_type": 544,
+      "fields": [
+        548
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16577
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 547,
+      "byte_start": 16577,
+      "values": [
+        380027472
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16593
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 218,
+      "byte_start": 16593,
+      "node_id": 41446,
+      "definition": 177,
+      "owner": 38,
+      "next": 215,
+      "previous": 546,
+      "next_of_type": 215,
+      "previous_of_type": 546,
+      "fields": [
+        549
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16623
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 548,
+      "byte_start": 16623,
+      "values": [
+        380027280
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16639
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 549,
+      "byte_start": 16639,
+      "values": [
+        380027088
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16655
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 220,
+      "byte_start": 16655,
+      "values": [
+        380026992
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16671
+    },
+    {
+      "node_type": 79,
+      "kind": "ATT_DEF_ID",
+      "id": 204,
+      "byte_start": 16671,
+      "string": [
+        "C",
+        "N",
+        "C",
+        "/",
+        "m",
+        "c",
+        "E",
+        "p",
+        "t",
+        "r"
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16693
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 201,
+      "byte_start": 16693,
+      "values": [
+        380026736
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16709
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 199,
+      "byte_start": 16709,
+      "values": [
+        380026704
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16725
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 197,
+      "byte_start": 16725,
+      "values": [
+        380026672
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16741
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 193,
+      "byte_start": 16741,
+      "values": [
+        380026544
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16757
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 188,
+      "byte_start": 16757,
+      "values": [
+        380026864
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16773
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 186,
+      "byte_start": 16773,
+      "values": [
+        380024624
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16789
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 182,
+      "byte_start": 16789,
+      "values": [
+        380024496
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16805
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 178,
+      "byte_start": 16805,
+      "node_id": 11544,
+      "definition": 177,
+      "owner": 19,
+      "next": 0,
+      "previous": 23,
+      "next_of_type": 22,
+      "previous_of_type": 169,
+      "fields": [
+        550
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16835
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 22,
+      "byte_start": 16835,
+      "node_id": 11543,
+      "definition": 177,
+      "owner": 8,
+      "next": 0,
+      "previous": 17,
+      "next_of_type": 0,
+      "previous_of_type": 178,
+      "fields": [
+        551
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16865
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 550,
+      "byte_start": 16865,
+      "values": [
+        380024432
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16881
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 551,
+      "byte_start": 16881,
+      "values": [
+        380024400
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16897
+    },
+    {
+      "node_type": 82,
+      "kind": "INT_VALUES",
+      "id": 180,
+      "byte_start": 16897,
+      "values": [
+        380024464
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16913
+    },
+    {
+      "node_type": 79,
+      "kind": "ATT_DEF_ID",
+      "id": 176,
+      "byte_start": 16913,
+      "string": [
+        "C",
+        "N",
+        "C",
+        "/",
+        "m",
+        "c",
+        "E",
+        "p",
+        "t",
+        "r",
+        "P",
+        "t",
+        "r"
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 16938
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 138,
+      "byte_start": 16938,
+      "attributes_features": 0,
+      "loop": 77,
+      "forward": 138,
+      "backward": 138,
+      "vertex": 0,
+      "other": 552,
+      "edge": 14,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 16965
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 77,
+      "byte_start": 16965,
+      "node_id": 363,
+      "attributes_features": 0,
+      "halfedge": 138,
+      "face": 68,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 16985
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 552,
+      "byte_start": 16985,
+      "attributes_features": 0,
+      "loop": 64,
+      "forward": 552,
+      "backward": 552,
+      "vertex": 0,
+      "other": 138,
+      "edge": 14,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 17012
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 64,
+      "byte_start": 17012,
+      "node_id": 3783,
+      "attributes_features": 0,
+      "halfedge": 552,
+      "face": 12,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 17032
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 24,
+      "byte_start": 17032,
+      "node_id": 3904,
+      "attributes_features": 0,
+      "halfedge": 18,
+      "face": 90,
+      "next": 522,
+      "user": [
+        0
+      ],
+      "byte_end": 17052
+    },
+    {
+      "node_type": 19,
+      "kind": "REGION",
+      "id": 11,
+      "byte_start": 17052,
+      "node_id": 1,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 0,
+      "previous": 7,
+      "shell": 4,
+      "unknown_modern_region": 0,
+      "type": "S",
+      "owner": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 17079
+    },
+    {
+      "node_type": 74,
+      "kind": "POINTER_LIS_BLOCK",
+      "id": 9,
+      "byte_start": 17079,
+      "n_entries": 3,
+      "index_map_offset": 0,
+      "next_block": 0,
+      "entries": [
+        336,
+        183,
+        338,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 17141
+    }
+  ]
+}

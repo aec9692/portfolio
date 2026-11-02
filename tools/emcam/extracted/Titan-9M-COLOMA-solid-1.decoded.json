@@ -1,0 +1,2390 @@
+{
+  "complete": true,
+  "version": ": TRANSMIT FILE created by modeller version 3600142",
+  "key": "SCH_3600142_36001",
+  "nodes": [
+    {
+      "node_type": 12,
+      "kind": "BODY",
+      "id": 1,
+      "byte_start": 81,
+      "highest_node_id": 98,
+      "attributes_features": 0,
+      "attribute_chains": 2,
+      "surface": 0,
+      "curve": 0,
+      "point": 0,
+      "key": 0,
+      "unknown_modern_0": 0,
+      "unknown_modern_1": 0,
+      "unknown_modern_2": 0,
+      "res_size": 1000.0000000000001,
+      "res_linear": 1e-08,
+      "ref_instance": 0,
+      "next": 0,
+      "previous": 0,
+      "state": 1,
+      "owner": 0,
+      "body_type": 1,
+      "nom_geom_state": 1,
+      "shell": 3,
+      "boundary_surface": 0,
+      "boundary_curve": 4,
+      "boundary_point": 5,
+      "boundary_mesh": 6,
+      "boundary_polyline": 0,
+      "boundary_modern": 0,
+      "region": 7,
+      "edge": 8,
+      "vertex": 9,
+      "index_map_offset": 0,
+      "index_map": 0,
+      "node_id_index_map": 0,
+      "schema_embedding_map": 0,
+      "child": 0,
+      "lowest_node_id": 0,
+      "data": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 176
+    },
+    {
+      "node_type": 70,
+      "kind": "LIST",
+      "id": 2,
+      "byte_start": 176,
+      "node_id": 0,
+      "list_type": 4,
+      "notransmit": 1,
+      "owner": 1,
+      "next": 0,
+      "previous": 0,
+      "list_length": 1,
+      "block_length": 20,
+      "finger_index": 1,
+      "finger_block": 10,
+      "list_block": 10,
+      "user": [
+        0
+      ],
+      "byte_end": 212
+    },
+    {
+      "node_type": 13,
+      "kind": "SHELL",
+      "id": 3,
+      "byte_start": 212,
+      "node_id": 3,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 0,
+      "face": 11,
+      "edge": 0,
+      "vertex": 0,
+      "region": 12,
+      "front_face": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 240
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 4,
+      "byte_start": 240,
+      "node_id": 54,
+      "attributes_features": 0,
+      "owner": 11,
+      "next": 13,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        -0.014605000000000002,
+        0.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "x_axis": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 335
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 5,
+      "byte_start": 335,
+      "node_id": 62,
+      "attributes_features": 0,
+      "owner": 8,
+      "next": 14,
+      "previous": 0,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        -0.040005,
+        0.0
+      ],
+      "direction": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 406
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 6,
+      "byte_start": 406,
+      "node_id": 58,
+      "attributes_features": 0,
+      "owner": 9,
+      "next": 15,
+      "previous": 0,
+      "pvec": [
+        -0.010794999999999999,
+        -0.040005,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 450
+    },
+    {
+      "node_type": 19,
+      "kind": "REGION",
+      "id": 7,
+      "byte_start": 450,
+      "node_id": 1,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 12,
+      "previous": 0,
+      "shell": 16,
+      "unknown_modern_region": 0,
+      "type": "V",
+      "owner": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 477
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 8,
+      "byte_start": 477,
+      "node_id": 34,
+      "attributes_features": 17,
+      "tolerance": -31415800000000.0,
+      "halfedge": 18,
+      "previous": 0,
+      "next": 19,
+      "curve": 5,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 513
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 9,
+      "byte_start": 513,
+      "node_id": 23,
+      "attributes_features": 0,
+      "halfedge": 18,
+      "previous": 0,
+      "next": 20,
+      "point": 6,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 545
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 18,
+      "byte_start": 545,
+      "attributes_features": 0,
+      "loop": 21,
+      "forward": 22,
+      "backward": 23,
+      "vertex": 9,
+      "other": 24,
+      "edge": 8,
+      "curve": 0,
+      "next_at_vx": 25,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 572
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 20,
+      "byte_start": 572,
+      "node_id": 21,
+      "attributes_features": 0,
+      "halfedge": 26,
+      "previous": 9,
+      "next": 27,
+      "point": 15,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 604
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 26,
+      "byte_start": 604,
+      "attributes_features": 0,
+      "loop": 28,
+      "forward": 29,
+      "backward": 30,
+      "vertex": 20,
+      "other": 25,
+      "edge": 19,
+      "curve": 0,
+      "next_at_vx": 31,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 631
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 27,
+      "byte_start": 631,
+      "node_id": 19,
+      "attributes_features": 0,
+      "halfedge": 32,
+      "previous": 20,
+      "next": 33,
+      "point": 34,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 663
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 15,
+      "byte_start": 663,
+      "node_id": 57,
+      "attributes_features": 0,
+      "owner": 20,
+      "next": 34,
+      "previous": 6,
+      "pvec": [
+        -0.010794999999999999,
+        0.010794999999999997,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 707
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 34,
+      "byte_start": 707,
+      "node_id": 56,
+      "attributes_features": 0,
+      "owner": 27,
+      "next": 35,
+      "previous": 15,
+      "pvec": [
+        0.144145,
+        0.010794999999999997,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 751
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 35,
+      "byte_start": 751,
+      "node_id": 55,
+      "attributes_features": 0,
+      "owner": 33,
+      "next": 36,
+      "previous": 34,
+      "pvec": [
+        0.144145,
+        -0.040005,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 795
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 33,
+      "byte_start": 795,
+      "node_id": 17,
+      "attributes_features": 0,
+      "halfedge": 24,
+      "previous": 27,
+      "next": 37,
+      "point": 35,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 827
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 36,
+      "byte_start": 827,
+      "node_id": 41,
+      "attributes_features": 0,
+      "owner": 38,
+      "next": 39,
+      "previous": 35,
+      "pvec": [
+        -0.010794999999999999,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 871
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 38,
+      "byte_start": 871,
+      "node_id": 11,
+      "attributes_features": 0,
+      "halfedge": 22,
+      "previous": 40,
+      "next": 41,
+      "point": 36,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 903
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 39,
+      "byte_start": 903,
+      "node_id": 40,
+      "attributes_features": 0,
+      "owner": 40,
+      "next": 42,
+      "previous": 36,
+      "pvec": [
+        -0.010794999999999999,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 947
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 40,
+      "byte_start": 947,
+      "node_id": 13,
+      "attributes_features": 0,
+      "halfedge": 29,
+      "previous": 37,
+      "next": 38,
+      "point": 39,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 979
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 42,
+      "byte_start": 979,
+      "node_id": 39,
+      "attributes_features": 0,
+      "owner": 37,
+      "next": 43,
+      "previous": 39,
+      "pvec": [
+        0.144145,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1023
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 37,
+      "byte_start": 1023,
+      "node_id": 15,
+      "attributes_features": 0,
+      "halfedge": 44,
+      "previous": 33,
+      "next": 40,
+      "point": 42,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1055
+    },
+    {
+      "node_type": 29,
+      "kind": "POINT",
+      "id": 43,
+      "byte_start": 1055,
+      "node_id": 38,
+      "attributes_features": 0,
+      "owner": 41,
+      "next": 0,
+      "previous": 42,
+      "pvec": [
+        0.144145,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1099
+    },
+    {
+      "node_type": 18,
+      "kind": "VERTEX",
+      "id": 41,
+      "byte_start": 1099,
+      "node_id": 10,
+      "attributes_features": 0,
+      "halfedge": 45,
+      "previous": 38,
+      "next": 0,
+      "point": 43,
+      "tolerance": -31415800000000.0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1131
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 45,
+      "byte_start": 1131,
+      "attributes_features": 0,
+      "loop": 46,
+      "forward": 47,
+      "backward": 48,
+      "vertex": 41,
+      "other": 23,
+      "edge": 49,
+      "curve": 0,
+      "next_at_vx": 50,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1158
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 46,
+      "byte_start": 1158,
+      "node_id": 7,
+      "attributes_features": 0,
+      "halfedge": 47,
+      "face": 51,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 1178
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 47,
+      "byte_start": 1178,
+      "attributes_features": 0,
+      "loop": 46,
+      "forward": 52,
+      "backward": 45,
+      "vertex": 37,
+      "other": 53,
+      "edge": 54,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 1205
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 48,
+      "byte_start": 1205,
+      "attributes_features": 0,
+      "loop": 46,
+      "forward": 45,
+      "backward": 52,
+      "vertex": 33,
+      "other": 55,
+      "edge": 56,
+      "curve": 0,
+      "next_at_vx": 23,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 1232
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 23,
+      "byte_start": 1232,
+      "attributes_features": 0,
+      "loop": 21,
+      "forward": 18,
+      "backward": 50,
+      "vertex": 33,
+      "other": 45,
+      "edge": 49,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 1259
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 49,
+      "byte_start": 1259,
+      "node_id": 18,
+      "attributes_features": 57,
+      "tolerance": -31415800000000.0,
+      "halfedge": 23,
+      "previous": 58,
+      "next": 54,
+      "curve": 59,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1295
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 50,
+      "byte_start": 1295,
+      "attributes_features": 0,
+      "loop": 21,
+      "forward": 23,
+      "backward": 22,
+      "vertex": 41,
+      "other": 60,
+      "edge": 61,
+      "curve": 0,
+      "next_at_vx": 53,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 1322
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 21,
+      "byte_start": 1322,
+      "node_id": 32,
+      "attributes_features": 0,
+      "halfedge": 23,
+      "face": 62,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 1342
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 22,
+      "byte_start": 1342,
+      "attributes_features": 0,
+      "loop": 21,
+      "forward": 50,
+      "backward": 18,
+      "vertex": 38,
+      "other": 30,
+      "edge": 63,
+      "curve": 0,
+      "next_at_vx": 64,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1369
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 60,
+      "byte_start": 1369,
+      "attributes_features": 0,
+      "loop": 65,
+      "forward": 66,
+      "backward": 53,
+      "vertex": 38,
+      "other": 50,
+      "edge": 61,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1396
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 61,
+      "byte_start": 1396,
+      "node_id": 12,
+      "attributes_features": 67,
+      "tolerance": -31415800000000.0,
+      "halfedge": 50,
+      "previous": 68,
+      "next": 0,
+      "curve": 69,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1432
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 53,
+      "byte_start": 1432,
+      "attributes_features": 0,
+      "loop": 65,
+      "forward": 60,
+      "backward": 70,
+      "vertex": 41,
+      "other": 47,
+      "edge": 54,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1459
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 65,
+      "byte_start": 1459,
+      "node_id": 8,
+      "attributes_features": 0,
+      "halfedge": 53,
+      "face": 71,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 1479
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 70,
+      "byte_start": 1479,
+      "attributes_features": 0,
+      "loop": 65,
+      "forward": 53,
+      "backward": 66,
+      "vertex": 37,
+      "other": 72,
+      "edge": 73,
+      "curve": 0,
+      "next_at_vx": 47,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 1506
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 54,
+      "byte_start": 1506,
+      "node_id": 6,
+      "attributes_features": 74,
+      "tolerance": -31415800000000.0,
+      "halfedge": 47,
+      "previous": 49,
+      "next": 73,
+      "curve": 75,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1542
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 74,
+      "byte_start": 1542,
+      "node_id": 89,
+      "definition": 76,
+      "owner": 54,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 57,
+      "previous_of_type": 77,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1572
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 73,
+      "byte_start": 1572,
+      "node_id": 16,
+      "attributes_features": 77,
+      "tolerance": -31415800000000.0,
+      "halfedge": 72,
+      "previous": 54,
+      "next": 68,
+      "curve": 78,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1608
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 75,
+      "byte_start": 1608,
+      "node_id": 43,
+      "attributes_features": 0,
+      "owner": 54,
+      "next": 69,
+      "previous": 78,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.144145,
+        -0.014605000000000002,
+        -0.024891999999999997
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1679
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 69,
+      "byte_start": 1679,
+      "node_id": 42,
+      "attributes_features": 0,
+      "owner": 61,
+      "next": 0,
+      "previous": 75,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1750
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 78,
+      "byte_start": 1750,
+      "node_id": 44,
+      "attributes_features": 0,
+      "owner": 73,
+      "next": 75,
+      "previous": 79,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "direction": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1821
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 79,
+      "byte_start": 1821,
+      "node_id": 45,
+      "attributes_features": 0,
+      "owner": 68,
+      "next": 78,
+      "previous": 59,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        -0.010794999999999999,
+        -0.014605000000000002,
+        -0.024891999999999997
+      ],
+      "direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1892
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 68,
+      "byte_start": 1892,
+      "node_id": 14,
+      "attributes_features": 80,
+      "tolerance": -31415800000000.0,
+      "halfedge": 64,
+      "previous": 73,
+      "next": 61,
+      "curve": 79,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 1928
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 59,
+      "byte_start": 1928,
+      "node_id": 50,
+      "attributes_features": 0,
+      "owner": 49,
+      "next": 79,
+      "previous": 81,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.144145,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 1999
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 81,
+      "byte_start": 1999,
+      "node_id": 51,
+      "attributes_features": 0,
+      "owner": 58,
+      "next": 59,
+      "previous": 82,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.144145,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2070
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 58,
+      "byte_start": 2070,
+      "node_id": 20,
+      "attributes_features": 83,
+      "tolerance": -31415800000000.0,
+      "halfedge": 52,
+      "previous": 84,
+      "next": 49,
+      "curve": 81,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2106
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 82,
+      "byte_start": 2106,
+      "node_id": 52,
+      "attributes_features": 0,
+      "owner": 84,
+      "next": 81,
+      "previous": 85,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        -0.010794999999999999,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2177
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 84,
+      "byte_start": 2177,
+      "node_id": 22,
+      "attributes_features": 86,
+      "tolerance": -31415800000000.0,
+      "halfedge": 87,
+      "previous": 63,
+      "next": 58,
+      "curve": 82,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2213
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 85,
+      "byte_start": 2213,
+      "node_id": 53,
+      "attributes_features": 0,
+      "owner": 63,
+      "next": 82,
+      "previous": 88,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        -0.010794999999999999,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2284
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 63,
+      "byte_start": 2284,
+      "node_id": 24,
+      "attributes_features": 89,
+      "tolerance": -31415800000000.0,
+      "halfedge": 30,
+      "previous": 56,
+      "next": 84,
+      "curve": 85,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2320
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 88,
+      "byte_start": 2320,
+      "node_id": 59,
+      "attributes_features": 0,
+      "owner": 56,
+      "next": 85,
+      "previous": 90,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.144145,
+        -0.014605000000000002,
+        0.0
+      ],
+      "direction": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2391
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 56,
+      "byte_start": 2391,
+      "node_id": 25,
+      "attributes_features": 91,
+      "tolerance": -31415800000000.0,
+      "halfedge": 48,
+      "previous": 92,
+      "next": 63,
+      "curve": 88,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2427
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 90,
+      "byte_start": 2427,
+      "node_id": 60,
+      "attributes_features": 0,
+      "owner": 92,
+      "next": 88,
+      "previous": 14,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        0.010794999999999997,
+        0.0
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2498
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 92,
+      "byte_start": 2498,
+      "node_id": 28,
+      "attributes_features": 93,
+      "tolerance": -31415800000000.0,
+      "halfedge": 32,
+      "previous": 19,
+      "next": 56,
+      "curve": 90,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2534
+    },
+    {
+      "node_type": 30,
+      "kind": "LINE",
+      "id": 14,
+      "byte_start": 2534,
+      "node_id": 61,
+      "attributes_features": 0,
+      "owner": 19,
+      "next": 90,
+      "previous": 5,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        -0.010794999999999999,
+        -0.014605000000000002,
+        0.0
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2605
+    },
+    {
+      "node_type": 16,
+      "kind": "EDGE",
+      "id": 19,
+      "byte_start": 2605,
+      "node_id": 31,
+      "attributes_features": 94,
+      "tolerance": -31415800000000.0,
+      "halfedge": 26,
+      "previous": 8,
+      "next": 92,
+      "curve": 14,
+      "next_on_curve": 0,
+      "previous_on_curve": 0,
+      "owner": 1,
+      "user": [
+        0
+      ],
+      "byte_end": 2641
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 94,
+      "byte_start": 2641,
+      "node_id": 82,
+      "definition": 76,
+      "owner": 19,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 17,
+      "previous_of_type": 93,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2671
+    },
+    {
+      "node_type": 80,
+      "kind": "ATTRIB_DEF",
+      "id": 76,
+      "byte_start": 2671,
+      "next": 95,
+      "identifier": 96,
+      "type_id": 9000,
+      "actions": [
+        0,
+        0,
+        0,
+        0,
+        3,
+        6,
+        0,
+        0
+      ],
+      "field_names": 0,
+      "legal_owners": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fields": [
+        9
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2719
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 17,
+      "byte_start": 2719,
+      "node_id": 81,
+      "definition": 76,
+      "owner": 8,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 0,
+      "previous_of_type": 94,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2749
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 93,
+      "byte_start": 2749,
+      "node_id": 83,
+      "definition": 76,
+      "owner": 92,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 94,
+      "previous_of_type": 91,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2779
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 91,
+      "byte_start": 2779,
+      "node_id": 84,
+      "definition": 76,
+      "owner": 56,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 93,
+      "previous_of_type": 89,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2809
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 89,
+      "byte_start": 2809,
+      "node_id": 85,
+      "definition": 76,
+      "owner": 63,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 91,
+      "previous_of_type": 86,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2839
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 86,
+      "byte_start": 2839,
+      "node_id": 86,
+      "definition": 76,
+      "owner": 84,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 89,
+      "previous_of_type": 83,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2869
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 83,
+      "byte_start": 2869,
+      "node_id": 87,
+      "definition": 76,
+      "owner": 58,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 86,
+      "previous_of_type": 57,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2899
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 57,
+      "byte_start": 2899,
+      "node_id": 88,
+      "definition": 76,
+      "owner": 49,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 83,
+      "previous_of_type": 74,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2929
+    },
+    {
+      "node_type": 79,
+      "kind": "ATT_DEF_ID",
+      "id": 96,
+      "byte_start": 2929,
+      "string": [
+        "C",
+        "N",
+        "C",
+        "/",
+        "m",
+        "c",
+        "E",
+        "p",
+        "t",
+        "r",
+        "P",
+        "t",
+        "r"
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 2954
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 32,
+      "byte_start": 2954,
+      "attributes_features": 0,
+      "loop": 97,
+      "forward": 44,
+      "backward": 87,
+      "vertex": 27,
+      "other": 31,
+      "edge": 92,
+      "curve": 0,
+      "next_at_vx": 55,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 2981
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 97,
+      "byte_start": 2981,
+      "node_id": 26,
+      "attributes_features": 0,
+      "halfedge": 87,
+      "face": 98,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 3001
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 44,
+      "byte_start": 3001,
+      "attributes_features": 0,
+      "loop": 97,
+      "forward": 72,
+      "backward": 32,
+      "vertex": 37,
+      "other": 52,
+      "edge": 58,
+      "curve": 0,
+      "next_at_vx": 70,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3028
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 87,
+      "byte_start": 3028,
+      "attributes_features": 0,
+      "loop": 97,
+      "forward": 32,
+      "backward": 72,
+      "vertex": 20,
+      "other": 29,
+      "edge": 84,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3055
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 31,
+      "byte_start": 3055,
+      "attributes_features": 0,
+      "loop": 99,
+      "forward": 25,
+      "backward": 55,
+      "vertex": 20,
+      "other": 32,
+      "edge": 92,
+      "curve": 0,
+      "next_at_vx": 87,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3082
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 55,
+      "byte_start": 3082,
+      "attributes_features": 0,
+      "loop": 99,
+      "forward": 31,
+      "backward": 24,
+      "vertex": 27,
+      "other": 48,
+      "edge": 56,
+      "curve": 0,
+      "next_at_vx": 52,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3109
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 99,
+      "byte_start": 3109,
+      "node_id": 35,
+      "attributes_features": 0,
+      "halfedge": 24,
+      "face": 11,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 3129
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 24,
+      "byte_start": 3129,
+      "attributes_features": 0,
+      "loop": 99,
+      "forward": 55,
+      "backward": 25,
+      "vertex": 33,
+      "other": 18,
+      "edge": 8,
+      "curve": 0,
+      "next_at_vx": 48,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3156
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 52,
+      "byte_start": 3156,
+      "attributes_features": 0,
+      "loop": 46,
+      "forward": 48,
+      "backward": 47,
+      "vertex": 27,
+      "other": 44,
+      "edge": 58,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3183
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 25,
+      "byte_start": 3183,
+      "attributes_features": 0,
+      "loop": 99,
+      "forward": 24,
+      "backward": 31,
+      "vertex": 9,
+      "other": 26,
+      "edge": 19,
+      "curve": 0,
+      "next_at_vx": 30,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3210
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 30,
+      "byte_start": 3210,
+      "attributes_features": 0,
+      "loop": 28,
+      "forward": 26,
+      "backward": 64,
+      "vertex": 9,
+      "other": 22,
+      "edge": 63,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3237
+    },
+    {
+      "node_type": 15,
+      "kind": "LOOP",
+      "id": 28,
+      "byte_start": 3237,
+      "node_id": 29,
+      "attributes_features": 0,
+      "halfedge": 30,
+      "face": 100,
+      "next": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 3257
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 64,
+      "byte_start": 3257,
+      "attributes_features": 0,
+      "loop": 28,
+      "forward": 30,
+      "backward": 29,
+      "vertex": 38,
+      "other": 66,
+      "edge": 68,
+      "curve": 0,
+      "next_at_vx": 60,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3284
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 29,
+      "byte_start": 3284,
+      "attributes_features": 0,
+      "loop": 28,
+      "forward": 64,
+      "backward": 26,
+      "vertex": 40,
+      "other": 87,
+      "edge": 84,
+      "curve": 0,
+      "next_at_vx": 72,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3311
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 66,
+      "byte_start": 3311,
+      "attributes_features": 0,
+      "loop": 65,
+      "forward": 70,
+      "backward": 60,
+      "vertex": 40,
+      "other": 64,
+      "edge": 68,
+      "curve": 0,
+      "next_at_vx": 0,
+      "sense": "-",
+      "user": [
+        0
+      ],
+      "byte_end": 3338
+    },
+    {
+      "node_type": 17,
+      "kind": "HALFEDGE",
+      "id": 72,
+      "byte_start": 3338,
+      "attributes_features": 0,
+      "loop": 97,
+      "forward": 87,
+      "backward": 44,
+      "vertex": 40,
+      "other": 70,
+      "edge": 73,
+      "curve": 0,
+      "next_at_vx": 66,
+      "sense": "+",
+      "user": [
+        0
+      ],
+      "byte_end": 3365
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 100,
+      "byte_start": 3365,
+      "node_id": 30,
+      "attributes_features": 101,
+      "tolerance": -31415800000000.0,
+      "next": 98,
+      "previous": 62,
+      "loop": 28,
+      "shell": 3,
+      "surface": 102,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 98,
+      "previous_front": 62,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3408
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 101,
+      "byte_start": 3408,
+      "node_id": 95,
+      "definition": 76,
+      "owner": 100,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 103,
+      "previous_of_type": 104,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3438
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 98,
+      "byte_start": 3438,
+      "node_id": 27,
+      "attributes_features": 104,
+      "tolerance": -31415800000000.0,
+      "next": 71,
+      "previous": 100,
+      "loop": 97,
+      "shell": 3,
+      "surface": 105,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 71,
+      "previous_front": 100,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3481
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 62,
+      "byte_start": 3481,
+      "node_id": 33,
+      "attributes_features": 103,
+      "tolerance": -31415800000000.0,
+      "next": 100,
+      "previous": 11,
+      "loop": 21,
+      "shell": 3,
+      "surface": 13,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 100,
+      "previous_front": 11,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3524
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 102,
+      "byte_start": 3524,
+      "node_id": 48,
+      "attributes_features": 0,
+      "owner": 100,
+      "next": 105,
+      "previous": 13,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        -0.010794999999999999,
+        -0.014605000000000002,
+        -0.024891999999999997
+      ],
+      "normal": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "x_axis": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3619
+    },
+    {
+      "node_type": 13,
+      "kind": "SHELL",
+      "id": 16,
+      "byte_start": 3619,
+      "node_id": 4,
+      "attributes_features": 0,
+      "body": 0,
+      "next": 0,
+      "face": 0,
+      "edge": 0,
+      "vertex": 0,
+      "region": 7,
+      "front_face": 11,
+      "user": [
+        0
+      ],
+      "byte_end": 3647
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 11,
+      "byte_start": 3647,
+      "node_id": 36,
+      "attributes_features": 106,
+      "tolerance": -31415800000000.0,
+      "next": 62,
+      "previous": 0,
+      "loop": 99,
+      "shell": 3,
+      "surface": 4,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 62,
+      "previous_front": 0,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 3690
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 106,
+      "byte_start": 3690,
+      "node_id": 93,
+      "definition": 76,
+      "owner": 11,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 67,
+      "previous_of_type": 103,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3720
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 67,
+      "byte_start": 3720,
+      "node_id": 92,
+      "definition": 76,
+      "owner": 61,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 80,
+      "previous_of_type": 106,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3750
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 103,
+      "byte_start": 3750,
+      "node_id": 94,
+      "definition": 76,
+      "owner": 62,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 106,
+      "previous_of_type": 101,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3780
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 80,
+      "byte_start": 3780,
+      "node_id": 91,
+      "definition": 76,
+      "owner": 68,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 77,
+      "previous_of_type": 67,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3810
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 77,
+      "byte_start": 3810,
+      "node_id": 90,
+      "definition": 76,
+      "owner": 73,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 74,
+      "previous_of_type": 80,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3840
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 105,
+      "byte_start": 3840,
+      "node_id": 47,
+      "attributes_features": 0,
+      "owner": 98,
+      "next": 107,
+      "previous": 102,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        0.010794999999999997,
+        -0.024891999999999997
+      ],
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 3935
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 13,
+      "byte_start": 3935,
+      "node_id": 49,
+      "attributes_features": 0,
+      "owner": 62,
+      "next": 102,
+      "previous": 4,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        -0.040005,
+        -0.024891999999999997
+      ],
+      "normal": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "x_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4030
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 107,
+      "byte_start": 4030,
+      "node_id": 46,
+      "attributes_features": 0,
+      "owner": 51,
+      "next": 108,
+      "previous": 105,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.144145,
+        -0.014605000000000002,
+        -0.024891999999999997
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "x_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4125
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 51,
+      "byte_start": 4125,
+      "node_id": 2,
+      "attributes_features": 109,
+      "tolerance": -31415800000000.0,
+      "next": 0,
+      "previous": 71,
+      "loop": 46,
+      "shell": 3,
+      "surface": 107,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 0,
+      "previous_front": 71,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 4168
+    },
+    {
+      "node_type": 50,
+      "kind": "PLANE",
+      "id": 108,
+      "byte_start": 4168,
+      "node_id": 37,
+      "attributes_features": 0,
+      "owner": 71,
+      "next": 0,
+      "previous": 107,
+      "geometric_owner": 0,
+      "sense": "+",
+      "pvec": [
+        0.066675,
+        -0.014605000000000002,
+        -0.024891999999999997
+      ],
+      "normal": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "x_axis": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4263
+    },
+    {
+      "node_type": 14,
+      "kind": "FACE",
+      "id": 71,
+      "byte_start": 4263,
+      "node_id": 9,
+      "attributes_features": 110,
+      "tolerance": -31415800000000.0,
+      "next": 51,
+      "previous": 98,
+      "loop": 65,
+      "shell": 3,
+      "surface": 108,
+      "sense": "+",
+      "next_on_surface": 0,
+      "previous_on_surface": 0,
+      "next_front": 51,
+      "previous_front": 98,
+      "front_shell": 16,
+      "user": [
+        0
+      ],
+      "byte_end": 4306
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 110,
+      "byte_start": 4306,
+      "node_id": 97,
+      "definition": 76,
+      "owner": 71,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 104,
+      "previous_of_type": 109,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4336
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 104,
+      "byte_start": 4336,
+      "node_id": 96,
+      "definition": 76,
+      "owner": 98,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 101,
+      "previous_of_type": 110,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4366
+    },
+    {
+      "node_type": 81,
+      "kind": "ATTRIBUTE",
+      "id": 109,
+      "byte_start": 4366,
+      "node_id": 98,
+      "definition": 76,
+      "owner": 51,
+      "next": 0,
+      "previous": 0,
+      "next_of_type": 110,
+      "previous_of_type": 0,
+      "fields": [
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4396
+    },
+    {
+      "node_type": 19,
+      "kind": "REGION",
+      "id": 12,
+      "byte_start": 4396,
+      "node_id": 5,
+      "attributes_features": 0,
+      "body": 1,
+      "next": 0,
+      "previous": 7,
+      "shell": 3,
+      "unknown_modern_region": 0,
+      "type": "S",
+      "owner": 0,
+      "user": [
+        0
+      ],
+      "byte_end": 4423
+    },
+    {
+      "node_type": 74,
+      "kind": "POINTER_LIS_BLOCK",
+      "id": 10,
+      "byte_start": 4423,
+      "n_entries": 1,
+      "index_map_offset": 0,
+      "next_block": 0,
+      "entries": [
+        109,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "user": [
+        0
+      ],
+      "byte_end": 4485
+    }
+  ]
+}

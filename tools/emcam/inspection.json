@@ -1,0 +1,325 @@
+[
+  {
+    "name": "4X-Lesson-4.emcam",
+    "bytes": 1875626,
+    "sha256": "9608fca8b8866b58806c455f8b3b6ae0bc2fe9d4fe6de9950f5408dbff524659",
+    "parasolid": [
+      {
+        "start": 1089014,
+        "length": 17145,
+        "name": "4X-Lesson-4-solid-1.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      },
+      {
+        "start": 1108342,
+        "length": 20012,
+        "name": "4X-Lesson-4-solid-2.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      },
+      {
+        "start": 1128722,
+        "length": 157562,
+        "name": "4X-Lesson-4-solid-3.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      },
+      {
+        "start": 1302185,
+        "length": 185023,
+        "name": "4X-Lesson-4-solid-4.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      }
+    ],
+    "meshes": [],
+    "zlib": []
+  },
+  {
+    "name": "Titan-8M-COLOMA.emcam",
+    "bytes": 1502505,
+    "sha256": "227572e95aa127a33ab32b40989b46fd7784a49d74b3d13556afebadcb1692f7",
+    "parasolid": [
+      {
+        "start": 723900,
+        "length": 4489,
+        "name": "Titan-8M-COLOMA-solid-1.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      },
+      {
+        "start": 730860,
+        "length": 53850,
+        "name": "Titan-8M-COLOMA-solid-2.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      }
+    ],
+    "meshes": [
+      {
+        "offset": 509613,
+        "vertices": 8,
+        "triangles": 12,
+        "points": [
+          [
+            2.775,
+            0.41825000000000007,
+            0
+          ],
+          [
+            -2.775,
+            0.41825000000000007,
+            0
+          ],
+          [
+            2.775,
+            -1.5817499999999998,
+            0
+          ],
+          [
+            -2.775,
+            -1.5817499999999998,
+            0
+          ],
+          [
+            2.775,
+            -1.5817499999999998,
+            -0.98
+          ],
+          [
+            -2.775,
+            -1.5817499999999998,
+            -0.98
+          ],
+          [
+            -2.775,
+            0.41825000000000007,
+            -0.98
+          ],
+          [
+            2.775,
+            0.41825000000000007,
+            -0.98
+          ]
+        ],
+        "faces": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            5,
+            3,
+            6
+          ],
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            2,
+            7,
+            4
+          ],
+          [
+            4,
+            7,
+            6
+          ],
+          [
+            1,
+            8,
+            2
+          ],
+          [
+            2,
+            8,
+            7
+          ],
+          [
+            7,
+            8,
+            6
+          ],
+          [
+            6,
+            8,
+            5
+          ],
+          [
+            8,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            3
+          ]
+        ],
+        "validIndices": true,
+        "interpretation": "Unidentified mesh; do not assume this is the finished part."
+      }
+    ],
+    "zlib": []
+  },
+  {
+    "name": "Titan-9M-COLOMA.emcam",
+    "bytes": 13923391,
+    "sha256": "9985c7fc8e996dea4f885152866ce7077dcd4bb940eb928b698856845ff21a61",
+    "parasolid": [
+      {
+        "start": 963507,
+        "length": 4489,
+        "name": "Titan-9M-COLOMA-solid-1.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      },
+      {
+        "start": 978763,
+        "length": 226820,
+        "name": "Titan-9M-COLOMA-solid-2.x_b",
+        "version": ": TRANSMIT FILE created by modeller version 3600142",
+        "schema": "SCH_3600142_36001",
+        "terminator": "01000100",
+        "validatedGeometry": false
+      }
+    ],
+    "meshes": [
+      {
+        "offset": 918963,
+        "vertices": 8,
+        "triangles": 12,
+        "points": [
+          [
+            5.675,
+            0.42499999999999993,
+            0
+          ],
+          [
+            -0.425,
+            0.42499999999999993,
+            0
+          ],
+          [
+            5.675,
+            -1.575,
+            0
+          ],
+          [
+            -0.425,
+            -1.575,
+            0
+          ],
+          [
+            5.675,
+            -1.575,
+            -0.98
+          ],
+          [
+            -0.425,
+            -1.575,
+            -0.98
+          ],
+          [
+            -0.425,
+            0.42499999999999993,
+            -0.98
+          ],
+          [
+            5.675,
+            0.42499999999999993,
+            -0.98
+          ]
+        ],
+        "faces": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          [
+            5,
+            3,
+            6
+          ],
+          [
+            6,
+            3,
+            4
+          ],
+          [
+            2,
+            7,
+            4
+          ],
+          [
+            4,
+            7,
+            6
+          ],
+          [
+            1,
+            8,
+            2
+          ],
+          [
+            2,
+            8,
+            7
+          ],
+          [
+            7,
+            8,
+            6
+          ],
+          [
+            6,
+            8,
+            5
+          ],
+          [
+            8,
+            1,
+            5
+          ],
+          [
+            5,
+            1,
+            3
+          ]
+        ],
+        "validIndices": true,
+        "interpretation": "Unidentified mesh; do not assume this is the finished part."
+      }
+    ],
+    "zlib": []
+  }
+]

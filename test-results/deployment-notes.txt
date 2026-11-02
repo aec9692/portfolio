@@ -1,0 +1,34 @@
+Live Projects content:
+SELECTED PROJECTS
+Small ideas.
+Room to grow.
+
+A collection of example project concepts. Replace these entries and illustrations with your own completed work, screenshots, and live or repository links.
+
+01 / WEB APPLICATION
+
+The daily forecast
+
+An example weather dashboard concept: a clear overview of conditions, a weekly outlook, and a search-friendly interface.
+
+HTML · CSS · JAVASCRIPT
+
+02 / PRODUCTIVITY
+
+A little more organized
+
+An example task planner concept exploring task lists, priorities, and a simple layout that makes the next step easy to find.
+
+JAVASCRIPT · LOCAL STORAGE · UI DESIGN
+
+03 / CLASS PROJECT
+
+Stories worth sharing
+
+An example editorial website concept with a responsive article layout, topic navigation, and accessible typography.
+
+HTML · CSS · RESPONSIVE DESIGN
+
+These are illustrative placeholders, not claims of completed projects. Add at least three real projects before submitting your portfolio.
+
+3D previews: 0

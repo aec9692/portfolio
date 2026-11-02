@@ -1,0 +1,226 @@
+**PART1;KEY=SCH_36001;
+**END_OF_HEADER**
+T
+1
+: SCHEMA FILE created by modeller version 3600142/36001;
+100 23 196 0
+12 BODY; Body; 1 36 0
+highest_node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+attribute_chains; p; 1 70 0
+surface; p; 1 1006 0
+curve; p; 1 1008 0
+point; p; 1 29 0
+key; p; 1 102 0
+unknown_modern_0; p; 1 0 0
+unknown_modern_1; p; 1 0 0
+unknown_modern_2; p; 1 0 0
+res_size; f; 1 0 0
+res_linear; f; 1 0 0
+ref_instance; p; 1 11 0
+next; p; 1 12 0
+previous; p; 1 12 0
+state; u; 1 0 0
+owner; p; 1 101 0
+body_type; u; 1 0 0
+nom_geom_state; u; 1 0 0
+shell; p; 1 13 0
+boundary_surface; p; 1 1006 0
+boundary_curve; p; 1 1008 0
+boundary_point; p; 1 29 0
+boundary_mesh; p; 1 0 0
+boundary_polyline; p; 1 0 0
+boundary_modern; p; 1 0 0
+region; p; 1 19 0
+edge; p; 1 16 0
+vertex; p; 1 18 0
+index_map_offset; d; 1 0 0
+index_map; p; 1 0 0
+node_id_index_map; p; 1 0 0
+schema_embedding_map; p; 1 0 0
+child; p; 1 0 0
+lowest_node_id; d; 1 0 0
+data; p; 1 0 0
+13 SHELL; Shell; 1 9 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+body; p; 1 12 0
+next; p; 1 13 0
+face; p; 1 14 0
+edge; p; 1 16 0
+vertex; p; 1 18 0
+region; p; 1 19 0
+front_face; p; 1 14 0
+14 FACE; Face; 1 14 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+tolerance; f; 1 0 0
+next; p; 1 14 0
+previous; p; 1 14 0
+loop; p; 1 15 0
+shell; p; 1 13 0
+surface; p; 1 1006 0
+sense; c; 1 0 0
+next_on_surface; p; 1 14 0
+previous_on_surface; p; 1 14 0
+next_front; p; 1 14 0
+previous_front; p; 1 14 0
+front_shell; p; 1 13 0
+15 LOOP; Loop; 1 5 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+halfedge; p; 1 17 0
+face; p; 1 14 0
+next; p; 1 15 0
+16 EDGE; Edge; 1 10 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+tolerance; f; 1 0 0
+halfedge; p; 1 17 0
+previous; p; 1 16 0
+next; p; 1 16 0
+curve; p; 1 1008 0
+next_on_curve; p; 1 16 0
+previous_on_curve; p; 1 16 0
+owner; p; 1 1029 0
+17 HALFEDGE; Halfedge; 1 10 0
+attributes_features; p; 1 1019 0
+loop; p; 1 15 0
+forward; p; 1 17 0
+backward; p; 1 17 0
+vertex; p; 1 18 0
+other; p; 1 17 0
+edge; p; 1 16 0
+curve; p; 1 1008 0
+next_at_vx; p; 1 17 0
+sense; c; 1 0 0
+18 VERTEX; Vertex; 1 8 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+halfedge; p; 1 17 0
+previous; p; 1 18 0
+next; p; 1 18 0
+point; p; 1 29 0
+tolerance; f; 1 0 0
+owner; p; 1 1029 0
+19 REGION; Region; 1 9 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+body; p; 1 12 0
+next; p; 1 19 0
+previous; p; 1 19 0
+shell; p; 1 13 0
+unknown_modern_region; p; 1 0 0
+type; c; 1 0 0
+owner; p; 1 0 0
+29 POINT; Point; 1 6 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1011 0
+next; p; 1 29 0
+previous; p; 1 29 0
+pvec; v; 1 0 0
+30 LINE; Straight line; 1 9 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1010 0
+next; p; 1 1008 0
+previous; p; 1 1008 0
+geometric_owner; p; 1 141 0
+sense; c; 1 0 0
+pvec; v; 1 0 0
+direction; v; 1 0 0
+31 CIRCLE; Circle; 1 11 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1010 0
+next; p; 1 1008 0
+previous; p; 1 1008 0
+geometric_owner; p; 1 141 0
+sense; c; 1 0 0
+centre; v; 1 0 0
+normal; v; 1 0 0
+x_axis; v; 1 0 0
+radius; f; 1 0 0
+50 PLANE; Plane; 1 10 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1007 0
+next; p; 1 1006 0
+previous; p; 1 1006 0
+geometric_owner; p; 1 141 0
+sense; c; 1 0 0
+pvec; v; 1 0 0
+normal; v; 1 0 0
+x_axis; v; 1 0 0
+51 CYLINDER; Cylinder; 1 11 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1007 0
+next; p; 1 1006 0
+previous; p; 1 1006 0
+geometric_owner; p; 1 141 0
+sense; c; 1 0 0
+pvec; v; 1 0 0
+axis; v; 1 0 0
+radius; f; 1 0 0
+x_axis; v; 1 0 0
+52 CONE; Cone; 1 13 0
+node_id; d; 1 0 0
+attributes_features; p; 1 1019 0
+owner; p; 1 1007 0
+next; p; 1 1006 0
+previous; p; 1 1006 0
+geometric_owner; p; 1 141 0
+sense; c; 1 0 0
+pvec; v; 1 0 0
+axis; v; 1 0 0
+radius; f; 1 0 0
+sin_half_angle; f; 1 0 0
+cos_half_angle; f; 1 0 0
+x_axis; v; 1 0 0
+70 LIST; List Header; 1 11 0
+node_id; d; 1 0 0
+list_type; u; 1 0 0
+notransmit; l; 1 0 0
+owner; p; 1 0 0
+next; p; 1 0 0
+previous; p; 1 0 0
+list_length; d; 1 0 0
+block_length; d; 1 0 0
+finger_index; d; 1 0 0
+finger_block; p; 1 0 0
+list_block; p; 1 0 0
+74 POINTER_LIS_BLOCK; Pointer List; 1 4 1
+n_entries; d; 1 0 0
+index_map_offset; d; 1 0 0
+next_block; p; 1 74 0
+entries; p; 1 1001 1
+79 ATT_DEF_ID; name field type for attrib def.; 1 1 1
+string; c; 1 0 1
+80 ATTRIB_DEF; attribute definition; 1 7 1
+next; p; 1 80 0
+identifier; p; 1 79 0
+type_id; d; 1 0 0
+actions; u; 1 0 8
+field_names; p; 1 99 0
+legal_owners; l; 1 0 17
+fields; u; 1 0 1
+81 ATTRIBUTE; Attribute; 1 8 1
+node_id; d; 1 0 0
+definition; p; 1 80 0
+owner; p; 1 1015 0
+next; p; 1 1019 0
+previous; p; 1 1019 0
+next_of_type; p; 1 81 0
+previous_of_type; p; 1 81 0
+fields; p; 1 1018 1
+82 INT_VALUES; Int values; 1 1 1
+values; d; 1 0 1
+83 REAL_VALUES; Real values; 1 1 1
+values; f; 1 0 1
+84 CHAR_VALUES; Character values; 1 1 1
+values; c; 1 0 1
+99 FIELD_NAMES; attribute field name; 1 1 1
+names; p; 1 1037 1
+**************** end of schema SCH_3600142_36001 ****************

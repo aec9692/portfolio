@@ -1,0 +1,336 @@
+[
+  {
+    "page": "index",
+    "mode": "mobile",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:39:12.124Z",
+    "findings": []
+  },
+  {
+    "page": "about",
+    "mode": "mobile",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:39:25.924Z",
+    "findings": []
+  },
+  {
+    "page": "projects",
+    "mode": "mobile",
+    "score": 98,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:39:37.973Z",
+    "findings": [
+      {
+        "id": "heading-order",
+        "title": "Heading elements are not in a sequentially-descending order",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-H3",
+                "path": "1,HTML,1,BODY,1,MAIN,1,DIV,0,ARTICLE,2,H3",
+                "selector": "main#content > div.grid > article.project > h3",
+                "boundingRect": {
+                  "top": 875,
+                  "bottom": 902,
+                  "left": 24,
+                  "right": 366,
+                  "width": 342,
+                  "height": 27
+                },
+                "snippet": "<h3>",
+                "nodeLabel": "The daily forecast",
+                "explanation": "Fix any of the following:\n  Heading order invalid"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": "skills",
+    "mode": "mobile",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:39:53.066Z",
+    "findings": []
+  },
+  {
+    "page": "contact",
+    "mode": "mobile",
+    "score": 95,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:01.687Z",
+    "findings": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-SPAN",
+                "path": "1,HTML,1,BODY,1,MAIN,0,SECTION,1,SECTION,2,FORM,1,DIV,1,LABEL,1,SPAN",
+                "selector": "form#contact-form > div.contact-fields > label > span.optional",
+                "boundingRect": {
+                  "top": 885,
+                  "bottom": 898,
+                  "left": 131,
+                  "right": 175,
+                  "width": 45,
+                  "height": 13
+                },
+                "snippet": "<span class=\"optional\">",
+                "nodeLabel": "(optional)",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #6d7965, background color: #fbfaf4, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-1-SECTION",
+                      "path": "1,HTML,1,BODY,1,MAIN,0,SECTION,1,SECTION",
+                      "selector": "body.contact-page > main#content > section.contact-layout > section.contact-card",
+                      "boundingRect": {
+                        "top": 554,
+                        "bottom": 1285,
+                        "left": 24,
+                        "right": 366,
+                        "width": 342,
+                        "height": 732
+                      },
+                      "snippet": "<section class=\"contact-card\" aria-labelledby=\"contact-heading\">",
+                      "nodeLabel": "Leave a message.\n\nTell me a little about yourself and how I can help.\n\nYour nam…"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": "index",
+    "mode": "desktop",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:11.799Z",
+    "findings": []
+  },
+  {
+    "page": "about",
+    "mode": "desktop",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:24.630Z",
+    "findings": []
+  },
+  {
+    "page": "projects",
+    "mode": "desktop",
+    "score": 98,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:35.903Z",
+    "findings": [
+      {
+        "id": "heading-order",
+        "title": "Heading elements are not in a sequentially-descending order",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-H3",
+                "path": "1,HTML,1,BODY,1,MAIN,1,DIV,0,ARTICLE,2,H3",
+                "selector": "main#content > div.grid > article.project > h3",
+                "boundingRect": {
+                  "top": 958,
+                  "bottom": 985,
+                  "left": 104,
+                  "right": 469,
+                  "width": 365,
+                  "height": 27
+                },
+                "snippet": "<h3>",
+                "nodeLabel": "The daily forecast",
+                "explanation": "Fix any of the following:\n  Heading order invalid"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "page": "skills",
+    "mode": "desktop",
+    "score": 100,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:45.341Z",
+    "findings": []
+  },
+  {
+    "page": "contact",
+    "mode": "desktop",
+    "score": 95,
+    "version": "12.8.2",
+    "fetchTime": "2026-11-02T19:40:57.011Z",
+    "findings": [
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-SPAN",
+                "path": "1,HTML,1,BODY,1,MAIN,0,SECTION,1,SECTION,2,FORM,1,DIV,1,LABEL,1,SPAN",
+                "selector": "form#contact-form > div.contact-fields > label > span.optional",
+                "boundingRect": {
+                  "top": 424,
+                  "bottom": 437,
+                  "left": 1101,
+                  "right": 1146,
+                  "width": 45,
+                  "height": 13
+                },
+                "snippet": "<span class=\"optional\">",
+                "nodeLabel": "(optional)",
+                "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.39 (foreground color: #6d7965, background color: #fbfaf4, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "relatedNode": {
+                      "type": "node",
+                      "lhId": "1-1-SECTION",
+                      "path": "1,HTML,1,BODY,1,MAIN,0,SECTION,1,SECTION",
+                      "selector": "body.contact-page > main#content > section.contact-layout > section.contact-card",
+                      "boundingRect": {
+                        "top": 182,
+                        "bottom": 838,
+                        "left": 729,
+                        "right": 1286,
+                        "width": 556,
+                        "height": 656
+                      },
+                      "snippet": "<section class=\"contact-card\" aria-labelledby=\"contact-heading\">",
+                      "nodeLabel": "Leave a message.\n\nTell me a little about yourself and how I can help.\n\nYour nam…"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

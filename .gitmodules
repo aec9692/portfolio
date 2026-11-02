@@ -1,0 +1,6 @@
+[submodule "tools/emcam/research/cadmpeg"]
+	path = tools/emcam/research/cadmpeg
+	url = https://github.com/cadmpeg/cadmpeg.git
+[submodule "tools/emcam/research/ps-parser"]
+	path = tools/emcam/research/ps-parser
+	url = https://github.com/khoanguyen-3fc/ps-parser.git

@@ -1,0 +1,1450 @@
+{
+  "base": "https://aec9692.github.io/portfolio/",
+  "testedAt": "2026-11-02T19:41:31.371Z",
+  "browser": "156.0.8078.74",
+  "results": [
+    {
+      "id": "T10",
+      "result": "Pass",
+      "details": "index: phone layout",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Home — Adrainn Coloma",
+        "h1": "Adrainn\nColoma.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "index-phone.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T1",
+      "result": "Pass",
+      "details": "index: all navigation links on phone",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T20",
+      "result": "Pass",
+      "details": "index: Tab and Enter on phone",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Explore my projects ↗",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Get to know me →",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Lakeside",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Forest",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Peaks",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "rgba(228, 243, 193, 0.314) 0px 0px 0px 1px"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Pause scenery Ⅱ",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html",
+          "projects.html",
+          "about.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T11",
+      "result": "Pass",
+      "details": "about: phone layout",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "About Me — Adrainn Coloma",
+        "h1": "Learning the tools.\nFinding my way.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "about-phone.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T2",
+      "result": "Pass",
+      "details": "about: all navigation links on phone",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T21",
+      "result": "Pass",
+      "details": "about: Tab and Enter on phone",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T12",
+      "result": "Pass",
+      "details": "projects: phone layout",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Projects — Adrainn Coloma",
+        "h1": "Small ideas.\nRoom to grow.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "projects-phone.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T3",
+      "result": "Pass",
+      "details": "projects: all navigation links on phone",
+      "evidence": [
+        {
+          "link": "a.",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T22",
+      "result": "Pass",
+      "details": "projects: Tab and Enter on phone",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "a.",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T13",
+      "result": "Pass",
+      "details": "skills: phone layout",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Skills — Adrainn Coloma",
+        "h1": "My Skills &\nExpertise.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "skills-phone.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T4",
+      "result": "Pass",
+      "details": "skills: all navigation links on phone",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T23",
+      "result": "Pass",
+      "details": "skills: Tab and Enter on phone",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Technical skills ↗",
+            "href": "#technical",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Professional skills ↗",
+            "href": "#professional",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html",
+          "#technical",
+          "#professional"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T14",
+      "result": "Pass",
+      "details": "contact: phone layout",
+      "evidence": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Contact — Adrainn Coloma",
+        "h1": "What’s on\nyour mind?",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "contact-phone.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T5",
+      "result": "Pass",
+      "details": "contact: all navigation links on phone",
+      "evidence": [
+        {
+          "link": "a.",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T24",
+      "result": "Pass",
+      "details": "contact: Tab and Enter on phone",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "a.",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "aec9692@njit.edu ↗",
+            "href": "mailto:aec9692@njit.edu",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "INPUT",
+            "text": "name",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "INPUT",
+            "text": "email",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "INPUT",
+            "text": "phone",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "message",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Continue to email ↗",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": "Email-app integration is tested separately; field validation is tested separately."
+      }
+    },
+    {
+      "id": "T15",
+      "result": "Pass",
+      "details": "index: laptop layout",
+      "evidence": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "title": "Home — Adrainn Coloma",
+        "h1": "Adrainn\nColoma.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "index-laptop.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T1",
+      "result": "Pass",
+      "details": "index: all navigation links on laptop",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T20",
+      "result": "Pass",
+      "details": "index: Tab and Enter on laptop",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Explore my projects ↗",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Get to know me →",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Lakeside",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "rgba(228, 243, 193, 0.314) 0px 0px 0px 1px"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Forest",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Peaks",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Pause scenery Ⅱ",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html",
+          "projects.html",
+          "about.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T16",
+      "result": "Pass",
+      "details": "about: laptop layout",
+      "evidence": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "title": "About Me — Adrainn Coloma",
+        "h1": "Learning the tools.\nFinding my way.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "about-laptop.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T2",
+      "result": "Pass",
+      "details": "about: all navigation links on laptop",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T21",
+      "result": "Pass",
+      "details": "about: Tab and Enter on laptop",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T17",
+      "result": "Pass",
+      "details": "projects: laptop layout",
+      "evidence": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "title": "Projects — Adrainn Coloma",
+        "h1": "Small ideas.\nRoom to grow.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "projects-laptop.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T3",
+      "result": "Pass",
+      "details": "projects: all navigation links on laptop",
+      "evidence": [
+        {
+          "link": "a.",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T22",
+      "result": "Pass",
+      "details": "projects: Tab and Enter on laptop",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "a.",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T18",
+      "result": "Pass",
+      "details": "skills: laptop layout",
+      "evidence": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "title": "Skills — Adrainn Coloma",
+        "h1": "My Skills &\nExpertise.",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "skills-laptop.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T4",
+      "result": "Pass",
+      "details": "skills: all navigation links on laptop",
+      "evidence": [
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T23",
+      "result": "Pass",
+      "details": "skills: Tab and Enter on laptop",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Technical skills ↗",
+            "href": "#technical",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Professional skills ↗",
+            "href": "#professional",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html",
+          "#technical",
+          "#professional"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "id": "T19",
+      "result": "Pass",
+      "details": "contact: laptop layout",
+      "evidence": {
+        "width": 1366,
+        "scrollWidth": 1366,
+        "title": "Contact — Adrainn Coloma",
+        "h1": "What’s on\nyour mind?",
+        "brokenImages": [],
+        "overflow": [],
+        "screenshot": "contact-laptop.png",
+        "note": "Automated geometry/image checks; screenshot retained for visual review."
+      }
+    },
+    {
+      "id": "T5",
+      "result": "Pass",
+      "details": "contact: all navigation links on laptop",
+      "evidence": [
+        {
+          "link": "a.",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "Home",
+          "url": "https://aec9692.github.io/portfolio/index.html"
+        },
+        {
+          "link": "About",
+          "url": "https://aec9692.github.io/portfolio/about.html"
+        },
+        {
+          "link": "Projects",
+          "url": "https://aec9692.github.io/portfolio/projects.html"
+        },
+        {
+          "link": "Skills",
+          "url": "https://aec9692.github.io/portfolio/skills.html"
+        },
+        {
+          "link": "Contact ↗",
+          "url": "https://aec9692.github.io/portfolio/contact.html"
+        }
+      ]
+    },
+    {
+      "id": "T24",
+      "result": "Pass",
+      "details": "contact: Tab and Enter on laptop",
+      "evidence": {
+        "focus": [
+          {
+            "tag": "A",
+            "text": "a.",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Home",
+            "href": "index.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "About",
+            "href": "about.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Projects",
+            "href": "projects.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Skills",
+            "href": "skills.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "Contact ↗",
+            "href": "contact.html",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "A",
+            "text": "aec9692@njit.edu ↗",
+            "href": "mailto:aec9692@njit.edu",
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          },
+          {
+            "tag": "INPUT",
+            "text": "name",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "INPUT",
+            "text": "email",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(130, 157, 105, 0.004) 0px 0px 0px 0.0728375px"
+          },
+          {
+            "tag": "INPUT",
+            "text": "phone",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "TEXTAREA",
+            "text": "message",
+            "href": null,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Continue to email ↗",
+            "href": null,
+            "outline": "solid",
+            "outlineWidth": "2px",
+            "shadow": "none"
+          }
+        ],
+        "activated": [
+          "index.html",
+          "index.html",
+          "about.html",
+          "projects.html",
+          "skills.html",
+          "contact.html"
+        ],
+        "note": "Email-app integration is tested separately; field validation is tested separately."
+      }
+    },
+    {
+      "id": "T6",
+      "result": "Pass",
+      "details": "Home action links",
+      "evidence": [
+        "https://aec9692.github.io/portfolio/projects.html",
+        "https://aec9692.github.io/portfolio/about.html"
+      ]
+    },
+    {
+      "id": "T7",
+      "result": "Pass",
+      "details": "Skills anchors",
+      "evidence": [
+        {
+          "id": "technical",
+          "top": 29.546875
+        },
+        {
+          "id": "professional",
+          "top": 29.640625
+        }
+      ]
+    },
+    {
+      "id": "T25",
+      "result": "Pass",
+      "details": "Scenery choices",
+      "evidence": [
+        {
+          "scene": "forest",
+          "url": "https://aec9692.github.io/portfolio/assets/forest.jpg",
+          "status": 200
+        },
+        {
+          "scene": "mountains",
+          "url": "https://aec9692.github.io/portfolio/assets/mountains.jpg",
+          "status": 200
+        },
+        {
+          "scene": "lake",
+          "url": "https://aec9692.github.io/portfolio/assets/landscape.jpg",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "id": "T26",
+      "result": "Pass",
+      "details": "Scenery pause, play and pointer exit",
+      "evidence": {
+        "moving": "0px",
+        "paused": {
+          "x": "0px",
+          "paused": true
+        }
+      }
+    },
+    {
+      "id": "T27",
+      "result": "Pass",
+      "details": "Reduced motion on live Home",
+      "evidence": "Starts paused with reduced motion; preference change resumes scenery. Live Projects has no animations/viewer."
+    },
+    {
+      "id": "T28",
+      "result": "Pass",
+      "details": "Live page content and titles",
+      "evidence": [
+        {
+          "name": "index",
+          "title": "Home — Adrainn Coloma",
+          "heading": "Adrainn\nColoma."
+        },
+        {
+          "name": "about",
+          "title": "About Me — Adrainn Coloma",
+          "heading": "Learning the tools.\nFinding my way."
+        },
+        {
+          "name": "projects",
+          "title": "Projects — Adrainn Coloma",
+          "heading": "Small ideas.\nRoom to grow."
+        },
+        {
+          "name": "skills",
+          "title": "Skills — Adrainn Coloma",
+          "heading": "My Skills &\nExpertise."
+        },
+        {
+          "name": "contact",
+          "title": "Contact — Adrainn Coloma",
+          "heading": "What’s on\nyour mind?"
+        }
+      ]
+    },
+    {
+      "id": "T29",
+      "result": "Pass",
+      "details": "Empty form",
+      "evidence": {
+        "valid": false,
+        "message": "Please fill out this field."
+      }
+    },
+    {
+      "id": "T30",
+      "result": "Pass",
+      "details": "Invalid email",
+      "evidence": {
+        "valid": false,
+        "message": "Please include an '@' in the email address. 'not-an-email' is missing an '@'."
+      }
+    },
+    {
+      "id": "T31",
+      "result": "Pass",
+      "details": "Short/whitespace message and whitespace name",
+      "evidence": [
+        {
+          "valid": false,
+          "message": "Please lengthen this text to 10 characters or more (you are currently using 2 characters)."
+        },
+        {
+          "valid": false,
+          "message": "Please enter a value."
+        },
+        {
+          "valid": false,
+          "message": "Please enter a value."
+        }
+      ]
+    },
+    {
+      "id": "T32",
+      "result": "Pass",
+      "details": "Invalid optional phone",
+      "evidence": [
+        {
+          "valid": false,
+          "message": "Please enter a valid phone number, or leave this field blank."
+        },
+        {
+          "valid": false,
+          "message": "Please enter a valid phone number, or leave this field blank."
+        }
+      ]
+    },
+    {
+      "id": "T33",
+      "result": "Pass",
+      "details": "Valid form; browser-side draft status",
+      "evidence": {
+        "status": "Opening your email app. Review the draft and send it there. If it doesn’t open, email aec9692@njit.edu directly.",
+        "note": "External mail application and draft contents were not verified."
+      }
+    },
+    {
+      "id": "T34",
+      "result": "Pass",
+      "details": "Correct invalid phone and resubmit",
+      "evidence": "Custom validity clears after editing; valid phone accepted."
+    },
+    {
+      "id": "T35",
+      "result": "Pass",
+      "details": "Ten-character message and special characters",
+      "evidence": "Both inputs accepted; external email draft encoding remains unverified."
+    }
+  ]
+}
